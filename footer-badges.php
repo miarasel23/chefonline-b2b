@@ -380,41 +380,9 @@ if (!defined('BASE_URL')) {
         <div class="support-section">
             <h4>Proud to Support</h4>
             <div class="support-logos">
-                <img src="<?php echo BASE_URL; ?>/assets/new-assets/chefonline-foundation.svg"
-                    alt="ChefOnline Foundation" class="support-logo-img" />
-                <img src="<?php echo BASE_URL; ?>/assets/new-assets/change-to-sing.svg" alt="Chance to Shine"
-                    class="support-logo-img" />
-
-                <!-- Oxfam Green icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" class="support-logo-img"
-                    style="height: 38px; width: auto;">
-                    <rect width="120" height="40" fill="transparent" />
-                    <path
-                        d="M22,12 C18,12 15,15 15,19 C15,23 18,26 22,26 C26,26 29,23 29,19 C29,15 26,12 22,12 Z M22,10 C27,10 31,14 31,19 C31,24 27,28 22,28 C17,28 13,24 13,19 C13,14 17,10 22,10 Z"
-                        fill="#65B32E" />
-                    <circle cx="22" cy="19" r="3" fill="#65B32E" />
-                    <path d="M22,6 L22,10 M22,28 L22,32 M9,19 L13,19 M31,19 L35,19" stroke="#65B32E" stroke-width="2" />
-                    <text x="42" y="27" font-family="'Poppins', sans-serif" font-weight="900" font-size="18"
-                        fill="#65B32E" letter-spacing="1">OXFAM</text>
-                </svg>
-
-                <!-- Tapas & Beers -->
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40" class="support-logo-img"
-                    style="height: 38px; width: auto;">
-                    <text x="10" y="20" font-family="'Montserrat', sans-serif" font-weight="800" font-size="11"
-                        fill="#111111" letter-spacing="2.5">TAPAS &amp; BEERS</text>
-                    <path d="M10,26 Q70,31 130,26" stroke="#ed1b34" stroke-width="2" fill="none" />
-                </svg>
-
-                <!-- Love NHS -->
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" class="support-logo-img"
-                    style="height: 38px; width: auto;">
-                    <text x="5" y="16" font-family="'Poppins', sans-serif" font-weight="700" font-size="9"
-                        fill="#005EB8">LOVE for</text>
-                    <rect x="5" y="20" width="42" height="15" rx="2" fill="#005EB8" />
-                    <text x="9" y="32" font-family="'Arial Black', sans-serif" font-weight="900" font-size="11"
-                        fill="#FFFFFF" font-style="italic">NHS</text>
-                </svg>
+                <img src="<?php echo BASE_URL; ?>/assets/new-assets/oxfam.svg" alt="Oxfam" class="support-logo-img" />
+                <img src="<?php echo BASE_URL; ?>/assets/new-assets/tafida-raqeeb.svg" alt="Tafida Raqeeb Foundation" class="support-logo-img" />
+                <img src="<?php echo BASE_URL; ?>/assets/new-assets/love-for-nhs.svg" alt="Love NHS" class="support-logo-img" />
             </div>
         </div>
     </div>
