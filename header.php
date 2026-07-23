@@ -1,3 +1,16 @@
+<?php
+if (!defined('BASE_URL')) {
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+    $domainName = $_SERVER['HTTP_HOST'];
+    $scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'])), '/');
+    if (preg_match('/\/apps$/', $scriptDir)) {
+        $projectDir = substr($scriptDir, 0, -5);
+    } else {
+        $projectDir = $scriptDir;
+    }
+    define('BASE_URL', $protocol . $domainName . $projectDir);
+}
+?>
 <!DOCTYPE html>
 <html lang="EN-GB" xml:lang="EN-GB">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -12,7 +25,7 @@
     <meta name="description" content="<?php echo $meta_desc; ?>">
     <link rel="canonical" href="<?php echo $canonical_link; ?>" />
     <link rel="shortcut icon" type="image/x-icon"
-        href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/favicon.png">
+        href="<?php echo BASE_URL; ?>/assets/images/favicon.png">
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900' rel='stylesheet'
         type='text/css'>
@@ -23,27 +36,27 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/font-awesome.min.css" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 
     <link rel="stylesheet" type="text/css"
-        href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/jquery.fancybox.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/animate.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/homepage7.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/owl.carousel.css" />
+        href="<?php echo BASE_URL; ?>/assets/css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/animate.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/homepage7.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/owl.carousel.css" />
     <link rel="stylesheet"
-        href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/owl.theme.default.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/magnific-popup.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/global.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/themify-icons.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/style.css" />
+        href="<?php echo BASE_URL; ?>/assets/css/owl.theme.default.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/global.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/responsive.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/responsive.css" />
     <script type="text/javascript"
-        src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery-1.11.3.min.js">
+        src="<?php echo BASE_URL; ?>/assets/js/jquery-1.11.3.min.js">
         </script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -190,8 +203,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 hidden-xs logo-tab">
-                            <a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>" class="logo"> <img
-                                    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/logo.png"
+                            <a href="<?php echo BASE_URL; ?>" class="logo"> <img
+                                    src="<?php echo BASE_URL; ?>/assets/images/logo.png"
                                     width="186" height="37" alt="ChefOnline Logo" /> </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 custom-nav">
@@ -206,15 +219,15 @@
                                             <span class="icon-bar"></span>
                                         </button>
                                         <a class="navbar-brand hidden-sm hidden-md hidden-lg logo"
-                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>"><img
+                                            href="<?php echo BASE_URL; ?>"><img
                                                 class="img-responsive" width="186" height="37"
-                                                src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/logo.png"
+                                                src="<?php echo BASE_URL; ?>/assets/images/logo.png"
                                                 alt="ChefOnline Logo" /></a>
                                     </div>
                                     <div class="collapse navbar-collapse js-navbar-collapse">
                                         <ul class="nav navbar-nav">
                                             <li>
-                                                <a href='<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>'>Home</a>
+                                                <a href='<?php echo BASE_URL; ?>'>Home</a>
                                             </li>
 
                                             <li class="dropdown mega-dropdown">
@@ -225,17 +238,17 @@
                                                     <li class="col-sm-6">
                                                         <ul>
                                                             <li class="dropdown-header"><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/services">Services</a>
+                                                                    href="<?php echo BASE_URL; ?>/services">Services</a>
                                                             </li>
                                                             <li class="divider"></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/online-ordering-system">
+                                                                    href="<?php echo BASE_URL; ?>/online-ordering-system">
                                                                     Online Food Ordering
                                                                     System</a></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/cloud-epos-system">
+                                                                    href="<?php echo BASE_URL; ?>/cloud-epos-system">
                                                                     EPoS System</a></li>
-                                                            <!--<li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/offers">Offers</a></li>-->
+                                                            <!--<li><a href="<?php echo BASE_URL; ?>/offers">Offers</a></li>-->
                                                         </ul>
                                                     </li>
                                                     <li class="col-sm-6">
@@ -243,10 +256,10 @@
                                                             <li class="dropdown-header hidden-xs">&nbsp;</li>
                                                             <li class="divider hidden-xs"></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/digital-marketing">
+                                                                    href="<?php echo BASE_URL; ?>/digital-marketing">
                                                                     Digital Marketing</a></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/print-media">
+                                                                    href="<?php echo BASE_URL; ?>/print-media">
                                                                     Print Media</a></li>
                                                         </ul>
                                                     </li>
@@ -259,19 +272,19 @@
                                                 <ul class="dropdown-menu mega-dropdown-menu press-dropdown">
                                                     <li>
                                                         <a
-                                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/offer/black-friday/2025">
+                                                            href="<?php echo BASE_URL; ?>/offer/black-friday/2025">
                                                             Black Friday
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a
-                                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/offer/new-year/2024">
+                                                            href="<?php echo BASE_URL; ?>/offer/new-year/2024">
                                                             New Year
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a
-                                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/offer/valentine-offer/2025">
+                                                            href="<?php echo BASE_URL; ?>/offer/valentine-offer/2025">
                                                             Valentine's offer
                                                         </a>
                                                     </li>
@@ -283,15 +296,15 @@
                                                     <i class="fa fa-chevron-down"></i></a>
                                                 <ul class="dropdown-menu mega-dropdown-menu press-dropdown">
                                                     <li><a
-                                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/videos">Video</a>
+                                                            href="<?php echo BASE_URL; ?>/videos">Video</a>
                                                     </li>
                                                     <li><a
-                                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/photo">Photo</a>
+                                                            href="<?php echo BASE_URL; ?>/photo">Photo</a>
                                                     </li>
                                                 </ul>
                                             </li>
 
-                                            <li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/portfolio">
+                                            <li><a href="<?php echo BASE_URL; ?>/portfolio">
                                                     Portfolio </a></li>
 
                                             <li>
@@ -301,7 +314,7 @@
                                             <li>
                                                 <a href="https://www.chefonline.com/associate-partners"> Partners </a>
                                             </li>
-                                            <li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/contact">
+                                            <li><a href="<?php echo BASE_URL; ?>/contact">
                                                     Contact Us </a></li>
                                         </ul>
                                     </div>

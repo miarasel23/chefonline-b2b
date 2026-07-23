@@ -1,3 +1,16 @@
+<?php
+if (!defined('BASE_URL')) {
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+    $domainName = $_SERVER['HTTP_HOST'];
+    $scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'])), '/');
+    if (preg_match('/\/apps$/', $scriptDir)) {
+        $projectDir = substr($scriptDir, 0, -5);
+    } else {
+        $projectDir = $scriptDir;
+    }
+    define('BASE_URL', $protocol . $domainName . $projectDir);
+}
+?>
 <!DOCTYPE html>
 <html lang="EN-GB" xml:lang="EN-GB">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -12,34 +25,34 @@
     <meta name="description" content="<?php echo $meta_desc; ?>">
     <link rel="canonical" href="<?php echo $canonical_link; ?>" />
     <link rel="shortcut icon" type="image/x-icon"
-        href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/favicon.png">
+        href="<?php echo BASE_URL; ?>/assets/images/favicon.png">
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900' rel='stylesheet'
         type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic' rel='stylesheet'
         type='text/css'>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/font-awesome.min.css" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 
     <link rel="stylesheet" type="text/css"
-        href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/jquery.fancybox.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/animate.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/homepage7.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/owl.carousel.css" />
+        href="<?php echo BASE_URL; ?>/assets/css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/animate.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/homepage7.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/owl.carousel.css" />
     <link rel="stylesheet"
-        href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/owl.theme.default.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/magnific-popup.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/global.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/themify-icons.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/style.css" />
+        href="<?php echo BASE_URL; ?>/assets/css/owl.theme.default.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/global.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
-    <link rel="stylesheet" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/responsive.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/responsive.css" />
     <script type="text/javascript"
-        src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery-1.11.3.min.js">
+        src="<?php echo BASE_URL; ?>/assets/js/jquery-1.11.3.min.js">
         </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -162,8 +175,8 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 hidden-xs logo-tab">
-                            <a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>" class="logo"> <img
-                                    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/logo.png"
+                            <a href="<?php echo BASE_URL; ?>" class="logo"> <img
+                                    src="<?php echo BASE_URL; ?>/assets/images/logo.png"
                                     width="186" height="37" alt="ChefOnline Logo" /> </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 custom-nav">
@@ -184,7 +197,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                     <div class="collapse navbar-collapse js-navbar-collapse">
                                         <ul class="nav navbar-nav">
                                             <li>
-                                                <a href='<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>'>Home</a>
+                                                <a href='<?php echo BASE_URL; ?>'>Home</a>
                                             </li>
                                             <!--                                 <li>-->
                                             <!--                                    <a target="_blank" href="https://chefonline.co.uk/"> ChefOnline</a>-->
@@ -198,13 +211,13 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                             <li class="dropdown-header">Services</li>
                                                             <li class="divider"></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/online-ordering-system">Online
+                                                                    href="<?php echo BASE_URL; ?>/online-ordering-system">Online
                                                                     Food Ordering
                                                                     System</a></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/cloud-epos-system">EPoS
+                                                                    href="<?php echo BASE_URL; ?>/cloud-epos-system">EPoS
                                                                     System</a></li>
-                                                            <!--<li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/offers">Offers</a></li>-->
+                                                            <!--<li><a href="<?php echo BASE_URL; ?>/offers">Offers</a></li>-->
                                                         </ul>
                                                     </li>
                                                     <li class="col-sm-6">
@@ -212,10 +225,10 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                             <li class="dropdown-header hidden-xs">&nbsp;</li>
                                                             <li class="divider hidden-xs"></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/digital-marketing">
+                                                                    href="<?php echo BASE_URL; ?>/digital-marketing">
                                                                     Digital Marketing</a></li>
                                                             <li><a
-                                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/print-media">
+                                                                    href="<?php echo BASE_URL; ?>/print-media">
                                                                     Print Media</a></li>
                                                         </ul>
                                                     </li>
@@ -228,13 +241,13 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                 <ul class="dropdown-menu mega-dropdown-menu press-dropdown">
                                                     <li>
                                                         <a
-                                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/offer/black-friday/2023">
+                                                            href="<?php echo BASE_URL; ?>/offer/black-friday/2023">
                                                             Black Friday
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a
-                                                            href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/offer/new-year/2023">
+                                                            href="<?php echo BASE_URL; ?>/offer/new-year/2023">
                                                             New Year
                                                         </a>
                                                     </li>
@@ -243,11 +256,11 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
 
                                             <li>
                                                 <a
-                                                    href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/news-media-press">
+                                                    href="<?php echo BASE_URL; ?>/news-media-press">
                                                     Press & Media</a>
                                             </li>
 
-                                            <li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/portfolio">
+                                            <li><a href="<?php echo BASE_URL; ?>/portfolio">
                                                     Portfolio </a></li>
 
                                             <li>
@@ -255,7 +268,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                     Registration</a>
                                             </li>
 
-                                            <li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/contact">
+                                            <li><a href="<?php echo BASE_URL; ?>/contact">
                                                     Contact Us </a></li>
                                         </ul>
                                     </div>
