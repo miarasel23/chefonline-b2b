@@ -31,8 +31,8 @@
               <div class="col-md-3 col-sm-3">
                 <h4>Download ChefOnline App</h4>
                 <ul class="download-app">
-                  <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.chefonline.chefonline"><img src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/images/android-button.png" alt="SRS App Android Button"></a></li>
-                  <li><a target="_blank" href="https://itunes.apple.com/us/app/chefonline/id1007229418?mt=8"><img src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/images/apple-button.png" alt="SRS App Apple Button"></a></li>
+                  <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.chefonline.chefonline"><img src="<?php echo BASE_URL; ?>/apps/images/android-button.png" alt="SRS App Android Button"></a></li>
+                  <li><a target="_blank" href="https://itunes.apple.com/us/app/chefonline/id1007229418?mt=8"><img src="<?php echo BASE_URL; ?>/apps/images/apple-button.png" alt="SRS App Apple Button"></a></li>
                 </ul>
                 <div class="subscribe-srs-apps"> 
                     <input type="email" class="form-control" placeholder="Enter your e-mail" maxlength="100" name="subscription_email" id="subscription_email" required="required">
@@ -66,12 +66,12 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/js/bootstrap.min.js"></script>
-    <script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/js/livicons-1.4.min.js"></script>
-    <script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/js/raphael.min.js"></script>
-    <script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/js/owl.carousel.js"></script>
-    <script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/js/toastr.min.js"></script>
-    <script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/js/custom.js"></script>
+    <script src="<?php echo BASE_URL; ?>/apps/js/bootstrap.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/apps/js/livicons-1.4.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/apps/js/raphael.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/apps/js/owl.carousel.js"></script>
+    <script src="<?php echo BASE_URL; ?>/apps/js/toastr.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/apps/js/custom.js"></script>
       <script type="text/javascript">
         function subscribe(e){
         

@@ -417,8 +417,9 @@ $urlSlug = rtrim($urlSlug, "/");
 $urlSlugArray = explode("/", $urlSlug);
 
 if (count($urlSlugArray) > 2) {
-    $slugKey = str_replace("https://www.chefonline.com/", "", $urlSlug);
-    $slugKey = trim($slugKey, "/");
+    $currentHost = $_SERVER['HTTP_HOST'];
+    $urlSlug = str_replace(["https://www.chefonline.com/", "https://" . $currentHost . "/", "http://" . $currentHost . "/"], "", $urlSlug);
+    $slugKey = trim($urlSlug, "/");
 } elseif (count($urlSlugArray) == 1) {
     $slugKey = "home";
 } else {

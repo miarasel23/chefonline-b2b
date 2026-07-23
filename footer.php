@@ -37,7 +37,7 @@
                     <ul class="list-unstyled">
                         <li>T: <a href="tel:03303801000">0330 380 1000</a></li>
                         <li>
-                            <img src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/customer-support-contact.jpg"
+                            <img src="<?php echo BASE_URL; ?>/assets/images/customer-support-contact.jpg"
                                 width="165" height="15" class="footer-contact-img" alt="contact">
                         </li>
                         <li>Mon - Fri: 9:30 am - 11:00 pm
@@ -54,7 +54,7 @@
                     <h3>Sales and Marketing</h3>
                     <ul class="list-unstyled">
                         <li>T: <a href="tel:02035985956">0203 598 5956</a></li>
-                        <li><img src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/hello-chefonline-com.png"
+                        <li><img src="<?php echo BASE_URL; ?>/assets/images/hello-chefonline-com.png"
                                 width="144" height="16" class="footer-contact-img" alt="contact"></li>
                         <a href="https://www.chefonline.com/contact" class="btn btn-danger">Contact Us</a>
                     </ul>
@@ -68,7 +68,7 @@
                     <h3>Customer Service</h3>
                     <ul class="list-unstyled">
                         <li>T: <a href="tel:03303801000">0330 380 1000</a></li>
-                        <li><img src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/images/customer-service-chefonline-com.png"
+                        <li><img src="<?php echo BASE_URL; ?>/assets/images/customer-service-chefonline-com.png"
                                 width="220" height="45" class="footer-contact-img" alt="contact"></li>
                         <!-- <li>customer.service@chefonline.com</li> -->
                         <li>Mon - Fri: 9:30 am - 11:00 pm
@@ -250,39 +250,39 @@
 </div>
 <!--Wrapper Section Ends Here -->
 
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery-ui.js">
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery-ui.js">
 </script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/owl.carousel.js">
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/owl.carousel.js">
 </script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/validation.min.js">
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/validation.min.js">
 </script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/bootval.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/bootval.js"></script>
 <script type="text/javascript"
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.themepunch.tools.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/masonry.pkgd.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.fancybox.js"></script>
+    src="<?php echo BASE_URL; ?>/assets/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/masonry.pkgd.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/jquery.fancybox.js"></script>
 <script type="text/javascript"
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.fancybox-media.js"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/site.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/script.js" type="text/javascript"></script>
+    src="<?php echo BASE_URL; ?>/assets/js/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/site.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/script.js" type="text/javascript"></script>
 <script type="text/javascript"
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.magnific-popup.min.js"></script>
-<!-- <script type="text/jscript" language="javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.isotope.min.js"></script> -->
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/wow.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/custom.js"></script>
+    src="<?php echo BASE_URL; ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<!-- <script type="text/jscript" language="javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.isotope.min.js"></script> -->
+<script src="<?php echo BASE_URL; ?>/assets/js/wow.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/custom.js"></script>
 <script>
     new WOW().init();
 </script>
-<script src='<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.justifiedGallery.min.js'
+<script src='<?php echo BASE_URL; ?>/assets/js/jquery.justifiedGallery.min.js'
     type='text/javascript'></script>
-<link href='<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/justifiedGallery.min.css' rel='stylesheet'
+<link href='<?php echo BASE_URL; ?>/assets/css/justifiedGallery.min.css' rel='stylesheet'
     type='text/css' />
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/livicons-1.4.min.js">
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/livicons-1.4.min.js">
 </script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/raphael.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/main.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/businessform.script.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/blackFridayScript.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/raphael.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/main.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/businessform.script.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/blackFridayScript.js"></script>
 
 <script type="text/javascript">
     function subscribe(e) {

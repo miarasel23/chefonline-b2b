@@ -180,29 +180,29 @@
 </div>
 <!--Wrapper Section Ends Here -->
 
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery-ui.js"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/owl.carousel.js"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/validation.min.js"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/bootval.js"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.themepunch.tools.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/masonry.pkgd.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.fancybox.js"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.fancybox-media.js"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/site.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/script.js" type="text/javascript"></script>
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.magnific-popup.min.js"></script>
-<!-- <script type="text/jscript" language="javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.isotope.min.js"></script> -->
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/wow.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/custom.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery-ui.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/owl.carousel.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/validation.min.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/bootval.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/masonry.pkgd.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/site.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/script.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<!-- <script type="text/jscript" language="javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.isotope.min.js"></script> -->
+<script src="<?php echo BASE_URL; ?>/assets/js/wow.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/custom.js"></script>
 <script>
    new WOW().init();
 </script>
-<script src='<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.justifiedGallery.min.js' type='text/javascript'></script>
-<link href='<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/css/justifiedGallery.min.css' rel='stylesheet' type='text/css' />
-<script type="text/javascript" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/livicons-1.4.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/raphael.min.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/main.js"></script>
-<script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/businessform.script.js"></script>
+<script src='<?php echo BASE_URL; ?>/assets/js/jquery.justifiedGallery.min.js' type='text/javascript'></script>
+<link href='<?php echo BASE_URL; ?>/assets/css/justifiedGallery.min.css' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/livicons-1.4.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/raphael.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/main.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/js/businessform.script.js"></script>
   <script type="text/javascript">
     function subscribe(e){
 

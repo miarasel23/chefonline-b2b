@@ -226,71 +226,71 @@
 <!--  -->
 
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/equal-height.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/equal-height.min.js">
 </script>
 
 <!-- TrustBox script -->
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 <script type="text/javascript"
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/livicons-1.4.min.js">
+    src="<?php echo BASE_URL; ?>/assets/js/livicons-1.4.min.js">
 </script>
 <script type="text/javascript"
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/jquery.themepunch.tools.min.js">
+    src="<?php echo BASE_URL; ?>/assets/js/jquery.themepunch.tools.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/jquery.appear.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/jquery.appear.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/jquery.easing.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/jquery.easing.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/jquery.magnific-popup.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/jquery.magnific-popup.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/progress-bar.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/progress-bar.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/modernizr.custom.13711.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/modernizr.custom.13711.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/owl.carousel.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/owl.carousel.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/wow.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/wow.min.js">
 </script>
-<!--  <script src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/isotope.pkgd.min.js">
+<!--  <script src="<?php echo BASE_URL; ?>/hayper/assets/js/isotope.pkgd.min.js">
 </script> -->
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/imagesloaded.pkgd.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/imagesloaded.pkgd.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/count-to.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/count-to.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/bootsnav.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/bootsnav.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/YTPlayer.min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/YTPlayer.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/typed.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/typed.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/jquery.ripples-min.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/jquery.ripples-min.js">
 </script>
-<!--<script src="<?php //echo "https://" . $_SERVER['SERVER_NAME'];
+<!--<script src="<?php //echo BASE_URL;
                     ?>/hayper/assets/js/particles.min.js">
 </script>-->
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/assets/js/main.js">
+    src="<?php echo BASE_URL; ?>/hayper/assets/js/main.js">
 </script>
 <!--  -->
 <script type="text/javascript"
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/livicons-1.4.min.js">
+    src="<?php echo BASE_URL; ?>/assets/js/livicons-1.4.min.js">
 </script>
 <script
-    src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/assets/js/raphael.min.js">
+    src="<?php echo BASE_URL; ?>/assets/js/raphael.min.js">
 </script>
 
 <script type="text/javascript">

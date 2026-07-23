@@ -1,3 +1,16 @@
+<?php
+if (!defined('BASE_URL')) {
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+    $domainName = $_SERVER['HTTP_HOST'];
+    $scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'])), '/');
+    if (preg_match('/\/apps$/', $scriptDir)) {
+        $projectDir = substr($scriptDir, 0, -5);
+    } else {
+        $projectDir = $scriptDir;
+    }
+    define('BASE_URL', $protocol . $domainName . $projectDir);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,7 +23,7 @@
 	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <meta name="keywords" content="<?php echo $meta_key; ?>">
     <link rel="canonical" href="<?php echo $canonical_link;?>" />
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/images/favicon.png" rel="icon">
+    <link href="<?php echo BASE_URL; ?>/apps/images/favicon.png" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i" rel="stylesheet">  
@@ -19,13 +32,13 @@
     <title><?php echo $meta_title; ?></title>
 
     <!-- Bootstrap -->
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/css/owl.carousel.css" rel="stylesheet">
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/css/animate.css" rel="stylesheet">
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/css/toastr.min.css" rel="stylesheet">
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/css/style.css" rel="stylesheet">
-    <link href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/css/responsive.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/apps/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/apps/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/apps/css/owl.carousel.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/apps/css/animate.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/apps/css/toastr.min.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/apps/css/style.css" rel="stylesheet">
+    <link href="<?php echo BASE_URL; ?>/apps/css/responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -136,16 +149,16 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps">
-            <img class="img-responsive white-logo" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/images/white-logo.png" alt="SRS Apps Logo">
-            <img class="img-responsive black-logo" src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps/images/black-logo.png" alt="SRS Apps Logo">
+            <a class="navbar-brand" href="<?php echo BASE_URL; ?>/apps">
+            <img class="img-responsive white-logo" src="<?php echo BASE_URL; ?>/apps/images/white-logo.png" alt="SRS Apps Logo">
+            <img class="img-responsive black-logo" src="<?php echo BASE_URL; ?>/apps/images/black-logo.png" alt="SRS Apps Logo">
             </a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/apps">Home</a></li>
+              <li><a href="<?php echo BASE_URL; ?>/apps">Home</a></li>
               <li><a href="about-us">About Us</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="caret"></span></a>
