@@ -184,8 +184,14 @@
 
     @media (max-width: 768px) {
         .footer-links-grid {
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr 1fr !important;
             gap: 40px 30px;
+            width: 100%;
+        }
+
+        .footer-links-grid .footer-link-col {
+            min-width: 0;
+            width: 100%;
         }
 
         .footer-links-grid .cuisines-col {
