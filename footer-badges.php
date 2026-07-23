@@ -169,8 +169,13 @@ if (!defined('BASE_URL')) {
     }
 
     .footer-trust-badges .payment-cards-grid .badge-item.amex-badge {
-        width: 90px;
-        object-fit: cover;
+         width: 90px;
+         object-fit: cover;
+    }
+
+    .footer-trust-badges .payment-cards-grid .badge-item.amex-safekey-badge {
+         width: 90px;
+         object-fit: contain;
     }
 
     .footer-trust-badges .badges-grid-2x2 {
@@ -277,7 +282,7 @@ if (!defined('BASE_URL')) {
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/master-card-secure-code.svg"
                             alt="Mastercard SecureCode" class="badge-item" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/american-express-safe-key.svg" alt="SafeKey"
-                            class="badge-item amex-badge" />
+                            class="badge-item amex-safekey-badge" />
                     </div>
                 </div>
             </div>
