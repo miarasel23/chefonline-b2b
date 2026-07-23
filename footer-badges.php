@@ -125,9 +125,15 @@ if (!defined('BASE_URL')) {
     margin-top: 15px;
 }
 .footer-trust-badges .payment-cards-grid .badge-item {
-    height: 32px;
-    width: auto;
-    max-width: 80px;
+    box-sizing: border-box;
+    width: 90px;
+    height: 52px;
+    padding: 4px 6px;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    background-color: #ffffff;
+    object-fit: contain;
+    display: block;
 }
 .footer-trust-badges .payment-cards-grid .badge-item:nth-child(3n+1) {
     justify-self: start;
