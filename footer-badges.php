@@ -92,7 +92,7 @@ if (!defined('BASE_URL')) {
 }
 .footer-trust-badges .payment-container {
     width: 100%;
-    max-width: 320px;
+    max-width: 340px;
     margin: 0 auto;
 }
 .footer-trust-badges .payment-top-row {
@@ -103,7 +103,7 @@ if (!defined('BASE_URL')) {
 }
 .footer-trust-badges .payment-top-row img:first-child {
     justify-self: start;
-    height: 40px;
+    height: 52px;
     width: auto;
 }
 .footer-trust-badges .payment-top-row span {
@@ -145,7 +145,7 @@ if (!defined('BASE_URL')) {
     justify-self: end;
 }
 .footer-trust-badges .payment-cards-grid .badge-item.amex-badge {
-    width: 102px;
+    width: 127px;
 }
 .footer-trust-badges .badges-grid-2x2 {
     display: grid;
