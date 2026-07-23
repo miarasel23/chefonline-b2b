@@ -239,15 +239,15 @@
         text-align: center;
     }
     .red-partner-banner .partner-block h3 {
-        font-size: 16px;
+        font-size: 22px;
     }
     .red-partner-banner .partner-block h4 {
-        font-size: 14px;
-        margin-bottom: 12px;
+        font-size: 18px;
+        margin-bottom: 15px;
     }
     .red-partner-banner .partner-block img {
-        height: 70px;
-        padding: 8px 16px;
+        height: 95px;
+        padding: 10px 20px;
     }
 }
 </style>
