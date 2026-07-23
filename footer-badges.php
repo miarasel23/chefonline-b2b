@@ -180,30 +180,23 @@ if (!defined('BASE_URL')) {
     .footer-trust-badges .badges-grid-2x2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px 15px;
+        gap: 25px 20px;
         align-items: center;
+        justify-items: center;
         width: 100%;
-        max-width: 280px;
+        max-width: 220px;
         margin: 10px auto 0;
     }
 
     .footer-trust-badges .badges-grid-2x2 .badge-item-lg {
-        height: 48px;
+        height: 60px;
         width: auto;
-        max-width: 130px;
+        max-width: 100px;
         object-fit: contain;
     }
 
-    .footer-trust-badges .badges-grid-2x2 img:nth-child(2n+1) {
-        justify-self: start;
-    }
-
-    .footer-trust-badges .badges-grid-2x2 img:nth-child(2n) {
-        justify-self: end;
-    }
-
     .footer-trust-badges .badges-grid-2x2 img.cyber-essentials-badge {
-        height: 60px;
+        height: 68px;
     }
 
     .footer-trust-badges .support-section {
