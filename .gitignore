@@ -1,0 +1,23 @@
+# Cache and IDE files
+.phpintel/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Laravel dependency folders
+/epos/vendor/
+/epos/node_modules/
+/epos/storage/framework/cache/data/*
+/epos/storage/framework/sessions/*
+/epos/storage/framework/testing/*
+/epos/storage/framework/views/*
+/epos/storage/logs/*.log
+/epos/.env
+
+# Large zip files
+*.zip
+*.rar
+*.tar.gz
+*.7z
+/epos/tests.zip

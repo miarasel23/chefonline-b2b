@@ -1,0 +1,462 @@
+<?php
+
+ob_start(function($buffer) {
+    if (in_array($_SERVER['HTTP_HOST'], ['localhost', '127.0.0.1']) || strpos($_SERVER['HTTP_HOST'], 'localhost:') === 0) {
+        $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+        $scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'])), '/');
+        
+        $buffer = str_replace(
+            ['https://localhost', 'https://127.0.0.1', 'https://' . $_SERVER['SERVER_NAME']],
+            [$protocol . $_SERVER['HTTP_HOST'] . $scriptDir, $protocol . $_SERVER['HTTP_HOST'] . $scriptDir, $protocol . $_SERVER['HTTP_HOST'] . $scriptDir],
+            $buffer
+        );
+    }
+    return $buffer;
+});
+
+error_reporting(E_ERROR | E_PARSE);
+
+// define all the page name with proper folder path and url (after domain name)
+$pagesNameArray = array(
+    "home",
+    "award",
+    "cloud-epos-system",
+    "services",
+    "product-new",
+    "ecommerce-web-design",
+    "app-development",
+    "portfolio",
+    "digital-marketing",
+    "digital-marketing-get-a-quote",
+    "free-website-audit",
+    "online-ordering-system",
+    "reservation-system",
+    "control-panel",
+    "customer-database",
+    "driver-tracking-system",
+    "review-rating-system",
+    "faq",
+    "contact",
+    "trf-mega-medical-camp-bangladesh24",
+    "mmcbd2024",
+    "mmcbd2024/admin",
+    "bespoke-website-development",
+    "seo-services",
+    "business-cards",
+    "takeaway-menu-leaflet",
+    "news-media-press",
+    "smart-media",
+    "smart-media-visual",
+    "market-hub",
+    "business-registration",
+    "epos-registration",
+    "about-us",
+    "privacy-policy",
+    "terms-conditions",
+    "terms-of-use",
+  //  "career",
+    "career-marketing-sales",
+    "contactform",
+    "contactform2",
+    "cookie-policy",
+    "error",
+    "print-media",
+    "videos",
+    "photo",
+    "news",
+    "budget",
+    "offers",
+    "black-friday-offers",
+    "offer/black-friday/2022",
+    "offer/black-friday/2023",
+    "offer/black-friday/2024",
+    "offer/black-friday/2025",
+    "offer/new-year/2023",
+    "offer/new-year/2024",
+    "offer/valentine-offer/2025",
+    "associate-partners",
+    "LalHaveli",
+    "Lalbagh",
+    "Azaaya",
+    "MughalDynasty",
+    "Kutis",
+    "TheRaj",
+    "associate-partners/wpc",
+    "associate-partners/paytap",
+    "associate-partners/cocacola",
+    "associate-partners/921",
+    "associate-partners/cornerstone",
+	"partner",
+	"restaurant-digital-marketing",
+	"restaurant-digital-marketing-working",
+	"thank-you",
+    "success"
+);
+
+// associate all the page name from the $pagesNameArray with file name
+$pagesArray = array(
+    "home" => "home.php",
+    "about" => "about.php",
+    "award" => "award.php",
+    "cloud-epos-system" => "cloud-epos-system.php",
+    "services" => "services.php",
+    "product-new" => "product-new.php",
+    "ecommerce-web-design" => "ecommerce-web-design.php",
+    "app-development" => "app-development.php",
+    "portfolio" => "portfolio.php",
+    "digital-marketing" => "digital-marketing.php",
+    "digital-marketing-get-a-quote" => "digital-marketing-get-a-quote.php",
+    "free-website-audit" => "free-website-audit.php",
+    "online-ordering-system" => "online-ordering-system.php",
+    "reservation-system" => "reservation-system.php",
+    "control-panel" => "control-panel.php",
+    "customer-database" => "customer-database.php",
+    "driver-tracking-system" => "driver-tracking-system.php",
+    "review-rating-system" => "review-rating-system.php",
+    "faq" => "faq.php",
+    "contact" => "contact.php",
+    "bespoke-website-development" => "bespoke-website-development.php",
+    "seo-services" => "seo-services.php",
+    "business-cards" => "business-cards.php",
+    "takeaway-menu-leaflet" => "takeaway-menu-leaflet.php",
+    // "a-la-carte-menu-design" => "a-la-carte-menu-design.php",
+    "news-media-press" => "news-media-press.php",
+    "smart-media" => "smart-media.php",
+    "smart-media-visual" => "smart-media-visual.php",
+    "market-hub" => "market-hub.php",
+    "business-registration" => "business-registration.php",
+    "epos-registration" => "epos-registration.php",
+    "about-us" => "about-us.php",
+    "privacy-policy" => "privacy-policy.php",
+    "terms-conditions" => "terms-conditions.php",
+    "terms-of-use" => "terms-of-use.php",
+    "career" => "career.php",
+    "career-marketing-sales" => "career-marketing-sales.php",
+    "contactform" => "contactform.php",
+    "contactform2" => "contactform2.php",
+    "cookie-policy" => "cookie-policy.php",
+    "error" => "error.php",
+    "print-media" => "print-media.php",
+    "videos" => "video.php",
+    "photo" => "photo.php",
+    "news" => "news.php",
+    "budget" => "budget.php",
+    "offers" => "offers.php",
+    "black-friday-offers" => "black_friday_offers.php",
+    "offer/black-friday/2022" => "offer/black-friday/2022.php",
+    "offer/black-friday/2023" => "offer/black-friday/2023.php",
+    "offer/black-friday/2024" => "offer/black-friday/2024.php",
+    "offer/black-friday/2025" => "offer/black-friday/2025.php",
+    "offer/new-year/2023" => "offer/new-year/2023.php",
+    "offer/new-year/2024" => "offer/new-year/2024.php",
+    "offer/valentine-offer/2025" => "offer/valentine-offer/2025.php",
+	"offer/valentine-offer" => "offer/valentine-offer/index.php",
+    "trf-mega-medical-camp-bangladesh24" => "trf.php",
+    "mmcbd2024" => "mmcbd2024.php",
+    "mmcbd2024/admin" => "mmcbd2024admin.php",
+    "LalHaveli" => "trf-LalHaveli.php",
+    "Lalbagh" => "trf-Lalbagh.php",
+    "Azaaya" => "trf-Azaaya.php",
+    "MughalDynasty" => "trf-MughalDynasty.php",
+    "Kutis" => "trf-Kutis.php",
+    "TheRaj" => "trf-TheRaj.php",
+    "associate-partners" => "associate-partners.php",
+    "associate-partners/wpc" => "associate-wpc.php",
+    "associate-partners/paytap" => "associate-paytap.php",
+    "associate-partners/cocacola" => "associate-cocacola.php",
+    "associate-partners/921" => "associate-921.php",
+    "associate-partners/cornerstone" => "associate-cornerstone.php",
+	"partner" => "partner.php",
+	"restaurant-digital-marketing" => "restaurant-digital-marketing.php",
+    "restaurant-digital-marketing-working" => "restaurant-digital-marketing-working.php",
+	"thank-you"=> "thank-you.php",
+    "success" => "success.php"
+);
+
+$titleArray = array(
+    "home" => "For UK Restaurants- Food Ordering | Marketing | Printing | EPoS",
+    "award" => "Award",
+    "cloud-epos-system" => "EPoS Systems and EPoS Software Management | ChefOnline.com",
+    "services" => "Services for UK Restaurant Businesses | ChefOnline",
+    "about-us" => "About Us | Leading UK Restaurant Tech by ChefOnline",
+    "product-new" => "",
+    "ecommerce-web-design" => "E-Commerce Website Design and Development | ChefOnline.com",
+    "app-development" => "Android & iOS App Development for Mobile | ChefOnline.com",
+    "portfolio" => "Our Recent Work and Portfolio | ChefOnline.com",
+    "digital-marketing" => "Digital Marketing & SEO Services | ChefOnline.com",
+    "digital-marketing-get-a-quote" => "Get a Digital Marketing Quote | ChefOnline",
+    "free-website-audit" => "Free Website Audit Tool from ChefOnline Digital Marketing",
+    "online-ordering-system" => "Online Food Ordering System for Restaurant | ChefOnline.com",
+    "reservation-system" => "Restaurant Table Reservation System in Uk | ChefOnline",
+    "control-panel" => "Get the Stats & Take Control of Your Business | ChefOnline.com",
+    "customer-database" => "Customer Database System Management | ChefOnline.com",
+    "driver-tracking-system" => "Online Driver Tracking System | ChefOnline.com",
+    "review-rating-system" => "ChefOnline Review System for Restaurants | ChefOnline",
+    "faq" => "Frequently Asked Questions (FAQ) & Answers | ChefOnline.com",
+    "contact" => "ChefOnline Customer & Partner Support | ChefOnline Contact",
+    "bespoke-website-development" => "Custom-built Bespoke Website Design & Development | ChefOnline.com",
+    "seo-services" => "Optimize search results for rank your business | ChefOnline.com",
+    "business-cards" => "Business Card Design | ChefOnline.com",
+    "takeaway-menu-leaflet" => "Crisp & Colorful Takeaway Menu Leaflet | ChefOnline.com",
+    // "a-la-carte-menu-design" => "A La Carte Menu Design for Restaurant or Hotel | ChefOnline.com",
+    "news-media-press" => "News, Media and Press | ChefOnline.com",
+    "smart-media" => "Smart Media Solutions for Your Business | ChefOnline.com",
+    "smart-media-visual" => "Smart Media Solutions for Your Business | ChefOnline.com",
+    "market-hub" => "Market Hub | Affiliation | ChefOnline.com",
+    "business-registration" => "Business Registration Form for New Restaurant | ChefOnline.com",
+    "epos-registration" => "EPoS Registration for Restaurant & Takeaway | ChefOnline.com",
+    "privacy-policy" => "Your Personal Data Is Safe With Us | ChefOnline.com",
+    "terms-conditions" => "Terms & Conditions | ChefOnline.com",
+    "terms-of-use" => "Acceptable Use Policy | ChefOnline Terms & Rules",
+    "career" => "Careers at ChefOnline | Join the Future of Food Tech",
+    "career-marketing-sales" => "Career Opportunities:Marketing & Sales | ChefOnline.com",
+    "cookie-policy" => "Cookie Policy | Chefonline.com",
+    "error" => "Error 404 – Page Not Found!",
+    "print-media" => "Menu Design & Printing Service in UK | ChefOnline Print Media",
+    "videos" => "Video | News, Media and Press | ChefOnline.com",
+    "photo" => "Photo | News, Media and Press | ChefOnline.com",
+    "news" => "ChefOnline Featured in UK National Media & News | ChefOnline",
+    "budget" => "Budget 2021 - Detailed Analysis",
+    "offers" => "Offers & Discounts | ChefOnline",
+    "black-friday-offers" => "ChefOnline Black Friday Offer",
+    "offer/black-friday/2022" => "ChefOnline Black Friday Offer",
+    "offer/black-friday/2023" => "ChefOnline Black Friday Offer 2023",
+    "offer/black-friday/2024" => "ChefOnline Black Friday Offer 2024",
+    "offer/black-friday/2025" => "ChefOnline Black Friday Offer 2025",
+    "offer/new-year/2023" => "ChefOnline New Year Offer 2023",
+    "offer/new-year/2024" => "ChefOnline New Year Offer 2024",
+	"offer/valentine-offer/2025" => "Valentine's Day offer for Restaurants | ChefOnline",
+    "offer/valentine-offer" => "ChefOnline valentine",
+    "trf-mega-medical-camp-bangladesh24" => "Mega Medical Camp Bangladesh24",
+    "mmcbd2024" => "Mega Medical Camp Bangladesh 2024",
+    "mmcbd2024/admin" => "Admin | Mega Medical Camp Bangladesh 2024",
+    "LalHaveli" => "LalHaveli | Mega Medical Camp Bangladesh24",
+    "Lalbagh" => "Lalbagh | Mega Medical Camp Bangladesh24",
+    "Azaaya" => "Azaaya | Mega Medical Camp Bangladesh24",
+    "MughalDynasty" => "MughalDynasty | Mega Medical Camp Bangladesh24",
+    "Kutis" => "Kutis | Mega Medical Camp Bangladesh24",
+    "TheRaj" => "TheRaj | Mega Medical Camp Bangladesh24",
+    "associate-partners" => "ChefOnline Associate Partners Program | ChefOnline",
+    "associate-partners/wpc" => "Associate Partners | WPC",
+    "associate-partners/paytap" => "Associate Partners | Paytap",
+    "associate-partners/cocacola" => "Associate Partners | CocaCola",
+    "associate-partners/921" => "Associate Partners | 921",
+    "associate-partners/cornerstone" => "Associate Partners | Cornerstone",
+	"partner"  => "Become an ChefOnline Partner | ChefOnline",
+	"restaurant-digital-marketing"  => "Best Digital Marketing Services for Restaurants | ChefOnline",
+    "restaurant-digital-marketing-working"  => "Best Digital Marketing Services for Restaurants | ChefOnline",
+    "thank-you"=> "Chefonline | Thank You",
+    "success" => "Chefonline | Success"
+);
+
+$descriptionArray = array(
+    "home" => "ChefOnline offers complete solutions for UK restaurants & takeaways, including online ordering, digital marketing, menu printing & EPoS systems.",
+    "award" => "",
+    "cloud-epos-system" => "Manage both your online deals and restaurant business at the same time now! ChefOnline offers SRS EPoS LIVE to manage your restaurant business efficiently!",
+    "services" => "ChefOnline offers EPoS, digital marketing, and custom solutions to help UK restaurants grow, manage orders, and thrive in the digital age | ChefOnline",
+    "product-new" => "",
+    "ecommerce-web-design" => "ChefOnline is one of world-class ecommerce restaurant solution. ChefOnline deliver professional, flexible and effective ecommerce solutions for small and medium business.",
+    "app-development" => "What actually app do? Make life fast and easier. By developing android, ios and cross platform app we deliver the happiness to enjoy modern life.",
+    "portfolio" => "ChefOnline not only design responsive & attractive websites for restaurant business but also provide needed solutions to make your business profitable. Our valuable client and their portfolio given below.",
+    "digital-marketing" => "Expert digital marketing & SEO service company. Specialize in restaurant oriented businesses solution. Contact ChefOnline SEO team now !",
+    "digital-marketing-get-a-quote" => "Request a quote for expert digital marketing services for your restaurant. Boost online visibility and attract more customers with ChefOnline’s tailored solutions.",
+    "free-website-audit" => "ChefOnline, the most complete system to grow restaurant business in UK, offers Online ordering, EPoS, Digital Marketing & Printing services at best price",
+    "online-ordering-system" => "ChefOnline offers an online food ordering system with website, app, EPOS, and digital marketing platform helping restaurants feed their valuable customers.",
+    "reservation-system" => "Enhance restaurant efficiency in the UK with ChefOnline's advanced, secure reservation system—easy to use and built to manage all your bookings seamlessly.",
+    "control-panel" => "ChefOnline handles you the power to control your business site. Access, alter & analyse your business information using the Control Panel of your website.",
+    "customer-database" => "Customer database helps restaurants or businesses to assess what their valuable customers want, providing important feedback for Restaurant or businesses.",
+    "driver-tracking-system" => "Our driver tracking system is accessible via Mobile App, allows the customer to follow the restaurant order from when it leaves the kitchen right up to delivery.",
+    "review-rating-system" => "Boost click-throughs and online orders in the UK with ChefOnline’s verified review system—collect, manage, and respond to real customer feedback easily.",
+    "faq" => "Any kind of query for your restaurant or business you have just ask and we will surely come up with proper answers.",
+    "contact" => "Contact ChefOnline for expert support on Customer & Partner Support. Get advice, pricing, and setup help tailored to your restaurants | ChefOnline Contact",
+    "bespoke-website-development" => "We offer custom-built bespoke website solutions. Do you want lucrative bespoke web design & development in affordable price? Contact us for a quote.",
+    "seo-services" => "Now a days SEO is the smart way to established business in giant search console. To stay for long term in search console and increase business seo services is mandatory.",
+    "business-cards" => "Business cards are small but strong tool for establishing brands. We design high-quality business cards with a view to creating great first impressions!",
+    "takeaway-menu-leaflet" => "Menus are important for restaurants. ChefOnline designs impressive & Optimized menus for takeaways including things people need to know about your business.",
+    // "a-la-carte-menu-design" => "Get your restaurant / business online and become part of the ChefOnline community or register your business online or by calling us on 0203 598 5956.",
+    "news-media-press" => "Keep up to date with all the latest events, news, media and press coverage related to ChefOnline Community.",
+    "smart-media" => "ChefOnline builds online media image for your business. We design bespoke websites and visual media to highlight your business in most prominent ways.",
+    "smart-media-visual" => "ChefOnline builds online media image for your business. We design bespoke websites and visual media to highlight your business in most prominent ways.",
+    "market-hub" => "Looking for efficient internet/data connectivity provider? Need a good IP telephony service? We are here to help.",
+    "business-registration" => "We provide best setup for restaurant business in UK. By giving full support to increase order and developed restaurant business locally. Register now for increase your business.",
+    "epos-registration" => "Get your restaurant & takeaway business registered with ChefOnline EPoS! Sign up with us today by filling up the information & click on submit!",
+    "about-us" => "We assure restaurant or business owners a colorful business experience/journey with us. We build layers which maximize your opportunity for businesses.",
+    "privacy-policy" => "ChefOnline is committed to protect your personal data. Our well explained Privacy Policy will give you idea how we use and protect your information.",
+    "terms-conditions" => "Review ChefOnline's Acceptable Use Policy outlining content standards, prohibited uses, user responsibilities, and legal terms for site interaction | ChefOnline",
+    "terms-of-use" => "Terms of use for using ChefOnline are noted here.  Before you get started, you need to go through this.",
+    "career" => "Explore exciting career opportunities at ChefOnline. Be part of a fast-growing UK food tech company transforming the restaurant industry. Apply today!",
+    "career-marketing-sales" => "Would you like to be a sales executive for ChefOnline? We're hiring now. Check the requirements and apply now.",
+    "cookie-policy" => "ChefOnline applies cookie policy to make better quality of our service on the website and create browsing experience more significant.",
+    "error" => "The page you are trying to reach does not exist, or has been moved. Please use the menus to find what you are looking for.",
+    "print-media" => "ChefOnline Print Media provides quality Designing & Printing services in London at comprehensive prices.",
+    "videos" => "Video | Keep up to date with all the latest events, news, media and press coverage related to ChefOnline Community.",
+    "photo" => "Photo | Keep up to date with all the latest events, news, media and press coverage related to ChefOnline Community.",
+    "news" => "News | Keep up to date with all the latest events, news, media and press coverage related to ChefOnline Community.",
+    "budget" => "Budget 2021 - Detailed Analysis",
+    "offers" => "Get exciting offers & discounts from ChefOnline on EPoS, SEO, SMM, and Print Media.",
+    "black-friday-offers" => "Black Friday Starts Now! Enjoy our Services with the biggest sale of the year!",
+    "offer/black-friday/2022" => "Black Friday Starts Now! Enjoy our Services with the biggest sale of the year!",
+    "offer/black-friday/2023" => "Black Friday Starts Now! Enjoy our Services with the biggest sale of the year 2023!",
+    "offer/black-friday/2024" => "Black Friday Starts Now! Enjoy our Services with the biggest sale of the year 2024!",
+    "offer/black-friday/2025" => "Black Friday Starts Now! Enjoy our Services with the biggest sale of the year 2025!",
+    "offer/new-year/2023" => "The New Year is here! Enjoy our services with the biggest sale of the year!",
+    "offer/new-year/2024" => "The New Year is here! Enjoy our services with the biggest sale of the year!",
+	"offer/valentine-offer/2025" => "Unlock £0 setup for SEO, EPoS & digital solutions this Black Friday. Join ChefOnline for smart tech, menu printing & full restaurant transformation | ChefOnline",
+    "offer/valentine-offer" => "Valentine's Day is here! Enjoy our services with the sweetest deals of the year!",
+    "trf-mega-medical-camp-bangladesh24" => "Mega Medical Camp Bangladesh24",
+    "mmcbd2024" => "Mega Medical Camp Bangladesh 2024",
+    "mmcbd2024/admin" => "Admin | Mega Medical Camp Bangladesh 2024",
+    "LalHaveli" => "LalHaveli | Mega Medical Camp Bangladesh24",
+    "Lalbagh" => "Lalbagh | Mega Medical Camp Bangladesh24",
+    "Azaaya" => "Azaaya | Mega Medical Camp Bangladesh24",
+    "MughalDynasty" => "MughalDynasty | Mega Medical Camp Bangladesh24",
+    "Kutis" => "Kutis | Mega Medical Camp Bangladesh24",
+    "TheRaj" => "TheRaj | Mega Medical Camp Bangladesh24",
+    "associate-partners" => "Join ChefOnline’s Associate Partners Program in the UK. Enhance your restaurant’s digital services and earn with our innovative food ordering solutions",
+    "associate-partners/wpc" => "Associate Partners | WPC",
+    "associate-partners/paytap" => "Associate Partners | Paytap",
+    "associate-partners/cocacola" => "Associate Partners | CocaCola",
+    "associate-partners/921" => "Associate Partners | 921",
+    "associate-partners/cornerstone" => "Associate Partners | Cornerstone",
+	"partner" => "Grow your business and enhance your reach by partnering with ChefOnline. Connect with new local customers, strengthen your digital presence, and receive orders through your preferred channels.",
+	"restaurant-digital-marketing" => "Boost reservations and online orders with expert restaurant digital marketing. We deliver SEO for restaurants, local SEO and social media marketing across the UK.",
+    "restaurant-digital-marketing-working" => "Boost reservations and online orders with expert restaurant digital marketing. We deliver SEO for restaurants, local SEO and social media marketing across the UK.",
+	"thank-you" => "Thank You",
+    "success" => "Success"
+
+);
+
+$canonical = array(
+    "home" => "https://www.chefonline.com",
+    "award" => "https://www.chefonline.com/award",
+    "cloud-epos-system" => "https://www.chefonline.com/cloud-epos-system",
+    "services" => "https://www.chefonline.com/services",
+    "product-new" => "https://www.chefonline.com/product-new",
+    "ecommerce-web-design" => "https://www.chefonline.com/ecommerce-web-design",
+    "app-development" => "https://www.chefonline.com/app-development",
+    "portfolio" => "https://www.chefonline.com/portfolio",
+    "digital-marketing" => "https://www.chefonline.com/digital-marketing",
+    "digital-marketing-get-a-quote" => "https://www.chefonline.com/digital-marketing-get-a-quote",
+    "free-website-audit" => "https://www.chefonline.com/free-website-audit",
+    "online-ordering-system" => "https://www.chefonline.com/online-ordering-system",
+    "reservation-system" => "https://www.chefonline.com/reservation-system",
+    "control-panel" => "https://www.chefonline.com/control-panel",
+    "customer-database" => "https://www.chefonline.com/customer-database",
+    "driver-tracking-system" => "https://www.chefonline.com/driver-tracking-system",
+    "review-rating-system" => "https://www.chefonline.com/review-rating-system",
+    "faq" => "https://www.chefonline.com/faq",
+    "contact" => "https://www.chefonline.com/contact",
+    "bespoke-website-development" => "https://www.chefonline.com/bespoke-website-development",
+    "seo-services" => "https://www.chefonline.com/seo-services",
+    "business-cards" => "https://www.chefonline.com/business-cards",
+    "takeaway-menu-leaflet" => "https://www.chefonline.com/takeaway-menu-leaflet",
+    // "a-la-carte-menu-design" => "https://www.chefonline.com/a-la-carte-menu-design",
+    "news-media-press" => "https://www.chefonline.com/news-media-press",
+    "smart-media" => "https://www.chefonline.com/smart-media",
+    "smart-media-visual" => "https://www.chefonline.com/smart-media-visual",
+    "market-hub" => "https://www.chefonline.com/market-hub",
+    "business-registration" => "https://www.chefonline.com/business-registration",
+    "epos-registration" => "https://www.chefonline.com/epos-registration",
+    "about-us" => "https://www.chefonline.com/about-us",
+    "privacy-policy" => "https://www.chefonline.com/privacy-policy",
+    "terms-conditions" => "https://www.chefonline.com/terms-conditions",
+    "terms-of-use" => "https://www.chefonline.com/terms-of-use",
+    "career" => "https://www.chefonline.com/career",
+    "career-marketing-sales" => "https://www.chefonline.com/career-marketing-sales",
+    "cookie-policy" => "https://www.chefonline.com/cookie-policy",
+    "error" => "https://www.chefonline.com",
+    "print-media" => "https://www.chefonline.com/print-media",
+    "videos" => "https://www.chefonline.com/videos",
+    "photo" => "https://www.chefonline.com/photo",
+    "news" => "https://www.chefonline.com/news",
+    "budget" => "https://www.chefonline.com/budget",
+    "offers" => "https://www.chefonline.com/offers",
+    "black-friday-offers" => "https://www.chefonline.com/black-friday-offers",
+    "offer/black-friday/2022" => "https://www.chefonline.com/offer/black-friday/2022",
+    "offer/black-friday/2023" => "https://www.chefonline.com/offer/black-friday/2023",
+    "offer/black-friday/2024" => "https://www.chefonline.com/offer/black-friday/2024",
+    "offer/black-friday/2025" => "https://www.chefonline.com/offer/black-friday/2025",
+    "offer/new-year/2023" => "https://www.chefonline.com/offer/new-year/2023",
+    "offer/new-year/2024" => "https://www.chefonline.com/offer/new-year/2024",
+	"offer/valentine-offer/2025" => "https://www.chefonline.com/offer/valentine-offer/2025",
+    "offer/valentine-offer" => "https://www.chefonline.com/offer/valentine-offer/index",
+    "trf-mega-medical-camp-bangladesh24" => "https://www.chefonline.com/trf-mega-medical-camp-bangladesh24",
+    "mmcbd2024" => "https://www.chefonline.com/mmcbd2024",
+    "mmcbd2024/admin" => "https://www.chefonline.com/mmcbd2024/admin",
+    "LalHaveli" => "https://www.chefonline.com/LalHaveli",
+    "Lalbagh" => "https://www.chefonline.com/Lalbagh",
+    "Azaaya" => "https://www.chefonline.com/Azaaya",
+    "MughalDynasty" => "https://www.chefonline.com/MughalDynasty",
+    "Kutis" => "https://www.chefonline.com/Kutis",
+    "TheRaj" => "https://www.chefonline.com/TheRaj",
+    "associate-partners" => "https://www.chefonline.com/associate-partners",
+    "associate-partners/wpc" => "https://www.chefonline.com/associate-wpc",
+    "associate-partners/paytap" => "https://www.chefonline.com/associate-paytap",
+    "associate-partners/cocacola" => "https://www.chefonline.com/associate-cocacola",
+    "associate-partners/921" => "https://www.chefonline.com/associate-921",
+    "associate-partners/cornerstone" => "https://www.chefonline.com/associate-cornerstone",
+	"partner" => "https://www.chefonline.com/partner",
+	"restaurant-digital-marketing" => "https://www.chefonline.com/restaurant-digital-marketing",
+    "restaurant-digital-marketing-working" => "https://www.chefonline.com/restaurant-digital-marketing-working",
+	"thank-you" => "https://www.chefonline.com/thank-you",
+    "success" => "https://www.chefonline.com/success"
+);
+
+$urlSlug = strtok($_SERVER["REQUEST_URI"], '?');
+
+// Clean up subdirectory prefix if running on localhost
+$scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'])), '/');
+if (!empty($scriptDir) && strpos($urlSlug, $scriptDir) === 0) {
+    $urlSlug = substr($urlSlug, strlen($scriptDir));
+}
+
+// omitting the last slash from the url
+$urlSlug = rtrim($urlSlug, "/");
+
+// making an array of url items from the remaining url
+$urlSlugArray = explode("/", $urlSlug);
+
+if (count($urlSlugArray) > 2) {
+    $slugKey = str_replace("https://www.chefonline.com/", "", $urlSlug);
+    $slugKey = trim($slugKey, "/");
+} elseif (count($urlSlugArray) == 1) {
+    $slugKey = "home";
+} else {
+    $slugKey = end($urlSlugArray);
+}
+
+if (!in_array($slugKey, $pagesNameArray)) {
+    header("Status: 404 Not Found");
+    $slugKey = "error";
+}
+
+$canonical_link = $canonical[$slugKey];
+$meta_title = $titleArray[$slugKey];
+$meta_desc = $descriptionArray[$slugKey];
+$page_class = $slugKey;
+
+if ($pagesArray[$slugKey] == 'contact.php') {
+    require 'header.php';
+} elseif ($pagesArray[$slugKey] == 'product-new.php') {
+    require 'header3.php';
+} elseif ($pagesArray[$slugKey] == 'trf.php') {
+    require 'header.php';
+} elseif ($pagesArray[$slugKey] == 'home.php') {
+    require 'header3.php';
+} else {
+    require 'header.php';
+}
+
+require "view/" . $pagesArray[$slugKey];
+
+if ($pagesArray[$slugKey] == 'contact.php') {
+    require 'footer2.php';
+} elseif ($pagesArray[$slugKey] == 'product-new.php') {
+    require 'footer3.php';
+} elseif ($pagesArray[$slugKey] == 'trf.php') {
+    require 'footer2.php';
+} elseif ($pagesArray[$slugKey] == 'home.php') {
+    require 'footer3.php';
+} else {
+    require 'footer.php';
+}
