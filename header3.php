@@ -30,6 +30,7 @@ if (!defined('BASE_URL')) {
         type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic' rel='stylesheet'
         type='text/css'>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/font-awesome.min.css" />
     <!-- Bootstrap -->
