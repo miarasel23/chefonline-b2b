@@ -19,6 +19,7 @@ if (!defined('BASE_URL')) {
         padding: 40px 0;
         font-family: 'Poppins', sans-serif;
         border-top: 1px solid #e5e5e5;
+        margin-top: 20px;
     }
 
     .footer-trust-badges .section-divider {
@@ -167,13 +168,13 @@ if (!defined('BASE_URL')) {
     }
 
     .footer-trust-badges .payment-cards-grid .badge-item.amex-badge {
-         width: 90px;
-         object-fit: cover;
+        width: 90px;
+        object-fit: cover;
     }
 
     .footer-trust-badges .payment-cards-grid .badge-item.amex-safekey-badge {
-         width: 90px;
-         object-fit: contain;
+        width: 90px;
+        object-fit: contain;
     }
 
     .footer-trust-badges .badges-grid-2x2 {
