@@ -21,3 +21,9 @@ Thumbs.db
 *.tar.gz
 *.7z
 /epos/tests.zip
+
+# Large media files
+*.mov
+*.mp4
+/assets/video/
+/video/
