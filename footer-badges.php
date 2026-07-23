@@ -181,7 +181,6 @@ if (!defined('BASE_URL')) {
         grid-template-columns: repeat(2, 1fr);
         gap: 12px 15px;
         align-items: center;
-        justify-items: center;
         width: 100%;
         max-width: 280px;
         margin: 10px auto 0;
@@ -190,8 +189,20 @@ if (!defined('BASE_URL')) {
     .footer-trust-badges .badges-grid-2x2 .badge-item-lg {
         height: 40px;
         width: auto;
-        max-width: 110px;
+        max-width: 130px;
         object-fit: contain;
+    }
+
+    .footer-trust-badges .badges-grid-2x2 img:nth-child(2n+1) {
+        justify-self: start;
+    }
+
+    .footer-trust-badges .badges-grid-2x2 img:nth-child(2n) {
+        justify-self: end;
+    }
+
+    .footer-trust-badges .badges-grid-2x2 img.cyber-essentials-badge {
+        height: 52px;
     }
 
     .footer-trust-badges .support-section {
@@ -294,7 +305,7 @@ if (!defined('BASE_URL')) {
                     <img src="<?php echo BASE_URL; ?>/assets/new-assets/security-metrics-debit-card.svg"
                         alt="SecurityMetrics Credit Card Safe" class="badge-item-lg" />
                     <img src="<?php echo BASE_URL; ?>/assets/new-assets/cyber-essentials.svg" alt="Cyber Essentials"
-                        class="badge-item-lg" />
+                        class="badge-item-lg cyber-essentials-badge" />
                     <img src="<?php echo BASE_URL; ?>/assets/new-assets/cloud-fare.svg" alt="Cloudflare"
                         class="badge-item-lg" />
                 </div>
