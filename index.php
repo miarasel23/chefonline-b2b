@@ -450,14 +450,4 @@ if ($pagesArray[$slugKey] == 'contact.php') {
 
 require "view/" . $pagesArray[$slugKey];
 
-if ($pagesArray[$slugKey] == 'contact.php') {
-    require 'footer2.php';
-} elseif ($pagesArray[$slugKey] == 'product-new.php') {
-    require 'footer3.php';
-} elseif ($pagesArray[$slugKey] == 'trf.php') {
-    require 'footer2.php';
-} elseif ($pagesArray[$slugKey] == 'home.php') {
-    require 'footer3.php';
-} else {
-    require 'footer.php';
-}
+require 'footer.php';
