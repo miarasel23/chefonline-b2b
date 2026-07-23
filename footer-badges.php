@@ -179,7 +179,7 @@ if (!defined('BASE_URL')) {
     .footer-trust-badges .badges-grid-2x2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 12px 15px;
+        gap: 30px 15px;
         align-items: center;
         width: 100%;
         max-width: 280px;
@@ -187,7 +187,7 @@ if (!defined('BASE_URL')) {
     }
 
     .footer-trust-badges .badges-grid-2x2 .badge-item-lg {
-        height: 40px;
+        height: 48px;
         width: auto;
         max-width: 130px;
         object-fit: contain;
@@ -202,7 +202,7 @@ if (!defined('BASE_URL')) {
     }
 
     .footer-trust-badges .badges-grid-2x2 img.cyber-essentials-badge {
-        height: 52px;
+        height: 60px;
     }
 
     .footer-trust-badges .support-section {
