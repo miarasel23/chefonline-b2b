@@ -184,17 +184,11 @@
 
     @media (max-width: 768px) {
         .footer-links-grid {
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
         }
 
         .newsletter-bar form {
             flex-direction: column;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .footer-links-grid {
-            grid-template-columns: 1fr;
         }
     }
 </style>
