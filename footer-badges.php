@@ -111,26 +111,24 @@ if (!defined('BASE_URL')) {
     }
 
     .footer-trust-badges .payment-top-row {
-        display: grid;
-        grid-template-columns: 1fr auto 1fr;
+        display: flex;
+        justify-content: center;
         align-items: center;
+        gap: 15px;
         width: 100%;
     }
 
     .footer-trust-badges .payment-top-row img:first-child {
-        justify-self: start;
         height: 52px;
         width: auto;
     }
 
     .footer-trust-badges .payment-top-row span {
-        justify-self: center;
         color: #ccc;
         font-size: 20px;
     }
 
     .footer-trust-badges .payment-top-row img:last-child {
-        justify-self: end;
         height: 40px;
         width: auto;
     }
