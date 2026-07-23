@@ -1,0 +1,843 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "ChefOnline EPoS Packages",
+            "products": [
+                {
+                    "id": 1,
+                    "meta_title": "ChefOnline EPoS | Best POS System for Restaurants in UK",
+                    "meta_description": "ChefOnline EPoS features a sleek 15” touch screen, low power use, 4GB RAM, 128GB SSD & durable design—best EpoS in UK, stylish front-counter use | ChefOnline EPoS",
+                    "name": "CHEFONLINE EPOS **",
+                    "slug": "chefonline-EPoS",
+                    "home_title": "ChefOnline",
+                    "home_bold_title":"EPos",
+                    "home_description": "Latest and most affordable Electronic Point of Sale system from ChefOnline",
+                    "list_description": "ChefOnline EPoS has a simple, elegant design, making it highly suitable for an above-the-counter placement, with a sensitive, capacitive touch screen ensuring fast and efficient data input, all within a beautiful, scratch-proof, 15” operative screen.The graceful design gives it a high-end look while",
+                    "rating": "5",
+                    "primary_image": "product-img4.png",
+                    "secondary_image": "product-thambill4.png",
+                    "list_image": "Chefonline-epos-2021-275x358.jpg",
+                    "detail_image": "Chefonline-epos-2021-515x668.jpg",
+                    "zoom_image": "Chefonline-epos-2021-771x1000.jpg",
+                    "feature": true,
+                    "price": "699.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Specifications",
+                            "tabs_item": [
+                                {
+                                    "title": "EPoS MACHINE",
+                                    "item": [
+                                        {
+                                            "value": "CELERON 3965U FANLESS"
+                                        },
+                                        {
+                                            "value": "15’’ EDP 250 NITS 50K A GRADE LED BACK-LIGHTING"
+                                        },
+                                        {
+                                            "value": "4GB RAM"
+                                        },
+                                        {
+                                            "value": "128GB SSD"
+                                        },
+                                        {
+                                            "value": "AUDIO SPEAKER"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "EPoS MACHINE 2",
+                                    "item": [
+                                        {
+                                            "value": "CELERON 3965U FANLESS"
+                                        },
+                                        {
+                                            "value": "15’’ EDP 250 NITS 50K A GRADE LED BACK-LIGHTING"
+                                        },
+                                        {
+                                            "value": "4GB RAM"
+                                        },
+                                        {
+                                            "value": "128GB SSD"
+                                        },
+                                        {
+                                            "value": "AUDIO SPEAKER"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Package Details",
+                            "tabs_item": [
+                                {
+                                    "title": "Other Facilities",
+                                    "item": [
+                                        {
+                                            "value": "EPoS Software License"
+                                        },
+                                        {
+                                            "value": "ChefOnline National Platform"
+                                        },
+                                        {
+                                            "value": "e-Commerce Website"
+                                        },
+                                        {
+                                            "value": "ChefOnline Mobile App"
+                                        },
+                                        {
+                                            "value": "Table Reservation"
+                                        },
+                                        {
+                                            "value": "Managers App"
+                                        },
+                                        {
+                                            "value": "Owners Control Panel"
+                                        },
+                                        {
+                                            "value": "Domain & Hosting"
+                                        },
+                                        {
+                                            "value": "Customer Support"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "OPTIONAL",
+                                    "item": [
+                                        {
+                                            "value": "Electronic Cash Drawer"
+                                        },
+                                        {
+                                            "value": "Caller ID Modem"
+                                        },
+                                        {
+                                            "value": "80 MM Thermal Printer"
+                                        },
+                                        {
+                                            "value": "Postcode Database"
+                                        },
+                                        {
+                                            "value": "Additional Printer"
+                                        },
+                                        {
+                                            "value": "Handheld Waiter Tablet"
+                                        },
+                                        {
+                                            "value": "On-Site Maintenance"
+                                        },
+                                        {
+                                            "value": "Domain & Hosting"
+                                        },
+                                        {
+                                            "value": "Customer Support"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "ChefOnline EPoS has a simple, elegant design, making it highly suitable for an above-the-counter placement, with a sensitive, capacitive touch screen ensuring fast and efficient data input, all within a beautiful, scratch-proof, 15” operative screen. The graceful design gives it a high-end look while ensuring low power consumption in consumption in Celeron 3965U supporting Gigabit Network. With a durable chassis, 128 GB SSD, and 4 GB RAM, this is a worthy addition to any business."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "meta_title": "ChefOnline EPoS Jazz | Best POS System for Restaurants in UK",
+                    "meta_description": "Enterprise EPoS Jazz has 14.1” touch screen, J1900 CPU, low power use & elegant design—ideal UK EPoS Jazz system for retail & counter use | ChefOnline EPoS Jazz",
+                    "name": "CHEFONLINE EPOS - JAZZ **",
+                    "slug": "chefonline-epos-jazz",
+                    "home_title": "Enterprise EPoS",
+                    "home_bold_title":"Nino",
+                    "home_description": "Online-integrated & easy-to-use Electronic Point of Sale system",
+                    "list_description": "Suitable for above the counter, Enterprise EPoS Nino is an elegant design for your retail purpose. The Capacitive screen makes it more sensitive compared to resistive screens that ensures fast and efficient data input and processing with a full 14.1” operative screen. The device is elegant and its",
+                    "rating": "5",
+                    "primary_image": "product-img1.png",
+                    "secondary_image": "product-thambill1.png",
+                    "list_image": "our-products_1-275x358.jpg",
+                    "detail_image": "our-products_1-515x668.jpg",
+                    "zoom_image": "our-products_1-771x1000.jpg",
+                    "feature": true,
+                    "price": "1,199.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Specification",
+                            "tabs_item": [
+                                {
+                                    "title": "EPoS MACHINE",
+                                    "item": [
+                                        {
+                                            "value": "J1900 QUAD-CORE PROCESSOR"
+                                        },
+                                        {
+                                            "value": "14.1” CAPACITIVE TOUCH SCREEN"
+                                        },
+                                        {
+                                            "value": "4GB RAM"
+                                        },
+                                        {
+                                            "value": "64GB SSD"
+                                        },
+                                        {
+                                            "value": "AUDIO SPEAKER"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "PRINTER",
+                                    "item": [
+                                        {
+                                            "value": "80 MM Thermal Printer"
+                                        },
+                                        {
+                                            "value": "Sound"
+                                        },
+                                        {
+                                            "value": "Auto Cutter"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CASH DRAW",
+                                    "item": [
+                                        {
+                                            "value": "Electronic Cash Drawer"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Package Details",
+                            "tabs_item": [
+                                {
+                                    "title": "Other Facilities",
+                                    "item": [
+                                        {
+                                            "value": "EPoS Software License"
+                                        },
+                                        {
+                                            "value": "ChefOnline National Platform"
+                                        },
+                                        {
+                                            "value": "e-Commerce Website"
+                                        },
+                                        {
+                                            "value": "ChefOnline Mobile App"
+                                        },
+                                        {
+                                            "value": "Table Reservation"
+                                        },
+                                        {
+                                            "value": "Managers App"
+                                        },
+                                        {
+                                            "value": "Owners Control Panel"
+                                        },
+                                        {
+                                            "value": "Domain & Hosting"
+                                        },
+                                        {
+                                            "value": "Customer Support"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "OPTIONAL",
+                                    "item": [
+                                        {
+                                            "value": "Caller ID Modem"
+                                        },
+                                        {
+                                            "value": "Postcode Database"
+                                        },
+                                        {
+                                            "value": "Additional Printer"
+                                        },
+                                        {
+                                            "value": "Handheld Waiter Tablet"
+                                        },
+                                        {
+                                            "value": "On-Site Maintenance"
+                                        },
+                                        {
+                                            "value": "Domain & Hosting"
+                                        },
+                                        {
+                                            "value": "Customer Support"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Suitable for above the counter, Enterprise EPoS Nino is an elegant design for your retail purpose. The Capacitive screen makes it more sensitive compared to resistive screens that ensures fast and efficient data input and processing with a full 14.1” operative screen. The device is elegant and its rounded design makes it look posh. It ensures low power consumption in J1900 CPU supporting Gigabit Network."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "meta_title": "ChefOnline EPoS Yuno | Best POS System for Restaurants in UK",
+                    "meta_description": "Enterprise EPoS Yuno has 15\" PCAP screen, J1900 CPU, SSD, and VESA options—ideal UK EPoS Yuno system for retail & counter use | ChefOnline EPoS Yuno",
+                    "name": "CHEFONLINE EPOS - YUNO **",
+                    "slug": "chefonline-epos-yuno",
+                    "home_title": "Pro Enterprise EPoS",
+                    "home_bold_title":"Yuno",
+                    "home_description": "Robust, stylish and compact, AURES’s design suits any application of the PoS vertical sectors.",
+                    "list_description": "Yuno is a robust but stylish and compact product, designed by AURES to suit the many applications of the POS vertical sectors.It is a fanless, compact, high-performance system, fitted with a Quad-Core Bay Trail platform; it is available in 2 formats (traditional 4:3 15.1’’ screen and Wide 16:9 15.6’",
+                    "rating": "5",
+                    "primary_image": "product-img2.png",
+                    "secondary_image": "product-thambill2.png",
+                    "list_image": "our-products2-275x358.jpg",
+                    "detail_image": "our-products2-515x668.jpg",
+                    "zoom_image": "our-products2-771x1000.jpg",
+                    "feature": true,
+                    "price": "1,099.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Specification",
+                            "tabs_item": [
+                                {
+                                    "title": "EPoS MACHINE",
+                                    "item": [
+                                        {
+                                            "value": "J1900 BAY TRAIL PROCESSOR"
+                                        },
+                                        {
+                                            "value": "15.1” CAPACITIVE TOUCH SCREEN"
+                                        },
+                                        {
+                                            "value": "4GB RAM"
+                                        },
+                                        {
+                                            "value": "64GB SSD"
+                                        },
+                                        {
+                                            "value": "AUDIO SPEAKER"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "PRINTER",
+                                    "item": [
+                                        {
+                                            "value": "80 MM Thermal Printer"
+                                        },
+                                        {
+                                            "value": "Sound"
+                                        },
+                                        {
+                                            "value": "Auto Cutter"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CASH DRAW",
+                                    "item": [
+                                        {
+                                            "value": "Electronic Cash Drawer"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Package Details",
+                            "tabs_item": [
+                                {
+                                    "title": "Other Facilities",
+                                    "item": [
+                                        {
+                                            "value": "EPoS Software License"
+                                        },
+                                        {
+                                            "value": "ChefOnline National Platform"
+                                        },
+                                        {
+                                            "value": "e-Commerce Website"
+                                        },
+                                        {
+                                            "value": "ChefOnline Mobile App"
+                                        },
+                                        {
+                                            "value": "Table Reservation"
+                                        },
+                                        {
+                                            "value": "Managers App"
+                                        },
+                                        {
+                                            "value": "Owners Control Panel"
+                                        },
+                                        {
+                                            "value": "Domain & Hosting"
+                                        },
+                                        {
+                                            "value": "Customer Support"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "OPTIONAL",
+                                    "item": [
+                                        {
+                                            "value": "Caller ID Modem"
+                                        },
+                                        {
+                                            "value": "Postcode Database"
+                                        },
+                                        {
+                                            "value": "Additional Printer"
+                                        },
+                                        {
+                                            "value": "Handheld Waiter Tablet"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Yuno is a robust but stylish and compact product, designed by AURES to suit the many applications of the POS vertical sectors. It is a fanless, compact, high-performance system, fitted with a Quad-Core Bay Trail platform; it is available in 2 formats (traditional 4:3 15.1’’ screen and Wide 16:9 15.6’’ screen) and equipped with a shock- and scratch-proof, multi-touch, projected, capacitive screen (PCAP technology). Very flexible, Yuno offers VESA fixings options (for use on a wall mount – without a base – or on a pole), as well as in a simple touchscreen option (15.1’’ and Wide 15.5’’ monitors). The standard version features a 64 GB flash disk (2.5’’ SSD) and stands up to dirt in the toughest settings (fat, crumbs, dust, splashes and leftovers in kitchens, restaurants and bakeries). It integrates an energy efficient Bay Trail J1900 processor (consuming just 10 W) and a heat-dissipating aluminium structure, ensuring compliance with environmental standards (low carbon footprint). Yuno is an accessible product whose many features technology, ergonomics, innovation and design) make it good value for money. It constitutes a sensible, cost-effective and long-term investment for your EPoS IT equipment."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "meta_title": "ChefOnline EPoS Sango | Best POS System for Restaurants in UK",
+                    "meta_description": "Enterprise EPoS Sango redefines space-saving with a floating touchscreen, sleek arm design & low power use—perfect UK EPoS system for retail | ChefOnline EPoS",
+                    "name": "CHEFONLINE EPOS - SANGO **",
+                    "slug": "chefonline-epos-sango",
+                    "home_title": "Pro Enterprise EPoS",
+                    "home_bold_title":"Sango",
+                    "home_description": "Designed to create space beneath your terminal for storage!",
+                    "list_description": "Sango: designed to free up space beneath your terminal’s touchscreen!Sango is a completely new concept – original and innovative – of all-in-one till management system; one of its many unique features is to completely free-up the space under the touch screen.With no intrusive base, stand or foot, un",
+                    "rating": "5",
+                    "primary_image": "product-img3.png",
+                    "secondary_image": "product-thambill3.png",
+                    "list_image": "our-products3-275x358.jpg",
+                    "detail_image": "our-products3-515x668.jpg",
+                    "zoom_image": "our-products3-771x1000.jpg",
+                    "feature": true,
+                    "price": "1,299.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Specification",
+                            "tabs_item": [
+                                {
+                                    "title": "EPoS MACHINE",
+                                    "item": [
+                                        {
+                                            "value": "J1900 BAY TRAIL PROCESSOR"
+                                        },
+                                        {
+                                            "value": "15” CAPACITIVE TOUCH SCREEN"
+                                        },
+                                        {
+                                            "value": "4GB RAM"
+                                        },
+                                        {
+                                            "value": "64GB SSD"
+                                        },
+                                        {
+                                            "value": "AUDIO SPEAKER"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "PRINTER",
+                                    "item": [
+                                        {
+                                            "value": "80 MM Thermal Printer"
+                                        },
+                                        {
+                                            "value": "Sound"
+                                        },
+                                        {
+                                            "value": "Auto Cutter"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CASH DRAW",
+                                    "item": [
+                                        {
+                                            "value": "Electronic Cash Drawer"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Package Details",
+                            "tabs_item": [
+                                {
+                                    "title": "Other Facilities",
+                                    "item": [
+                                        {
+                                            "value": "EPoS Software License"
+                                        },
+                                        {
+                                            "value": "ChefOnline National Platform"
+                                        },
+                                        {
+                                            "value": "e-Commerce Website"
+                                        },
+                                        {
+                                            "value": "ChefOnline Mobile App"
+                                        },
+                                        {
+                                            "value": "Table Reservation"
+                                        },
+                                        {
+                                            "value": "Managers App"
+                                        },
+                                        {
+                                            "value": "Owners Control Panel"
+                                        },
+                                        {
+                                            "value": "Domain & Hosting"
+                                        },
+                                        {
+                                            "value": "Customer Support"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "OPTIONAL",
+                                    "item": [
+                                        {
+                                            "value": "Caller ID Modem"
+                                        },
+                                        {
+                                            "value": "Postcode Database"
+                                        },
+                                        {
+                                            "value": "Additional Printer"
+                                        },
+                                        {
+                                            "value": "Handheld Waiter Tablet"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Sango: designed to free up space beneath your terminal’s touchscreen! Sango is a completely new concept – original and innovative – of all-in-one till management system; one of its many unique features is to completely free-up the space under the touch screen. With no intrusive base, stand or foot, unlike other EPoS systems on the market, sango soars effortlessly, as if weightless, offering and revealing a space traditionally occupied by the central unit and motherboard; elegantly attached and suspended from its offset cast aluminium arm, the system’s real exo-skeleton and support for its technological core (CPU), sango combines minimalist aesthetics and ease-of-use (a dedicated till drawer can be housed under the screen) – as well as lower power consumption. Stable and rigid, its thin metal base (a natural extension of the slender and beautifully-designed arm) acts as a heat sink. This new EPoS will adapt to the technology requirements of all users: 4 types of processors are available, as well as a range of connection options. The flat LED touch monitor, with an edgeless display surface, is offered in resistive and/or multi-touch projected capacitive versions. It’s glossy polycarbonate finish, featuring a mix & match range of seven modular colours (White, Black, Red, Blue, Orange, Grey and Cassis) takes AURES’ colour revolution, launched in 2005 with the Odyssé, to new heights – adding the finishing touch to retailers’ visual identity, right the way through to the till point."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Add Ons",
+            "products": [
+                {
+                    "id": 1,
+                    "meta_title": "Caller ID Modem for Fast Food EPoS | ChefOnline",
+                    "meta_description": "Get ChefOnline’s reliable Caller ID Modem—designed for fast food EPoS and call logging. Hardware-only, cost-effective, and built to customer specs | ChefOnline",
+                    "name": "MODEM",
+                    "slug": "modem",
+                    "home_title": "",
+                    "home_bold_title":"",
+                    "home_description": "",
+                    "list_description": "ChefOnline EPoS has a simple, elegant design, making it highly suitable for an above-the-counter placement, with a sensitive, capacitive touch screen ensuring fast and efficient data input, all within a beautiful, scratch-proof, 15” operative screen.The graceful design gives it a high-end look while",
+                    "rating": "5",
+                    "primary_image": "",
+                    "secondary_image": "",
+                    "list_image": "modem-275x358.jpg",
+                    "detail_image": "modem-515x668.jpg",
+                    "zoom_image": "modem-771x1000.jpg",
+                    "feature": false,
+                    "price": "99.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Specification",
+                            "tabs_item": [
+                                {
+                                    "title": "Add-ons Specification",
+                                    "item": [
+                                        {
+                                            "value": "Caller ID Modem"
+                                        }
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "A simple caller ID product modem, built for service like fast food EPoS terminals and incoming call logging. Superbly customized, the modem is built on specifications that customers actually wanted. This has resulted in an even more reliable unit at a lower cost. This is a hardware only product and can be used with your existing software to create a fully integrated call management solution."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "meta_title": "Post Code Database License Package in UK | ChefOnline",
+                    "meta_description": "Speed up address entry with ChefOnline’s Postcode Database License. Instantly fetch UK addresses for smoother, faster order processing in your EPoS system | ChefOnline",
+                    "name": "POST CODE DATABASE LICENSE",
+                    "slug": "post-code-data-base-license",
+                    "home_title": "",
+                    "home_bold_title":"",
+                    "home_description": "",
+                    "list_description": "Post Code Database License...",
+                    "rating": "5",
+                    "primary_image": "",
+                    "secondary_image": "",
+                    "list_image": "dbase-license-275x358.jpg",
+                    "detail_image": "dbase-license-515x668.jpg",
+                    "zoom_image": "dbase-license-771x1000.jpg",
+                    "feature": false,
+                    "price": "50.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Post Code Database License"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "meta_title": "Thermal Receipt Printer Package In UK | ChefOnline",
+                    "meta_description": "Speed up address entry with ChefOnline’s Postcode Database License. Instantly fetch UK addresses for smoother, faster order processing in your EPoS system.",
+                    "name": "THERMAL RECEIPT PRINTER",
+                    "slug": "thermal-receipt-printer",
+                    "home_title": "",
+                    "home_bold_title":"",
+                    "home_description": "",
+                    "list_description": "Specially designed for POS and service applications, the thermal printer features a triple interface (including Ethernet) in a minimalist compact and cubic style, available in black or white. With its front receipt printout, it ensures optimum protection against dust, crumbs and liquid splashes i...",
+                    "rating": "5",
+                    "primary_image": "",
+                    "secondary_image": "",
+                    "list_image": "printer-275x358.jpg",
+                    "detail_image": "printer-515x668.jpg",
+                    "zoom_image": "printer-771x1000.jpg",
+                    "feature": false,
+                    "price": "99.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Specification",
+                            "tabs_item": [
+                                {
+                                    "title": "Add-ons Specification",
+                                    "item": [
+                                        {
+                                            "value": "USB & Ethernet, 80mm, 160mm/Sec"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Specially designed for POS and service applications, the thermal printer features a triple interface (including Ethernet) in a minimalist compact and cubic style, available in black or white. With its front receipt printout, it ensures optimum protection against dust, crumbs and liquid splashes in tough environments such as kitchens, restaurants, bars, bakeries and the like."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "meta_title": "Tab Software License (Your Own Hardware) Package | ChefOnline",
+                    "meta_description": "Get ChefOnline Tab Software License for your own hardware. Compatible with Windows & Android. Requires just 4GB RAM & 64GB SSD for smooth performance | ChefOnline",
+                    "name": "TAB SOFTWARE LICENSE (YOUR OWN HARDWARE)",
+                    "slug": "tab-software-license",
+                    "home_title": "",
+                    "home_bold_title":"",
+                    "home_description": "",
+                    "list_description": "Tab Software License (Your Own Hardware)...",
+                    "rating": "5",
+                    "primary_image": "",
+                    "secondary_image": "",
+                    "list_image": "handheld-275x358.jpg",
+                    "detail_image": "handheld-515x668.jpg",
+                    "zoom_image": "handheld-771x1000.jpg",
+                    "feature": false,
+                    "price": "199.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Specification",
+                            "tabs_item": [
+                                {
+                                    "title": "Add-ons Specification",
+                                    "item": [
+                                        {
+                                            "value": "Available in Windows & Android Platform"
+                                        },
+                                        {
+                                            "value": "Min Req: 4GB RAM, 64GB SSD"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Tab Software License (Your Own Hardware)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "meta_title": "Electronic Cash Drawer for UK Restaurants | ChefOnline",
+                    "meta_description": "Enhance restaurant efficiency with ChefOnline’s Electronic Cash Drawer—secure, reliable, and easy to use for managing cash transactions smoothly | ChefOnline",
+                    "name": "ELECTRONIC CASH DRAW",
+                    "slug": "electronic-cash-draw",
+                    "home_title": "",
+                    "home_bold_title":"",
+                    "home_description": "",
+                    "list_description": "Electronic Cash Draw...",
+                    "rating": "5",
+                    "primary_image": "",
+                    "secondary_image": "",
+                    "list_image": "cash-275x358.jpg",
+                    "detail_image": "cash-515x668.jpg",
+                    "zoom_image": "cash-771x1000.jpg",
+                    "feature": false,
+                    "price": "79.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Electronic Cash Draw"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "meta_title": "Annual Pos Software License & Support Package | ChefOnline",
+                    "meta_description": "Get ChefOnline’s Annual POS Software License with full remote support. Enjoy seamless updates, troubleshooting, and expert help all year round | ChefOnline",
+                    "name": "ANNUAL POS SOFTWARE LICENSE & SUPPORT (REMOTE SUPPORT)",
+                    "slug": "annual-pos-software-license-&-support",
+                    "home_title": "",
+                    "home_bold_title":"",
+                    "home_description": "",
+                    "list_description": "Annual PoS Software License & Support (Remote Support)...",
+                    "rating": "5",
+                    "primary_image": "",
+                    "secondary_image": "",
+                    "list_image": "license-275x358.jpg",
+                    "detail_image": "license-515x668.jpg",
+                    "zoom_image": "license-771x1000.jpg",
+                    "feature": false,
+                    "price": "260.00",
+                    "quantity": "1000",
+                    "details": [
+                        {
+                            "tabs_name": "Description",
+                            "tabs_item": [
+                                {
+                                    "title": "Description",
+                                    "item": [
+                                        {
+                                            "value": "Annual PoS Software License & Support (Remote Support)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
