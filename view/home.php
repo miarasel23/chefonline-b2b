@@ -193,11 +193,11 @@
     text-transform: uppercase;
 }
 .red-partner-banner .partner-block img {
-    height: 90px;
+    height: 120px;
     width: auto;
     background-color: #ffffff;
     border-radius: 8px;
-    padding: 10px 20px;
+    padding: 12px 25px;
     display: inline-block;
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
