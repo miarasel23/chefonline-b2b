@@ -27,154 +27,194 @@
 </div>
 
 <style type="text/css">
-.new-footer {
-    background-color: #ffffff;
-    color: #333333;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
-.newsletter-bar {
-    background-color: #FDF9FA;
-    border: 1px solid #F3E5E8;
-    border-radius: 8px;
-    padding: 25px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.newsletter-bar p {
-    font-size: 15px;
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 15px;
-}
-.newsletter-bar form {
-    display: inline-flex;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
-    max-width: 500px;
-}
-.newsletter-bar input[type="email"] {
-    width: 100%;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    outline: none;
-    font-size: 14px;
-    background-color: #ffffff;
-}
-.newsletter-bar button {
-    background-color: #E21B36;
-    color: #ffffff;
-    border: none;
-    padding: 10px 30px;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-.newsletter-bar button:hover {
-    background-color: #c8162e;
-}
-.footer-links-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    margin-bottom: 40px;
-}
-.footer-link-col h4 {
-    font-size: 14px;
-    font-weight: 700;
-    color: #111;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-.footer-link-col ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.footer-link-col ul li {
-    margin-bottom: 12px;
-    border-bottom: 1px solid #f0f0f0;
-    padding-bottom: 6px;
-}
-.footer-link-col ul li:last-child {
-    border-bottom: none;
-}
-.footer-link-col ul li a {
-    color: #444;
-    font-size: 13px;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-.footer-link-col ul li a:hover {
-    color: #E21B36;
-}
-.social-header {
-    font-size: 14px;
-    font-weight: 700;
-    color: #111;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-.social-icons-row {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-.social-icon-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 4px;
-    color: #ffffff !important;
-    font-size: 16px;
-    transition: opacity 0.2s;
-}
-.social-icon-btn:hover {
-    opacity: 0.85;
-}
-.social-facebook { background-color: #3b5998; }
-.social-twitter { background-color: #000000; }
-.social-instagram { background-color: #c13584; }
-.social-youtube { background-color: #ff0000; }
-.social-pinterest { background-color: #bd081c; }
-.social-linkedin { background-color: #0077b5; }
+    .new-footer {
+        background-color: #ffffff;
+        color: #333333;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
 
-@media (max-width: 768px) {
-    .footer-links-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .newsletter-bar {
+        background-color: #FDF9FA;
+        border: 1px solid #F3E5E8;
+        border-radius: 8px;
+        padding: 25px;
+        text-align: center;
+        margin-bottom: 50px;
     }
+
+    .newsletter-bar p {
+        font-size: 15px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
     .newsletter-bar form {
-        flex-direction: column;
+        display: inline-flex;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        max-width: 500px;
     }
-}
-@media (max-width: 480px) {
+
+    .newsletter-bar input[type="email"] {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        font-size: 14px;
+        background-color: #ffffff;
+    }
+
+    .newsletter-bar button {
+        background-color: #E21B36;
+        color: #ffffff;
+        border: none;
+        padding: 10px 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+    .newsletter-bar button:hover {
+        background-color: #c8162e;
+    }
+
     .footer-links-grid {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        margin-bottom: 40px;
     }
-}
+
+    .footer-link-col h4 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .footer-link-col ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-link-col ul li {
+        margin-bottom: 12px;
+        border-bottom: 1px solid #f0f0f0;
+        padding-bottom: 6px;
+    }
+
+    .footer-link-col ul li:last-child {
+        border-bottom: none;
+    }
+
+    .footer-link-col ul li a {
+        color: #444;
+        font-size: 13px;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .footer-link-col ul li a:hover {
+        color: #E21B36;
+    }
+
+    .social-header {
+        font-size: 14px;
+        font-weight: 700;
+        color: #111;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    .social-icons-row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .social-icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        color: #ffffff !important;
+        font-size: 16px;
+        transition: opacity 0.2s;
+    }
+
+    .social-icon-btn:hover {
+        opacity: 0.85;
+    }
+
+    .social-facebook {
+        background-color: #3b5998;
+    }
+
+    .social-twitter {
+        background-color: #000000;
+    }
+
+    .social-instagram {
+        background-color: #c13584;
+    }
+
+    .social-youtube {
+        background-color: #ff0000;
+    }
+
+    .social-pinterest {
+        background-color: #bd081c;
+    }
+
+    .social-linkedin {
+        background-color: #0077b5;
+    }
+
+    @media (max-width: 768px) {
+        .footer-links-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .newsletter-bar form {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer-links-grid {
+            grid-template-columns: 1fr;
+        }
+    }
 </style>
 
 <footer id="footer" class="new-footer">
     <div class="container">
         <!-- Newsletter Signup Bar -->
+
+
+        <?php include __DIR__ . '/footer-badges.php'; ?>
+
         <div class="newsletter-bar">
             <p>Don't Miss Out! Join Our Newsletter For Exclusive Updates Delivered Straight To Your Inbox</p>
             <form onsubmit="subscribe(event);">
-                <input type="email" placeholder="Enter your e-mail" maxlength="100" name="subscription_email" id="subscription_email" required="required">
+                <input type="email" placeholder="Enter your e-mail" maxlength="100" name="subscription_email"
+                    id="subscription_email" required="required">
                 <button type="submit">Subscribe</button>
             </form>
             <div id="return_msg" style="margin-top: 10px;">&nbsp;</div>
         </div>
-
-        <?php include __DIR__ . '/footer-badges.php'; ?>
 
         <!-- Links Grid -->
         <div class="footer-links-grid">
@@ -230,12 +270,18 @@
 
                 <h4 class="social-header">Follow Us</h4>
                 <div class="social-icons-row">
-                    <a href="https://www.facebook.com/ChefOnlinePartners/" target="_blank" class="social-icon-btn social-facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/SRS_ChefOnline" target="_blank" class="social-icon-btn social-twitter"><i class="fa fa-close"></i></a>
-                    <a href="https://www.instagram.com/chefonlineuk" target="_blank" class="social-icon-btn social-instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UC8rNSm4umip2dGbmlR7ph6g" target="_blank" class="social-icon-btn social-youtube"><i class="fa fa-youtube-play"></i></a>
-                    <a href="https://www.pinterest.com/chefonlineuk" target="_blank" class="social-icon-btn social-pinterest"><i class="fa fa-pinterest"></i></a>
-                    <a href="https://www.linkedin.com/company/chef-online" target="_blank" class="social-icon-btn social-linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/ChefOnlinePartners/" target="_blank"
+                        class="social-icon-btn social-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/SRS_ChefOnline" target="_blank"
+                        class="social-icon-btn social-twitter"><i class="fa fa-close"></i></a>
+                    <a href="https://www.instagram.com/chefonlineuk" target="_blank"
+                        class="social-icon-btn social-instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UC8rNSm4umip2dGbmlR7ph6g" target="_blank"
+                        class="social-icon-btn social-youtube"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.pinterest.com/chefonlineuk" target="_blank"
+                        class="social-icon-btn social-pinterest"><i class="fa fa-pinterest"></i></a>
+                    <a href="https://www.linkedin.com/company/chef-online" target="_blank"
+                        class="social-icon-btn social-linkedin"><i class="fa fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
