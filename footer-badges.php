@@ -144,6 +144,9 @@ if (!defined('BASE_URL')) {
 .footer-trust-badges .payment-cards-grid .badge-item:nth-child(3n) {
     justify-self: end;
 }
+.footer-trust-badges .payment-cards-grid .badge-item.amex-badge {
+    width: 102px;
+}
 .footer-trust-badges .badges-grid-2x2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -230,10 +233,10 @@ if (!defined('BASE_URL')) {
                     <div class="payment-cards-grid">
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/visa.svg" alt="Visa" class="badge-item" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/master-card.svg" alt="Mastercard" class="badge-item" />
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/american-express.svg" alt="American Express" class="badge-item" />
+                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/american-express.svg" alt="American Express" class="badge-item amex-badge" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/verified-by-visa.svg" alt="Verified by Visa" class="badge-item" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/master-card-secure-code.svg" alt="Mastercard SecureCode" class="badge-item" />
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/american-express-safe-key.svg" alt="SafeKey" class="badge-item" />
+                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/american-express-safe-key.svg" alt="SafeKey" class="badge-item amex-badge" />
                     </div>
                 </div>
             </div>
