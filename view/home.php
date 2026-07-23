@@ -162,30 +162,95 @@
 <!--banner Section ends Here -->
 
 <!-- Partners Section starts Here -->
-<!-- <section id="partners" style="padding: 40px 0;">
+<style type="text/css">
+.red-partner-banner {
+    background-color: #E21B36;
+    color: #ffffff;
+    padding: 30px 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.red-partner-banner .partner-block {
+    margin: 20px auto;
+    max-width: 400px;
+}
+.red-partner-banner .partner-block h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.red-partner-banner .partner-block h4 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.red-partner-banner .partner-block img {
+    height: 70px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 8px 15px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.red-partner-banner .banner-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    margin: 25px auto;
+    max-width: 250px;
+}
+
+@media (min-width: 768px) {
+    .red-partner-banner .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .red-partner-banner .banner-divider {
+        border-top: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.35);
+        height: 100px;
+        width: 1px;
+        margin: 0;
+    }
+    .red-partner-banner .partner-block {
+        margin: 0;
+    }
+}
+</style>
+
+<div class="red-partner-banner">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="card" style="text-align: center;">
-                    <h3 style="margin-top: 0; margin-bottom: 25px; color: #333; font-weight: 600;">Our Strategic
-                        Partners</h3>
-                    <div
-                        style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 40px;">
-                        <div class="partner-logo">
-                            <a href="https://www.google.com/partners/agency?id=8390177523"><img
-                                    src="https://www.chefonline.com/assets/images/google-partner.svg"
-                                    alt="Google Partner" style="height: 200px; width: auto; object-fit: contain;"></a>
-                        </div>
-                        <div class="partner-logo">
-                            <a href="#"><img src="https://www.chefonline.com/assets/images/meta.svg" alt="Meta Partner"
-                                    style="height: 200px; width: auto; object-fit: contain;"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Google Partner Block -->
+        <div class="partner-block">
+            <h3>Google Partner</h3>
+            <h4>Digital Marketing Agency</h4>
+            <a href="https://www.google.com/partners/agency?id=8390177523" target="_blank">
+                <img src="<?php echo BASE_URL; ?>/assets/new-assets/google-partner.svg" alt="Google Partner" />
+            </a>
+        </div>
+
+        <!-- Divider Line -->
+        <div class="banner-divider"></div>
+
+        <!-- Meta Partner Block -->
+        <div class="partner-block">
+            <h3>Member of</h3>
+            <h4>Meta Business Partner</h4>
+            <a href="#" target="_blank">
+                <img src="<?php echo BASE_URL; ?>/assets/new-assets/meta-partner.svg" alt="Meta Business Partner" />
+            </a>
         </div>
     </div>
-</section> -->
+</div>
 <!-- Partners Section ends Here -->
 
 <!-- offer section -->
