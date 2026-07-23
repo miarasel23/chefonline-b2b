@@ -222,25 +222,20 @@ if (!defined('BASE_URL')) {
 
     .footer-trust-badges .support-logos {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        gap: 15px;
+        gap: 30px;
         width: 100%;
     }
 
     .footer-trust-badges .support-row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        flex-wrap: nowrap;
-        width: 100%;
+        display: contents;
     }
 
     .footer-trust-badges .support-logo-img {
         height: 40px;
         width: auto;
-        max-width: 30%;
+        max-width: 100%;
         object-fit: contain;
     }
 
@@ -305,6 +300,26 @@ if (!defined('BASE_URL')) {
         .footer-trust-badges .badges-grid-2x2 img.cyber-essentials-badge {
             height: auto !important;
             max-height: 40px !important;
+        }
+
+        .footer-trust-badges .support-logos {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 15px !important;
+        }
+
+        .footer-trust-badges .support-row {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            gap: 20px !important;
+            flex-wrap: nowrap !important;
+            width: 100% !important;
+        }
+
+        .footer-trust-badges .support-logo-img {
+            max-width: 30% !important;
+            height: 35px !important;
         }
     }
 </style>
