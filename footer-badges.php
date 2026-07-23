@@ -234,18 +234,66 @@ if (!defined('BASE_URL')) {
     }
 
     @media (max-width: 768px) {
-        .footer-trust-badges .partner-col {
-            border-right: none !important;
-            border-bottom: 1px solid #e5e5e5;
+        .footer-trust-badges .top-partners {
+            flex-direction: row !important;
+            justify-content: space-between !important;
+            gap: 10px !important;
         }
 
-        .footer-trust-badges .partner-col:last-child {
-            border-bottom: none;
+        .footer-trust-badges .partner-col {
+            flex: 1 !important;
+            min-width: 0 !important;
+            padding: 5px 0 !important;
+            border-bottom: none !important;
+            border-right: none !important;
+        }
+
+        .footer-trust-badges .partner-img {
+            height: auto !important;
+            max-height: 50px !important;
+            width: auto !important;
+            max-width: 100% !important;
         }
 
         .footer-trust-badges .mid-col {
             border-right: none !important;
             margin-bottom: 30px;
+            padding: 0 10px !important;
+        }
+
+        .footer-trust-badges .payment-cards-grid {
+            grid-template-columns: repeat(6, 1fr) !important;
+            gap: 5px !important;
+            max-width: 100% !important;
+        }
+
+        .footer-trust-badges .payment-cards-grid .badge-item {
+            width: 100% !important;
+            height: auto !important;
+            aspect-ratio: 90/52;
+        }
+
+        .footer-trust-badges .payment-cards-grid .badge-item.amex-badge,
+        .footer-trust-badges .payment-cards-grid .badge-item.amex-safekey-badge {
+            width: 100% !important;
+        }
+
+        .footer-trust-badges .badges-grid-2x2 {
+            grid-template-columns: repeat(4, 1fr) !important;
+            gap: 10px !important;
+            max-width: 100% !important;
+        }
+
+        .footer-trust-badges .badges-grid-2x2 .badge-item-lg {
+            width: 100% !important;
+            height: auto !important;
+            max-width: 100% !important;
+            aspect-ratio: auto;
+        }
+
+        .footer-trust-badges .badges-grid-2x2 img.cyber-essentials-badge {
+            height: auto !important;
+            max-height: 40px !important;
         }
     }
 </style>
