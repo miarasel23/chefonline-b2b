@@ -1,0 +1,29 @@
+//Style  Home layout
+
+.home{
+    .wrap-breadcrumb{
+        display: none;
+    }
+    .page-header{
+        display: none;
+    }
+}
+
+.site-title{
+    display: inline-block;
+}
+.container-fluid,.container-full{
+    max-width:1770px;
+    margin-left: auto;
+    margin-right: auto;
+    .container-inner{
+        padding: 0 60px;
+    }
+}
+.site-content{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.wrap-content{
+    margin-top:30px;
+}

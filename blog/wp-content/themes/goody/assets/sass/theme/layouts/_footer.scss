@@ -1,0 +1,212 @@
+//Style Footer
+.scrollup {
+    border-radius: 100%;
+    color: #151515 !important;
+    cursor: pointer;
+    height: 50px;
+    left: 0;
+    margin: auto;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    top: -30px;
+    width: 50px;
+    z-index: 999;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    line-height: 46px;
+    &:hover{
+        background: $theme-color;
+        color: #FFF !important;
+    }
+}
+.fitnez-instagram {
+    margin-top: -6px;
+}
+#na-footer {
+    margin-top: 30px;
+    font-weight: 400;
+    background: #f5f5f5;
+    color: #757575;
+    font-size: 15px;
+    background-position: center center;
+    background-size: cover;
+    .mc4wp-form-fields {
+        @include rtl-float-left;
+    }
+    &.footer-2 {
+        .sbi_item {
+            border: none;
+        }
+        .newsletters {
+            margin-top: 0;
+            @include rtl-text-align-left();
+        }
+        .footer-bottom {
+            .copy-right {
+                text-align: center;
+                color: #757575;
+                a{
+                    color: $theme-color;
+                }
+            }
+        }
+        .goody_social {
+            margin-top: 25px;
+            a{
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+        .footer-top {
+            padding: 50px 0 30px;
+        }
+    }
+    .widgettitle {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 40px;
+        &::after {
+            left: 0;
+            @include translateX(0);
+        }
+    }
+    .about {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .goody-social-icon {
+        margin: 10px 0 35px;
+        a {
+            &:hover {
+                i{
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+    [class*="ion-social-"] {
+        margin-bottom: 0;
+    }
+    .widget.about .widgettitle {
+        color: #282828;
+        display: block;
+        font-size: 20px;
+        margin: 20px 0;
+        position: relative;
+        text-transform: capitalize;
+    }
+    .btn-newsletter {
+        &:hover {
+            background: $theme-color;
+            color: #fff;
+            @include transition(0.2s);
+        }
+    }
+    .newsletters {
+        padding: 0;
+        max-width: 650px;
+        margin: auto;
+        margin-top: 50px;
+        .group-input-newsletter {
+            border-radius: 0;
+            padding: 0;
+            margin: 20px 0 10px;
+        }
+        .input-group{
+            border: none;
+        }
+        .form-control{
+            height: 38px;
+        }
+        .widgettitle {
+            margin-bottom: 35px;
+        }
+        input[type="submit"]{
+            height: 38px;
+            padding: 5px 20px;
+            border-radius: 0;
+        }
+        .input-group-btn{
+            border: none;
+        }
+
+    }
+    li {
+        list-style: none;
+        float: left;
+        margin-right: 15px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    ul {
+        overflow: hidden;
+        padding: 0;
+        display: inline-block;
+    }
+    .footer-center {
+        position: relative;
+        text-align: center;
+    }
+    &.footer-1 {
+        .footer-bottom {
+            border-top: none;
+            background: #f5f5f5;
+            .copy-right{
+                @include rtl-text-align-right;
+            }
+        }
+    }
+    .footer-bottom {
+        background: #f5f5f5;
+        padding: 25px 0;
+        font-size: 14px;
+        line-height: 30px;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-top: 1px solid #e2e2e2;
+        [class*="ion-social-"] {
+            border: none;
+        }
+        ul {
+            @include rtl-float-left();
+            margin: 0;
+        }
+        .goody-social-icon {
+            @include rtl-text-align-left();
+            margin: 0;
+        }
+        .copy-right {
+            text-align: right;
+            a {
+                color:$theme-color;
+                font-weight: 400;
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+    .goody-image-content{
+        padding: 100px 0 50px;
+    }
+
+    .fa-heart{
+        color: $theme-color;
+    }
+}
+#sbi_load {
+    padding-top: 0 !important;
+}
+.footer-center {
+    text-align: center;
+}

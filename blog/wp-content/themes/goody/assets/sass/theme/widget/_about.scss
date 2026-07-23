@@ -1,0 +1,50 @@
+//style widget About
+.widget.about{
+    text-align: center;
+    .goody-social-icon {
+        margin-top: 15px;
+        a{
+            &:hover {
+                border: 1px solid $theme-color;
+            }
+        }
+    }
+    .widgettitle {
+        text-align: center;
+        color: $color-title;
+        display: block;
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .about-description{
+        text-align: center;
+        line-height: 24px;
+        display: inline-block;
+        color: #757575;
+        padding-top: 0;
+        margin-top: 10px;
+    }
+}
+#na-footer {
+    .widget.about {
+        max-width: 600px;
+        display: inline-block;
+        .about-image{
+            margin:0;
+            border-radius: 0;
+            max-width:inherit;
+        }
+        .goody-social-icon{
+            padding-top:0px;
+            border-top:none;
+            a{
+                @include rtl-margin(0px,10px, 0 ,0);
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+
+    }
+}

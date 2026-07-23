@@ -1,0 +1,84 @@
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php on line 25
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php on line 17
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php on line 16
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php on line 25
+[09-Apr-2020 04:36:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php:16
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php(69): NA_Custom_Post_Type_Member->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php on line 16
+[09-Apr-2020 04:36:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php:16
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php(69): NA_Custom_Post_Type_Member->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php on line 16
+[09-Apr-2020 04:36:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php:17
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php(70): NA_Custom_Post_Type_Banner->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php on line 17
+[09-Apr-2020 04:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php:17
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php(70): NA_Custom_Post_Type_Banner->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php on line 17
+[09-Apr-2020 04:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php(89): NA_Custom_Post_Type_Portfolio->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php on line 25
+[09-Apr-2020 04:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php(89): NA_Custom_Post_Type_Portfolio->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php on line 25
+[09-Apr-2020 04:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php(78): NA_Custom_Post_Type_Testimonial->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php on line 25
+[09-Apr-2020 04:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php(78): NA_Custom_Post_Type_Testimonial->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php on line 25
+[09-Apr-2020 04:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php:16
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php(69): NA_Custom_Post_Type_Member->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php on line 16
+[09-Apr-2020 04:36:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php:17
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php(70): NA_Custom_Post_Type_Banner->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php on line 17
+[09-Apr-2020 04:36:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php(89): NA_Custom_Post_Type_Portfolio->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php on line 25
+[09-Apr-2020 04:36:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php(78): NA_Custom_Post_Type_Testimonial->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php on line 25
+[09-Apr-2020 16:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php:16
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php(69): NA_Custom_Post_Type_Member->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/member.php on line 16
+[09-Apr-2020 16:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php:17
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php(70): NA_Custom_Post_Type_Banner->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/banner.php on line 17
+[09-Apr-2020 16:06:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php(89): NA_Custom_Post_Type_Portfolio->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/portfolio.php on line 25
+[09-Apr-2020 16:06:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php:25
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php(78): NA_Custom_Post_Type_Testimonial->init()
+#1 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/post-types/testimonial.php on line 25

@@ -1,0 +1,109 @@
+//style widget Tabs post
+.sidebar .widget_tabs_post, .sidebar .widget_most_views {
+    @include rtl-text-align-left();
+    .comment-text {
+        padding-right: 10px;
+        @include rtl-padding-left(0);
+    }
+    .entry-footer {
+        border: none;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+        color: #8d8d8d;
+        *{
+            font-size: 13px;
+            color: #9e9e9e;
+        }
+    }
+    .widget-title{
+        border: none;
+        display: table;
+        width: 100%;
+        margin-bottom: 20px;
+        li{
+            border: none;
+            padding: 0;
+            float: none;
+            position: relative;
+            &.active {
+                a{
+                    &::after {
+                        content: '';
+                        height: 1px;
+                        position: absolute;
+                        left: 50%;
+                        @include translateX(-50%);
+                        width: 30px;
+                        border-bottom: 1px solid #282828;
+                        top: 30px;
+                    }
+                }
+            }
+            &:last-child {
+                a{
+                    @include rtl-padding-right(0px);
+                    float: right;
+                }
+            }
+            &:first-child {
+                a {
+                    @include rtl-padding-left(0px);
+                }
+            }
+            &.active a{
+                color: $color-title;
+            }
+            a{
+                color: #282828;
+                display: inline-block;
+                font-size: 16px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                margin: 0;
+                padding-bottom: 10px;
+                padding-top: 0;
+                @include rtl-text-align-left();
+                text-transform:uppercase;
+                &:hover, &:focus,&:active{
+                    color: $color-title;
+                }
+            }
+        }
+    }
+    article{
+        padding: 10px 0;
+        &:last-child {
+            border-bottom: none;
+            margin-top: 0;
+            padding-bottom: 0;
+        }
+    }
+    .entry-header{
+        padding: 0;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .byline{
+        display: none;
+    }
+    .article-content .entry-meta-right{
+        @include rtl-float-left();
+        .text-comment{
+            color: #757575;
+        }
+    }
+    .total-view{
+        padding:0;
+    }
+    .entry-title > a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+    }
+
+}
+.ti-comment{
+    @include rtl-padding-right(2px);
+}

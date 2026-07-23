@@ -1,0 +1,64 @@
+[09-Apr-2020 16:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php on line 8
+[09-Apr-2020 16:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function goody_keep_menu() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php on line 3
+[09-Apr-2020 16:57:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php on line 5
+[09-Apr-2020 16:57:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php on line 5
+[10-Apr-2020 01:18:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php on line 5
+[10-Apr-2020 01:18:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php on line 5
+[10-Apr-2020 01:18:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php on line 8
+[10-Apr-2020 01:18:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php on line 8
+[10-Apr-2020 01:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function goody_keep_menu() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php on line 3
+[10-Apr-2020 01:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function goody_keep_menu() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php on line 3
+[10-Apr-2020 01:18:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-left.php on line 5
+[10-Apr-2020 01:18:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php on line 5
+[10-Apr-2020 01:18:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php on line 5
+[10-Apr-2020 01:18:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-simple.php on line 8
+[10-Apr-2020 01:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function goody_keep_menu() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-drawer.php on line 3
+[10-Apr-2020 01:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/header/header-center.php on line 5

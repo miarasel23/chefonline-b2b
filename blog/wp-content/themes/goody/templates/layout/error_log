@@ -1,0 +1,64 @@
+[09-Apr-2020 16:57:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php on line 10
+[09-Apr-2020 16:57:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php on line 11
+[09-Apr-2020 16:57:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php on line 11
+[09-Apr-2020 16:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php on line 11
+[10-Apr-2020 01:18:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php on line 11
+[10-Apr-2020 01:18:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php on line 11
+[10-Apr-2020 01:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php on line 10
+[10-Apr-2020 01:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php on line 10
+[10-Apr-2020 01:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php on line 11
+[10-Apr-2020 01:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php on line 11
+[10-Apr-2020 01:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-list.php on line 11
+[10-Apr-2020 01:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php on line 11
+[10-Apr-2020 01:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php on line 11
+[10-Apr-2020 01:18:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid.php on line 10
+[10-Apr-2020 01:18:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-full.php on line 11
+[10-Apr-2020 01:18:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/content-grid-text.php on line 11

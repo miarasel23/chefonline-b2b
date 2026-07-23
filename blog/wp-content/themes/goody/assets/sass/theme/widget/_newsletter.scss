@@ -1,0 +1,57 @@
+// Style Newsletters
+
+.newsletters{
+    padding: 30px;
+    text-align: center;
+    color: #757575;
+    //background: #ECECEC;
+    .form-newsletter{
+        //background: #ECECEC;
+    }
+    .widgettitle{
+        text-align: center;
+
+    }
+    .des-newsletter{
+        line-height: 24px;
+    }
+    .group-input-newsletter{
+        display:inline-block;
+        padding: 30px 0;
+
+    }
+    input,.form-control{
+        height: 40px;
+        font-size: 14px;
+    }
+    input[type="email"]{
+        background: #fff none repeat scroll 0 0;
+        height: 42px;
+        width: 100%;
+        border:none;
+        padding:6px 20px;
+        &.form-control::-moz-placeholder {
+            color: #999999;
+        }
+    }
+
+    input[type="submit"]{
+        border:none;
+        color:#fff;
+        font-size: 12px;
+        letter-spacing: 1px;
+        height: 42px;
+        padding: 8px 25px;
+        text-transform: uppercase;
+        font-weight: 400;
+        background:$theme-color;
+        &:hover{
+            background: $color-title;
+        }
+    }
+}
+.input-group{
+    max-width: 500px;
+    overflow: hidden;
+    border: 1px solid #ededed;
+}

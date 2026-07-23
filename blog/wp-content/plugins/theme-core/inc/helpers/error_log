@@ -1,0 +1,17 @@
+[08-Apr-2020 11:20:38 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php on line 235
+[09-Apr-2020 04:36:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php:235
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php on line 235
+[09-Apr-2020 04:36:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php:235
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php on line 235
+[09-Apr-2020 04:36:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php:235
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php on line 235
+[09-Apr-2020 16:06:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php:235
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/helpers/vc.php on line 235

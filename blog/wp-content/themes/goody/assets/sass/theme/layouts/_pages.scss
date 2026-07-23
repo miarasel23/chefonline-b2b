@@ -1,0 +1,120 @@
+/*
+* Style Page
+*/
+.main-content{
+    padding-bottom: 50px;
+}
+
+.page-header{
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+.page-title{
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    > h1{
+        margin-top: 0;
+        font-size: 30px;
+    }
+}
+.page-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/**
+ * Contact form
+ */
+.contact{
+    .fa{
+        color: $theme-color;
+        font-size: 18px;
+        width: 30px;
+    }
+}
+/**
+ * error 404
+ */
+.error-404,.no-results {
+    padding: 200px 0;
+    text-align: center;
+    .page-title{
+        margin: 0;
+    }
+    .searchform{
+        display: inline-block;
+        .input-group{
+            max-width: 500px;
+        }
+
+        .form-control{
+            background: #fff;
+            width: 100%;
+            height: 50px;
+            min-width: 400px;
+        }
+        button{
+            height: 50px;
+            background: #fcfcfc;
+            color: $theme-color;
+            border: none;
+            padding: 10px 24px;
+            font-size: 14px;
+            &:hover {
+                background: $theme-color;
+                @include transition(0.2s);
+                i{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+/**
+ * panel
+ */
+.panel{
+    box-shadow: none;
+}
+.panel-heading >*,.panel-title{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.panel-body{
+    padding: 30px;
+    .form-row{
+        margin-bottom: 20px;
+    }
+}
+
+.edit {
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+//contact
+.fa-map-marker,.fa-phone,.fa-envelope-o{
+    @include rtl-margin-right(10px);
+    color: #000;
+}
+.author {
+    .sidebar .widget:last-child {
+        margin-bottom: 127px;
+    }
+}
+.search-results  {
+    .sidebar .widget:last-child {
+        margin-bottom: 127px;
+    }
+    .archive-blog {
+        .col-md-12 {
+            .grid-full:last-child {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+[08-Apr-2020 12:13:19 UTC] PHP Fatal error:  Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php on line 13
+[08-Apr-2020 12:13:20 UTC] PHP Fatal error:  Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php on line 13
+[08-Apr-2020 12:13:29 UTC] PHP Fatal error:  Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php on line 13
+[09-Apr-2020 05:05:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php on line 13
+[09-Apr-2020 05:05:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php on line 13
+[09-Apr-2020 05:05:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php on line 13
+[09-Apr-2020 05:05:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php on line 13
+[09-Apr-2020 05:05:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php on line 13
+[09-Apr-2020 05:05:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php on line 13
+[09-Apr-2020 05:05:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php on line 13
+[09-Apr-2020 05:05:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php on line 13
+[09-Apr-2020 05:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php on line 13
+[09-Apr-2020 16:11:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-image.php on line 13
+[09-Apr-2020 16:11:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-label.php on line 13
+[09-Apr-2020 16:11:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/single-product/simple/pa-colorpicker.php on line 13

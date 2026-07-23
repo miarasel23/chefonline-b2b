@@ -1,0 +1,65 @@
+
+//button base
+//button-variables-outline($color, $background, $border, $colorhover, $bghover, $borderhover )
+
+/* btn 1 */
+.btn-outline{
+  @include button-variables-outline($theme-color, transparent, $theme-color, $theme-color, transparent, $theme-color);
+}
+
+/* btn 2 */
+.btn-inverse{
+    @include button-variables-outline($white, $theme-color , $theme-color ,$white, $theme-color ,  $theme-color);
+}
+
+/* btn-3 */
+.btn-variant{
+    @include button-variables-outline($white, $theme-color , $theme-color ,$white,darken($theme-color, 10%),  darken($theme-color, 10%));
+    padding: 10px 30px;
+}
+
+.button{
+    @include button-variables-outline($white, #282828 , #282828 , $white, $theme-color ,  $theme-color);
+    padding:12px 50px;
+    border-width:0;
+}
+
+#loadMore,#loadMoreCat{
+    box-shadow: none;
+    background:white;
+    border: 1px solid #dfdfdf;
+    padding: 14px 0;
+    border-radius: 0;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    color: $color-title;
+    @include transition(0s);
+    &:hover{
+        color: #fff;
+        border: 1px solid $theme-color;
+        background: $theme-color
+    }
+    &:active,&:focus {
+        @include transition(0s);
+    }
+}
+#loadMore,#loadMoreCat {
+    &.loading {
+        width: 100px;
+        height: 100px;
+        background: #fff;
+    }
+}
+#loadMore {
+    &.hidden {
+        display: block !important;
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+#loadMoreCat {
+    margin-top: -57px;
+}

@@ -1,0 +1,51 @@
+[08-Apr-2020 12:13:19 UTC] PHP Fatal error:  Call to undefined function wp_enqueue_media() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php on line 13
+[08-Apr-2020 12:13:19 UTC] PHP Fatal error:  Call to undefined function wp_enqueue_script() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php on line 13
+[08-Apr-2020 12:13:19 UTC] PHP Fatal error:  Call to undefined function esc_html__() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php on line 16
+[09-Apr-2020 05:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_media() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php on line 13
+[09-Apr-2020 05:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_media() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php on line 13
+[09-Apr-2020 05:03:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_media() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php on line 13
+[09-Apr-2020 05:03:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html__() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php on line 16
+[09-Apr-2020 05:03:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html__() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php on line 16
+[09-Apr-2020 05:03:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html__() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php on line 16
+[09-Apr-2020 05:03:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_script() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php on line 13
+[09-Apr-2020 05:03:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_script() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php on line 13
+[09-Apr-2020 05:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_script() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php on line 13
+[09-Apr-2020 16:11:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_media() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-image.php on line 13
+[09-Apr-2020 16:11:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html__() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-label.php on line 16
+[09-Apr-2020 16:11:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_script() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/custom-attribute/templates/admin/edit/pa-colorpicker.php on line 13

@@ -1,0 +1,362 @@
+//Style
+.single {
+    .sidebar .widget:last-child {
+        margin-bottom: 84px;
+    }
+}
+.sidebar{
+    padding-bottom: 50px;
+    color: #555555;
+    font-size: 15px;
+    .input-group {
+        max-width: initial;
+    }
+    .post-item {
+        border: none;
+    }
+    .newsletters {
+        .btn-newsletter {
+            padding: 0 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 0;
+            background: #525252;
+            color: #fff;
+        }
+        .group-input-newsletter {
+            padding-bottom: 0;
+            display: block;
+            border-radius: 0;
+        }
+        .input-newsletter{
+            border-radius: 0;
+        }
+        .input-group{
+            display: block;
+            border: none;
+            width: 100%;
+        }
+        .input-group-btn{
+            border-radius: 0;
+            border: none;
+            width: 100%;
+            display: block;
+            white-space:normal;
+        }
+        input[type="email"],input[type="submit"] {
+            height: 40px;
+            letter-spacing: 0.2px;
+            width: 100%;
+            margin-bottom: 10px;
+            display: block;
+            border-radius: 0;
+            &:hover {
+                background: $color-title;
+                color: #fff;
+                @include transition(0.2s);
+            }
+        }
+
+    }
+    .widget.about .about-description {
+        color: #757575;
+    }
+    .newsletters {
+        padding: 0;
+        #mc4wp {
+            min-width: initial;
+        }
+    }
+    .btn {
+        letter-spacing: inherit;
+    }
+    .widget_categories {
+        ul {
+            padding-top: 15px;
+            letter-spacing: 0.3px;
+        }
+        a {
+            color: $color-title;
+            font-size: 16px;
+        }
+    }
+    .content-inner{
+        background: none;
+        box-shadow: none;
+    }
+    .widget{
+        background: #FFF;
+        margin-bottom: 30px;
+        text-align: center;
+        &.widget_tabs_post {
+            padding-top: 0;
+            .tab-content {
+                padding-top: 0;
+                position: relative;
+                overflow: hidden;
+                > div.tab-pane {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    opacity: 0;
+                    @include transition(0.4s);
+                    width: 100%;
+                    &.active {
+                        position: relative;
+                        opacity: 1;
+                        z-index: 99;
+                        @include transition(0.4s);
+                    }
+                }
+            }
+            >ul {
+                >li {
+                    width: 50%;
+                    float: left;
+                    padding: 25px 0 10px 0;
+                    border-bottom: 1px solid #e9e9e9;
+                    a{
+                        color: #7D7D7D;
+                        @include transition(0.3s);
+                    }
+                    &.active {
+                        border-bottom:none;
+                        color: $color-title;
+                    }
+                    &:hover {
+                        a{
+                            color: $color-title;
+                        }
+                    }
+                    &:first-child {
+                        &.active {
+                            border-right:1px solid #e9e9e9;
+                        }
+                    }
+                    &:last-child {
+                        &.active {
+                            border-left:1px solid #e9e9e9;
+                        }
+                    }
+                }
+                a{
+                    padding: 0;
+                }
+            }
+        }
+        &.widget_search {
+            padding: 4px;
+            >*{
+                background: #f5f5f5;
+            }
+        }
+        &:last-child {
+            margin-bottom: 44px;
+        }
+        &.widget_mc4wp_form_widget {
+            .group-input-newsletter {
+                padding-top: 20px;
+            }
+            .widgettitle {
+                margin: 0;
+                padding: 30px;
+                padding-bottom: 0;
+            }
+            form {
+                padding: 26px;
+                padding-top: 35px;
+            }
+            padding: 4px;
+            overflow: hidden;
+            >*{
+                background: #f5f5f5;
+            }}
+    }
+    //element
+    a{
+        &:hover{
+            color: $theme-color;
+        }
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            border-bottom: 1px solid #e9e9e9;
+            color: $font-color;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            padding: 12px 0;
+            &:first-child{
+                padding-top: 0px;
+            }
+            &:last-child{
+                padding-bottom: 0;
+                border-bottom:none;
+            }
+            &.current-cat >a{
+                color: $theme-color;
+            }
+            .children,.sub-menu{
+                border-top: 1px solid #ebebeb;
+                margin-top: 10px;
+            }
+            ul li{
+                @include rtl-padding-left(20px);
+                &:first-child{
+                    padding-top: 15px;
+                }
+            }
+
+        }
+    }
+    //widget
+    .widget{
+        overflow: visible;
+        padding:30px;
+        border: 1px solid #e9e9e9;
+        &:first-child{
+            .widgettitle{
+                border-top:none;
+            }
+        }
+    }
+
+    .widgettitle{
+        font-size: 18px;
+        margin: 0 0 35px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: block;
+        text-align: center;
+        img{
+            width:auto;
+            height: auto;
+        }
+    }
+    .widgettitle + *{
+        margin: 0;
+        padding-top:10px;
+        overflow: hidden;
+    }
+    select{
+        margin:20px 0 0;
+        width: calc(100%);
+    }
+
+
+    //
+    .widget.dropdown{
+        .widgettitle{
+            &:after{
+                color: #282828;
+                content: "\f067";
+                font-family: "fontawesome";
+                font-size: 12px;
+                position: absolute;
+                @include rtl-right(15px);
+                top: 0px;
+            }
+        }
+        .widgetcontent.dropdown-menu{
+            position: relative;
+            float: none;
+            border: none;
+            box-shadow: none;
+        }
+    }
+    //
+    .vc_column_container > .vc_column-inner{
+        padding: 0;
+    }
+    //recentcomments
+    #recentcomments{
+        li > a{
+            color: $theme-color;
+        }
+    }
+    .post-item{
+        box-shadow: none;
+    }
+
+    //widget blog ----------------------
+    .post-image{
+        box-shadow:none;
+        @include rtl-float-left();
+        padding-bottom: 0;
+    }
+    .side-item-text{
+        @include rtl-float-left();
+        width: 65%;
+        &.full-width{
+            width: 100%;
+        }
+    }
+    .entry-title{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+        margin-top: 0;
+        padding-top:0;
+        font-weight: 400;
+    }
+    .article-meta{
+        display: none;
+        color:#888888;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0;
+        padding-top: 15px;
+        background: none;
+        border-top: none;
+    }
+    .entry-header{
+        padding: 0;
+    }
+    article{
+        padding: 10px 0;
+        &:first-child{
+            padding-top: 0;
+        }
+    }
+    .post-cat{
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: lowercase;
+    }
+    .recent-post-widgets li{
+        padding: 15px 0;
+    }
+
+    .information_widget{
+        box-shadow: none;
+        padding: 16px;
+        .goody-image{
+        }
+    }
+    .post-sidebar{
+        min-height: auto;
+        margin-bottom: 0;
+        .article-image{
+            width: 35%;
+        }
+    }
+    .posted-on::after{
+        content: none;
+    }
+    .author-on{
+        display: none;
+    }
+    .main-view-like{
+        display: none;
+    }
+    .entry-date{
+        font-size: 13px;
+    }
+}
+.sidebar .newsletters input[type="email"]:hover {
+    background: #fff;
+    color: initial;
+}

@@ -1,0 +1,17 @@
+[08-Apr-2020 11:20:36 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php on line 4
+[09-Apr-2020 04:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php on line 4
+[09-Apr-2020 04:36:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php on line 4
+[09-Apr-2020 04:36:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php on line 4
+[09-Apr-2020 16:06:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/importer/importer.php on line 4

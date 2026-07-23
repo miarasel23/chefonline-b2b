@@ -1,0 +1,29 @@
+[08-Apr-2020 11:20:36 UTC] PHP Fatal error:  Call to undefined function __() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php on line 28
+[09-Apr-2020 04:36:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php:28
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(9): NA_Meta_Boxes->add_meta_box_options()
+#1 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(17): NA_Meta_Boxes->__construct()
+#2 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(195): NA_Meta_Boxes::getInstance()
+#3 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php on line 28
+[09-Apr-2020 04:36:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php:28
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(9): NA_Meta_Boxes->add_meta_box_options()
+#1 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(17): NA_Meta_Boxes->__construct()
+#2 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(195): NA_Meta_Boxes::getInstance()
+#3 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php on line 28
+[09-Apr-2020 04:36:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php:28
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(9): NA_Meta_Boxes->add_meta_box_options()
+#1 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(17): NA_Meta_Boxes->__construct()
+#2 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(195): NA_Meta_Boxes::getInstance()
+#3 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php on line 28
+[09-Apr-2020 16:06:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php:28
+Stack trace:
+#0 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(9): NA_Meta_Boxes->add_meta_box_options()
+#1 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(17): NA_Meta_Boxes->__construct()
+#2 /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php(195): NA_Meta_Boxes::getInstance()
+#3 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/meta-box/meta-boxes.php on line 28

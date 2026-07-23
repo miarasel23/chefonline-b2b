@@ -1,0 +1,51 @@
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php on line 12
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php on line 18
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php on line 16
+[09-Apr-2020 04:36:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php on line 18
+[09-Apr-2020 04:36:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php on line 18
+[09-Apr-2020 04:36:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php on line 12
+[09-Apr-2020 04:36:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php on line 16
+[09-Apr-2020 04:36:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php on line 12
+[09-Apr-2020 04:36:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php on line 16
+[09-Apr-2020 04:36:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php on line 18
+[09-Apr-2020 04:36:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php on line 12
+[09-Apr-2020 04:36:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php on line 16
+[09-Apr-2020 16:06:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/post-default.php on line 18
+[09-Apr-2020 16:06:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/news-default.php on line 12
+[09-Apr-2020 16:06:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/post-format/portfolio-default.php on line 16

@@ -1,0 +1,68 @@
+[08-Apr-2020 10:38:16 UTC] PHP Fatal error:  Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php on line 11
+[08-Apr-2020 10:38:16 UTC] PHP Fatal error:  Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php on line 11
+[08-Apr-2020 10:38:17 UTC] PHP Fatal error:  Call to undefined function shortcode_atts() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php on line 2
+[08-Apr-2020 10:38:17 UTC] PHP Fatal error:  Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php on line 11
+[09-Apr-2020 04:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php on line 11
+[09-Apr-2020 04:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php on line 11
+[09-Apr-2020 04:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php on line 11
+[09-Apr-2020 04:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php on line 11
+[09-Apr-2020 04:17:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php on line 11
+[09-Apr-2020 04:17:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shortcode_atts() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php on line 2
+[09-Apr-2020 04:17:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shortcode_atts() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php on line 2
+[09-Apr-2020 04:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php on line 11
+[09-Apr-2020 04:17:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php on line 11
+[09-Apr-2020 04:17:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php on line 11
+[09-Apr-2020 04:17:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shortcode_atts() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php on line 2
+[09-Apr-2020 04:17:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php on line 11
+[09-Apr-2020 16:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog.php on line 11
+[09-Apr-2020 16:03:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-top.php on line 11
+[09-Apr-2020 16:03:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shortcode_atts() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-banner-slider.php on line 2
+[09-Apr-2020 16:03:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/html/shortcode-blog-featured.php on line 11

@@ -1,0 +1,32 @@
+[09-Apr-2020 17:10:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php on line 12
+[09-Apr-2020 17:10:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php on line 12
+[10-Apr-2020 02:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php on line 12
+[10-Apr-2020 02:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php on line 12
+[10-Apr-2020 02:03:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php on line 12
+[10-Apr-2020 02:03:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php on line 12
+[10-Apr-2020 02:03:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-2.php on line 12
+[10-Apr-2020 02:03:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/templates/layout/single/content-single-1.php on line 12

@@ -1,0 +1,76 @@
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/about.php on line 5
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php on line 6
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/social.php on line 3
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/support.php on line 5
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/service.php on line 5
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php on line 6
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/tabs-post.php on line 11
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/featured-post.php on line 11
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/fb-page.php on line 11
+[09-Apr-2020 16:57:21 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/most-views.php on line 10
+[09-Apr-2020 16:57:22 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/contact-info.php on line 5
+[09-Apr-2020 16:57:22 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/bkp_tabs-post.php on line 11
+[09-Apr-2020 16:57:25 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/recent-post.php on line 10
+[10-Apr-2020 01:17:36 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/about.php on line 5
+[10-Apr-2020 01:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php on line 6
+[10-Apr-2020 01:17:36 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/about.php on line 5
+[10-Apr-2020 01:17:36 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/social.php on line 3
+[10-Apr-2020 01:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php on line 6
+[10-Apr-2020 01:17:37 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/social.php on line 3
+[10-Apr-2020 01:17:39 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/support.php on line 5
+[10-Apr-2020 01:17:39 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/support.php on line 5
+[10-Apr-2020 01:17:40 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/service.php on line 5
+[10-Apr-2020 01:17:41 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/service.php on line 5
+[10-Apr-2020 01:17:41 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/about.php on line 5
+[10-Apr-2020 01:17:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/search.php on line 6
+[10-Apr-2020 01:17:41 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/fb-page.php on line 11
+[10-Apr-2020 01:17:41 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/recent-post.php on line 10
+[10-Apr-2020 01:17:41 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/most-views.php on line 10
+[10-Apr-2020 01:17:41 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/social.php on line 3
+[10-Apr-2020 01:17:42 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/fb-page.php on line 11
+[10-Apr-2020 01:17:42 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/recent-post.php on line 10
+[10-Apr-2020 01:17:42 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/most-views.php on line 10
+[10-Apr-2020 01:17:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php on line 6
+[10-Apr-2020 01:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php on line 6
+[10-Apr-2020 01:17:43 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/support.php on line 5
+[10-Apr-2020 01:17:44 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/tabs-post.php on line 11
+[10-Apr-2020 01:17:44 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/tabs-post.php on line 11
+[10-Apr-2020 01:17:46 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/service.php on line 5
+[10-Apr-2020 01:17:46 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/contact-info.php on line 5
+[10-Apr-2020 01:17:47 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/contact-info.php on line 5
+[10-Apr-2020 01:17:47 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/fb-page.php on line 11
+[10-Apr-2020 01:17:47 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/recent-post.php on line 10
+[10-Apr-2020 01:17:47 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/most-views.php on line 10
+[10-Apr-2020 01:17:47 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/bkp_tabs-post.php on line 11
+[10-Apr-2020 01:17:48 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/featured-post.php on line 11
+[10-Apr-2020 01:17:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/information.php on line 6
+[10-Apr-2020 01:17:48 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/bkp_tabs-post.php on line 11
+[10-Apr-2020 01:17:48 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/featured-post.php on line 11
+[10-Apr-2020 01:17:49 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/tabs-post.php on line 11
+[10-Apr-2020 01:17:51 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/contact-info.php on line 5
+[10-Apr-2020 01:17:53 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/bkp_tabs-post.php on line 11
+[10-Apr-2020 01:17:53 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/blogchefonlineco/public_html/wp-content/themes/goody/inc/widgets/featured-post.php on line 11

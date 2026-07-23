@@ -1,0 +1,17 @@
+[08-Apr-2020 11:20:37 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php on line 70
+[09-Apr-2020 04:36:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php on line 70
+[09-Apr-2020 04:36:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php on line 70
+[09-Apr-2020 04:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php on line 70
+[09-Apr-2020 16:06:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/blogchefonlineco/public_html/wp-content/plugins/theme-core/inc/vafpress-post-formats/vp-post-formats-ui.php on line 70

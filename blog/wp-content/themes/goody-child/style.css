@@ -1,0 +1,20 @@
+/*
+Theme Name: Goody Child Theme
+Theme URI: http://goody.nanoagency.co
+Description: Child theme of Goody
+Author: Nano Agency
+Author URI: http://nanoagency.co
+Template: goody
+Version: 1.0.0
+*/
+
+.post-grid .image-item img{min-height:263px}.post-grid .article-content{min-height:160px}body{color:#222}.entry-avatar .author-by,.entry-avatar .author-on{color:#666}.posted-on .entry-date{color:#666}.post-item:hover .bgr-item{background:rgba(0,0,0,.2)}.post-item:hover .bgr-item{background:rgba(0,0,0,.2)}.post-item .image-item img{transition:all .5s ease-in}.post-item:hover .image-item img{transform:scale(1.1);transition:all .5s ease-in}a .fa.fa-linkedin{background:#0B74B1} .fa.fa-facebook{background:#3B5998}a .fa.fa-twitter{background:#00bdec}a .fa.fa-pinterest{background:#bd081c}a .fa.fa-instagram{background:#d22d8f}a .fa.fa-youtube{background:#fe0002 none repeat scroll 0 0}header .goody_social a .fa{border-radius:0;color:#fff;font-size:13px;height:30px;line-height:30px;text-align:center;transition:all .9s ease 0s;width:30px;margin-left:5px!important}
+.sidebar .widget {
+    text-align: left !important;
+}
+@media (max-width: 991px){
+#logo img {
+    max-height: 24px !important;
+}
+	
+}
