@@ -33,7 +33,7 @@ if (!defined('BASE_URL')) {
 }
 .footer-trust-badges .partner-col {
     flex: 1;
-    min-width: 200px;
+    min-width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ if (!defined('BASE_URL')) {
     border-right: 1px solid #e5e5e5;
 }
 .footer-trust-badges .partner-img {
-    height: 100px;
+    height: 140px;
     width: auto;
 }
 .footer-trust-badges .mid-sections {
