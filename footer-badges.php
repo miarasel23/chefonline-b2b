@@ -128,7 +128,7 @@ if (!defined('BASE_URL')) {
     box-sizing: border-box;
     width: 90px;
     height: 52px;
-    padding: 4px 6px;
+    padding: 0;
     border: 1px solid #d3d3d3;
     border-radius: 6px;
     background-color: #ffffff;
