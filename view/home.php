@@ -176,30 +176,30 @@
 }
 .red-partner-banner .partner-block h3 {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 .red-partner-banner .partner-block h4 {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
 .red-partner-banner .partner-block img {
-    height: 70px;
+    height: 90px;
     width: auto;
     background-color: #ffffff;
-    border-radius: 6px;
-    padding: 8px 15px;
+    border-radius: 8px;
+    padding: 10px 20px;
     display: inline-block;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 .red-partner-banner .banner-divider {
     border-top: 1px solid rgba(255, 255, 255, 0.35);
