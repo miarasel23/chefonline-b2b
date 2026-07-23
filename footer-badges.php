@@ -90,20 +90,53 @@ if (!defined('BASE_URL')) {
     height: 40px;
     width: auto;
 }
+.footer-trust-badges .payment-container {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.footer-trust-badges .payment-top-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+}
+.footer-trust-badges .payment-top-row img:first-child {
+    justify-self: start;
+    height: 40px;
+    width: auto;
+}
+.footer-trust-badges .payment-top-row span {
+    justify-self: center;
+    color: #ccc;
+    font-size: 20px;
+}
+.footer-trust-badges .payment-top-row img:last-child {
+    justify-self: end;
+    height: 40px;
+    width: auto;
+}
 .footer-trust-badges .payment-cards-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px 15px;
+    gap: 12px 10px;
     align-items: center;
-    justify-items: center;
     width: 100%;
-    max-width: 280px;
-    margin: 10px auto 0;
+    margin-top: 15px;
 }
 .footer-trust-badges .payment-cards-grid .badge-item {
     height: 32px;
     width: auto;
     max-width: 80px;
+}
+.footer-trust-badges .payment-cards-grid .badge-item:nth-child(3n+1) {
+    justify-self: start;
+}
+.footer-trust-badges .payment-cards-grid .badge-item:nth-child(3n+2) {
+    justify-self: center;
+}
+.footer-trust-badges .payment-cards-grid .badge-item:nth-child(3n) {
+    justify-self: end;
 }
 .footer-trust-badges .badges-grid-2x2 {
     display: grid;
@@ -182,11 +215,11 @@ if (!defined('BASE_URL')) {
             <!-- Secure Payments -->
             <div class="mid-col">
                 <h4>Secure Payments Via</h4>
-                <div class="badge-grid-triple">
-                    <div class="badge-row">
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/barclay-card.svg" alt="Barclaycard" class="badge-item-lg" />
-                        <span style="font-size: 20px; color: #ccc;">|</span>
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/ryft.svg" alt="Ryft" class="badge-item-lg" />
+                <div class="payment-container">
+                    <div class="payment-top-row">
+                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/barclay-card.svg" alt="Barclaycard" />
+                        <span>|</span>
+                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/ryft.svg" alt="Ryft" />
                     </div>
                     <div class="payment-cards-grid">
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/visa.svg" alt="Visa" class="badge-item" />
