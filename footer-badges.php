@@ -233,13 +233,15 @@ if (!defined('BASE_URL')) {
         justify-content: center;
         align-items: center;
         gap: 30px;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         width: 100%;
     }
 
     .footer-trust-badges .support-logo-img {
         height: 40px;
         width: auto;
+        max-width: 30%;
+        object-fit: contain;
     }
 
     @media (max-width: 768px) {
