@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>ChefOnline | B2B Landing Page</title>
+
+		<!-- Tailwind CDN -->
+		<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com" rel="preconnect" />
+		<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+			rel="stylesheet"
+		/>
+
+		<!-- Swiper CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Tailwind Config -->
+		<script>
+			tailwind.config = {
+				darkMode: 'class',
+				theme: {
+					extend: {
+						colors: {
+							primary: '#ec1838',
+							'background-light': '#f8f6f6',
+							'background-dark': '#181112',
+							'surface-light': '#ffffff',
+							'surface-dark': '#221013',
+							'text-light-primary': '#181112',
+							'text-dark-primary': '#f8f6f6',
+							'text-light-secondary': '#667085',
+							'text-dark-secondary': '#a0a0a0',
+							'border-light': '#e5e7eb',
+							'border-dark': '#3f3f46',
+						},
+						fontFamily: {
+							display: ['Inter', 'sans-serif'],
+						},
+						borderRadius: {
+							DEFAULT: '0.25rem',
+							lg: '0.5rem',
+							xl: '0.75rem',
+							full: '9999px',
+						},
+						animation: {
+							'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+						},
+					},
+				},
+			};
+		</script>
+
+		<style>
+			.material-symbols-outlined {
+				font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+			}
+
+			.swiper {
+				width: 100%;
+				height: 100%;
+			}
+
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: transparent;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.swiper-slide img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		</style>
+	</head>
+
+	<body class="bg-background-light dark:bg-background-dark font-display text-text-light-primary dark:text-dark-primary">
+		<div class="relative flex w-full flex-col group/design-root">
+			<div class="layout-container flex h-full grow flex-col relative">
+				<!-- Header -->
+				<header
+					class="sticky top-0 z-50 w-full bg-background-light dark:bg-background-dark border-b border-border-light dark:border-border-dark"
+				>
+					<div class="flex items-center justify-between w-full max-w-7xl mx-auto px-4 sm:px-0 py-3">
+						<!-- Left section -->
+						<div class="flex items-center gap-4 text-[#4E4D4D]">
+							<div class="text-primary">
+								<img src="images/logo.png" alt="ChefOnline Logo" class="h-6 w-auto" />
+							</div>
+						</div>
+
+						<!-- Mobile Hamburger -->
+						<button
+							type="button"
+							onclick="toggleMenu()"
+							class="md:hidden inline-flex items-center justify-center text-2xl text-[#4E4D4D] focus:outline-none bg-red-500 px-2 text-white"
+							aria-label="Open navigation menu"
+						>
+							☰
+						</button>
+
+						<!-- Desktop Menu -->
+						<nav class="hidden md:flex flex-1 justify-end items-center gap-8">
+							<div class="flex items-center gap-8">
+								<a
+									class="text-[#4E4D4D] text-sm font-medium hover:text-primary transition-colors"
+									href="https://www.chefonline.com/digital-marketing"
+								>
+									Services
+								</a>
+								<a
+									class="text-[#4E4D4D] text-sm font-medium hover:text-primary transition-colors"
+									href="https://www.chefonline.com/contact"
+								>
+									Contact
+								</a>
+							</div>
+
+							<a
+								href="https://www.chefonline.com/partner"
+								class="flex min-w-[84px] items-center justify-center h-10 px-4 bg-primary text-white text-sm font-bold rounded-lg hover:bg-primary/90 transition-colors"
+							>
+								<span>Get Free Audit</span>
+							</a>
+						</nav>
+					</div>
+				</header>
+
+				<!-- Mobile Menu Overlay -->
+				<div id="menuOverlay" class="fixed inset-0 bg-black/50 z-[998] hidden md:hidden" onclick="toggleMenu()"></div>
+
+				<!-- Mobile Menu Drawer -->
+				<nav
+					id="mobileMenu"
+					class="fixed top-0 right-0 w-64 h-full bg-white dark:bg-gray-900 shadow-lg transform translate-x-full transition-transform duration-300 z-[999] md:hidden"
+				>
+					<div class="relative">
+						<button
+							type="button"
+							onclick="toggleMenu()"
+							class="text-left mt-6 text-gray-400 hover:text-primary transition-colors absolute top-[0px] right-[30px] text-primary"
+							aria-label="Close navigation menu"
+						>
+							Close ✕
+						</button>
+					</div>
+
+					<div class="p-6 flex flex-col gap-6 mt-10">
+						<a
+							class="text-[#4E4D4D] text-base hover:text-primary transition-colors"
+							href="https://www.chefonline.com/digital-marketing"
+							onclick="toggleMenu()"
+						>
+							Services
+						</a>
+
+						<a
+							class="text-[#4E4D4D] text-base hover:text-primary transition-colors"
+							href="https://www.chefonline.com/contact"
+							onclick="toggleMenu()"
+						>
+							Contact
+						</a>
+
+						<a
+							href="https://www.chefonline.com/partner"
+							class="text-center py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+							onclick="toggleMenu()"
+						>
+							Get Free Audit
+						</a>
+					</div>
+				</nav>
+
+				<!-- Main Content -->
+				<main class="flex-1">
+					<!-- Hero Section -->
+					<section class="py-5 sm:py-12 lg:py-16">
+						<div class="px-4 lg:px-10 flex flex-1 justify-center">
+							<div class="layout-content-container flex flex-col gap-12 max-w-7xl flex-1">
+								<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+									<div class="flex flex-col gap-6 text-center lg:text-left items-center lg:items-start">
+										<h1
+											class="text-[#4E4D4D] text-2xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tighter"
+										>
+											Fill Tables Faster. Get More Sales.
+										</h1>
+
+										<!-- Mobile Hero Image -->
+										<div
+											class="block md:hidden w-full bg-center bg-no-repeat aspect-square lg:aspect-[4/3] bg-cover rounded-xl"
+											data-alt="Stylized image of a restaurant interior with patrons"
+											style="background-image: url('images/hero.png')"
+										></div>
+
+										<p
+											class="text-text-light-secondary dark:text-dark-secondary text-base md:text-lg font-normal leading-normal max-w-xl"
+										>
+											Boost your restaurant’s SEO and get found when customers are ready to order.
+										</p>
+
+										<div class="flex-wrap gap-4 flex items-center justify-center lg:justify-start w-full sm:w-auto">
+											<a
+												href="https://www.chefonline.com/contact"
+												class="flex min-w-[84px] w-full sm:w-auto cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-white text-primary border border-primary text-base font-bold leading-normal tracking-wide transition-all duration-200 hover:bg-primary hover:text-white hover:shadow-md hover:-translate-y-px active:shadow-sm active:translate-y-0"
+											>
+												<span>Get a Free Consultation</span>
+											</a>
+										</div>
+
+										<div class="flex items-center gap-6">
+											<div class="flex items-center gap-2">
+												<img
+													class="w-[150px]"
+													data-alt="Google Partner logo"
+													src="https://www.chefonlinetest.co.uk/landing/images/google.png"
+													alt="Google Partner"
+												/>
+											</div>
+											<div class="flex items-center gap-2">
+												<img
+													class="w-[150px]"
+													data-alt="Meta Business Partner logo"
+													src="https://www.chefonlinetest.co.uk/landing/images/meta.png"
+													alt="Meta Business Partner"
+												/>
+											</div>
+										</div>
+									</div>
+
+									<!-- Desktop Hero Image -->
+									<div
+										class="hidden md:block w-full bg-center bg-no-repeat aspect-square lg:aspect-[4/3] bg-cover rounded-xl"
+										data-alt="Stylized image of a restaurant interior with patrons"
+										style="background-image: url('images/hero.png')"
+									></div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Testimonials Slider -->
+					<section class="py-5 sm:py-12 lg:py-16 bg-surface-light dark:bg-surface-dark">
+						<div class="px-4 lg:px-10 flex flex-col items-center">
+							<div class="w-full flex flex-col gap-6 max-w-7xl mx-auto">
+								<!-- Heading -->
+								<div class="text-center max-w-3xl mx-auto">
+									<h2 class="text-[#4E4D4D] text-2xl md:text-4xl font-bold leading-tight tracking-tight">
+										Trusted by Restaurants Like Yours
+									</h2>
+									<p class="mt-3 text-text-light-secondary dark:text-dark-secondary text-sm md:text-base">
+										See how ChefOnline helps restaurants boost bookings, orders, and repeat customers.
+									</p>
+								</div>
+
+								<!-- Swiper Slider -->
+								<div class="">
+									<div class="swiper mySwiper">
+										<div class="swiper-wrapper">
+											<!-- Slide 1 -->
+											<div class="swiper-slide">
+												<article
+													class="h-full flex flex-col gap-3 p-6 rounded-xl text-left shadow-sm border border-border-light dark:border-border-dark"
+												>
+													<div>
+														<h4 class="font-bold text-[#4E4D4D]">John Doe</h4>
+														<p class="text-sm text-text-light-secondary dark:text-dark-secondary">The Rustic Spoon</p>
+													</div>
+													<p class="text-text-light-secondary dark:text-dark-secondary text-sm">
+														"Our online bookings have doubled since working with ChefOnline. Their team understands the
+														restaurant business inside and out."
+													</p>
+												</article>
+											</div>
+
+											<!-- Slide 2 -->
+											<div class="swiper-slide">
+												<article
+													class="h-full flex flex-col gap-3 p-6 rounded-xl text-left shadow-sm border border-border-light dark:border-border-dark"
+												>
+													<div>
+														<h4 class="font-bold text-[#4E4D4D]">Sarah Khan</h4>
+														<p class="text-sm text-text-light-secondary dark:text-dark-secondary">Spice Garden</p>
+													</div>
+													<p class="text-text-light-secondary dark:text-dark-secondary text-sm">
+														"We now rank on the first page for local searches. Our delivery and takeaway orders have
+														grown consistently every month."
+													</p>
+												</article>
+											</div>
+
+											<!-- Slide 3 -->
+											<div class="swiper-slide">
+												<article
+													class="h-full flex flex-col gap-3 p-6 rounded-xl text-left shadow-sm border border-border-light dark:border-border-dark"
+												>
+													<div>
+														<h4 class="font-bold text-[#4E4D4D]">Michael Lee</h4>
+														<p class="text-sm text-text-light-secondary dark:text-dark-secondary">The Curry House</p>
+													</div>
+													<p class="text-text-light-secondary dark:text-dark-secondary text-sm">
+														"Their SEO and ads strategy brought us more regulars and better-quality customers who
+														actually spend more per order."
+													</p>
+												</article>
+											</div>
+
+											<!-- Slide 4 -->
+											<div class="swiper-slide">
+												<article
+													class="h-full flex flex-col gap-3 p-6 rounded-xl text-left shadow-sm border border-border-light dark:border-border-dark"
+												>
+													<div>
+														<h4 class="font-bold text-[#4E4D4D]">Amelia Brown</h4>
+														<p class="text-sm text-text-light-secondary dark:text-dark-secondary">Urban Bites</p>
+													</div>
+													<p class="text-text-light-secondary dark:text-dark-secondary text-sm">
+														"ChefOnline helped us build a strong online presence and streamline our digital marketing,
+														saving us a lot of time."
+													</p>
+												</article>
+											</div>
+										</div>
+
+										<!-- Pagination dots (optional but nice UX) -->
+										<div class="swiper-pagination mt-6"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Turn Every Click Into a Conversion -->
+					<section class="py-5 sm:py-12 lg:py-16 bg-surface-light dark:bg-surface-dark">
+						<div class="px-4 lg:px-10 flex flex-1 justify-center">
+							<div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+								<!-- Text Column -->
+								<div class="flex flex-col gap-6 text-center lg:text-left items-center lg:items-start">
+									<h2 class="text-3xl font-bold text-[#4E4D4D]">Turn Every Click Into a Conversion</h2>
+									<p class="text-text-light-secondary dark:text-text-dark-secondary">
+										Our goal is simple: to make your restaurant the go-to choice for diners in your area. We don't just
+										improve your ranking; we drive tangible business results that you can see on your P&amp;L sheet.
+									</p>
+
+									<!-- Mobile image (shows only on small screens) -->
+									<div
+										class="block md:hidden w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+										data-alt="Close-up of a delicious plate of food at a restaurant"
+										style="background-image: url('images/hero.png')"
+									></div>
+
+									<ul class="space-y-4 text-left">
+										<li class="flex items-start gap-3">
+											<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+											<span class="text-[#4E4D4D]">
+												<strong>Increased Bookings:</strong>
+												More online reservations and direct calls from qualified, hungry customers.
+											</span>
+										</li>
+										<li class="flex items-start gap-3">
+											<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+											<span class="text-[#4E4D4D]">
+												<strong>Higher Search Rankings:</strong>
+												Outrank your local competitors on Google and Google Maps.
+											</span>
+										</li>
+										<li class="flex items-start gap-3">
+											<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+											<span class="text-[#4E4D4D]">
+												<strong>Enhanced Brand Reputation:</strong>
+												Build trust with positive reviews and a professional online presence.
+											</span>
+										</li>
+									</ul>
+								</div>
+
+								<!-- Desktop / tablet image column -->
+								<div class="w-full">
+									<div
+										class="hidden md:block w-full bg-center bg-no-repeat aspect-square lg:aspect-[4/3] bg-cover rounded-xl"
+										data-alt="Close-up of a delicious plate of food at a restaurant"
+										style="background-image: url('images/hero.png')"
+									></div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Stop Guessing, Start Growing -->
+					<section class="py-5 sm:py-12 lg:py-16 bg-surface-light dark:bg-surface-dark">
+						<div class="px-4 lg:px-10 flex flex-col items-center">
+							<div class="w-full flex flex-col gap-6 max-w-7xl mx-auto">
+								<!-- Heading -->
+								<div class="text-center max-w-3xl mx-auto">
+									<h2 class="text-[#4E4D4D] text-2xl md:text-4xl font-bold leading-tight tracking-tight">
+										Stop Guessing, Start Growing
+									</h2>
+									<p class="mt-3 text-text-light-secondary dark:text-dark-secondary text-sm md:text-base">
+										Are these marketing headaches holding your restaurant back?
+									</p>
+								</div>
+
+								<!-- Swiper Slider -->
+								<div class="">
+									<div class="swiper mySwiper">
+										<div class="swiper-wrapper">
+											<!-- Slide 1 -->
+											<div class="swiper-slide">
+												<div
+													class="h-full flex flex-col gap-2 p-6 bg-surface-light dark:bg-surface-dark rounded-xl border border-border-light dark:border-border-dark text-left shadow-sm"
+												>
+													<span class="material-symbols-outlined text-primary" style="font-size: 32px">
+														visibility_off
+													</span>
+													<h3 class="text-lg font-bold text-[#4E4D4D]">Low Online Visibility</h3>
+													<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm">
+														Customers can't find you on Google Maps or in local search results.
+													</p>
+												</div>
+											</div>
+
+											<!-- Slide 2 -->
+											<div class="swiper-slide">
+												<div
+													class="h-full flex flex-col gap-2 p-6 bg-surface-light dark:bg-surface-dark rounded-xl border border-border-light dark:border-border-dark text-left shadow-sm"
+												>
+													<span class="material-symbols-outlined text-primary" style="font-size: 32px">
+														event_seat
+													</span>
+													<h3 class="text-lg font-bold text-[#4E4D4D]">Empty Tables on Weeknights</h3>
+													<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm">
+														Inconsistent foot traffic is hurting your bottom line and staff morale.
+													</p>
+												</div>
+											</div>
+
+											<!-- Slide 3 -->
+											<div class="swiper-slide">
+												<div
+													class="h-full flex flex-col gap-2 p-6 bg-surface-light dark:bg-surface-dark rounded-xl border border-border-light dark:border-border-dark text-left shadow-sm"
+												>
+													<span class="material-symbols-outlined text-primary" style="font-size: 32px"> swords </span>
+													<h3 class="text-lg font-bold text-[#4E4D4D]">Losing to Competitors</h3>
+													<p class="text-text-light-secondary dark:text-text-dark-secondary text-sm">
+														Nearby restaurants are showing up first and stealing your potential customers.
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Pagination dots (optional but nice UX) -->
+										<div class="swiper-pagination mt-6"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Ready to fill more tables -->
+					<section class="py-5 sm:py-12 lg:py-16 bg-surface-light dark:bg-surface-dark">
+						<div class="px-4 lg:px-5 flex flex-1 justify-center">
+							<div
+								class="max-w-7xl w-full mx-auto p-6 bg-primary rounded-xl text-center flex flex-col items-center gap-6"
+							>
+								<h2 class="text-2xl md:text-4xl font-bold text-white">Ready to Fill More Tables?</h2>
+								<p class="text-white/90 text-base max-w-2xl">
+									Let's chat about your restaurant's goals. Get a free, personalized SEO strategy session with one of
+									our experts.
+								</p>
+								<a
+									href="https://www.chefonline.com/contact"
+									class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-white text-primary text-base font-bold leading-normal tracking-wide transition-all duration-200 hover:bg-gray-200 hover:shadow-md hover:-translate-y-px active:shadow-sm active:translate-y-0"
+								>
+									<span>Schedule My Free Consultation</span>
+								</a>
+							</div>
+						</div>
+					</section>
+				</main>
+
+				<!-- Footer -->
+				<footer class="py-10 sm:py-12 border-t border-border-light dark:border-border-dark">
+					<div class="px-4 lg:px-10 flex flex-1 justify-center">
+						<div class="max-w-7xl w-full mx-auto">
+							<div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+								<!-- Social + Security -->
+								<div class="space-y-6">
+									<!-- Security & Payments -->
+									<div class="space-y-3">
+										<h3
+											class="text-sm font-semibold tracking-wide text-text-light-primary dark:text-dark-primary uppercase"
+										>
+											Security &amp; Payments
+										</h3>
+										<div class="flex flex-wrap items-center gap-3">
+											<img
+												class="w-[60px]"
+												data-alt="Google Partner logo"
+												src="https://www.chefonlinetest.co.uk/assets/new_home/images/security-metrics06.png"
+											/>
+											<img
+												class="w-[80px]"
+												data-alt="Google Partner logo"
+												src="https://www.chefonlinetest.co.uk/assets/new_home/images/security-metrics01.png"
+											/>
+											<img
+												class="w-[80px]"
+												data-alt="Google Partner logo"
+												src="https://www.chefonlinetest.co.uk/assets/new_home/images/security-metrics02.png"
+											/>
+										</div>
+									</div>
+									<!-- Social -->
+									<div>
+										<h3
+											class="text-sm font-semibold tracking-wide text-text-light-primary dark:text-dark-primary uppercase mb-4"
+										>
+											Stay Connected
+										</h3>
+
+										<div class="flex flex-wrap items-center gap-3">
+											<!-- Facebook -->
+											<a
+												href="https://www.facebook.com/chefonline"
+												target="_blank"
+												rel="noopener"
+												class="h-9 w-9 rounded-full flex items-center justify-center text-white bg-[#1877F2] hover:bg-primary transition-colors"
+												aria-label="Facebook"
+											>
+												<i class="fa-brands fa-facebook-f text-base"></i>
+											</a>
+
+											<!-- LinkedIn -->
+											<a
+												href="https://www.linkedin.com/company/chefonline"
+												target="_blank"
+												rel="noopener"
+												class="h-9 w-9 rounded-full flex items-center justify-center text-white bg-[#0A66C2] hover:bg-primary transition-colors"
+												aria-label="LinkedIn"
+											>
+												<i class="fa-brands fa-linkedin-in text-base"></i>
+											</a>
+
+											<!-- X (Twitter) -->
+											<a
+												href="https://x.com"
+												target="_blank"
+												rel="noopener"
+												class="h-9 w-9 rounded-full flex items-center justify-center text-white bg-black hover:bg-primary transition-colors"
+												aria-label="X"
+											>
+												<i class="fa-brands fa-x-twitter text-base"></i>
+											</a>
+
+											<!-- Instagram -->
+											<a
+												href="https://www.instagram.com"
+												target="_blank"
+												rel="noopener"
+												class="h-9 w-9 rounded-full flex items-center justify-center text-white bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] hover:bg-primary hover:from-primary hover:via-primary hover:to-primary transition-all"
+												aria-label="Instagram"
+											>
+												<i class="fa-brands fa-instagram text-base"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Bottom bar -->
+							<div
+								class="mt-10 border-t border-border-light dark:border-border-dark pt-5 flex flex-col gap-4 md:flex-row md:items-center md:justify-between"
+							>
+								<div
+									class="flex flex-wrap items-center justify-center gap-4 text-xs text-text-light-secondary dark:text-dark-secondary"
+								>
+									<a class="hover:text-primary transition-colors" href="https://www.chefonline.com/privacy-policy">
+										Privacy Policy
+									</a>
+									<a class="hover:text-primary transition-colors" href="https://www.chefonline.com/terms-of-use">
+										Terms of Service
+									</a>
+									<a class="hover:text-primary transition-colors" href="https://www.chefonline.com/cookie-policy">
+										Cookie Policy
+									</a>
+								</div>
+
+								<p class="text-xs text-text-light-secondary dark:text-dark-secondary text-center">
+									© 2025 ChefOnline. All rights reserved.
+								</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+			<!-- <div class="absolute bottom-6 right-6 z-[1000] fixed bg-primary text-white h-[20px] w-[20px] rounder-full block">
+				<a class="hover:text-primary transition-colors" href="#top"> ↑ </a>
+			</div> -->
+		</div>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swipers + Mobile Menu -->
+		<script>
+			var mainSwiper = new Swiper('.mySwiper', {
+				loop: true,
+				spaceBetween: 16,
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				// Default for mobile
+				slidesPerView: 1,
+
+				// Responsive breakpoints
+				breakpoints: {
+					// >= 640px (small tablets): still 1 card, optional
+					640: {
+						slidesPerView: 1,
+					},
+					// >= 768px (tablets): you can choose 2 or keep 1
+					768: {
+						slidesPerView: 2,
+					},
+					// >= 1024px (desktop): 3 cards
+					1024: {
+						slidesPerView: 3,
+					},
+				},
+			});
+
+			var painPointsSwiper = new Swiper('.painPointsSwiper', {
+				loop: true,
+				spaceBetween: 16,
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.painPointsSwiper .swiper-pagination',
+					clickable: true,
+				},
+				// Default mobile
+				slidesPerView: 1,
+				breakpoints: {
+					640: {
+						slidesPerView: 1,
+					},
+					768: {
+						slidesPerView: 2,
+					},
+					1024: {
+						slidesPerView: 3,
+					},
+				},
+			});
+
+			// Mobile menu toggle
+			function toggleMenu() {
+				const menu = document.getElementById('mobileMenu');
+				const overlay = document.getElementById('menuOverlay');
+
+				menu.classList.toggle('translate-x-full');
+				menu.classList.toggle('translate-x-0');
+
+				if (overlay.classList.contains('hidden')) {
+					overlay.classList.remove('hidden');
+				} else {
+					overlay.classList.add('hidden');
+				}
+			}
+		</script>
+	</body>
+</html>
