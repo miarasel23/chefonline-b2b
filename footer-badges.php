@@ -76,7 +76,7 @@ if (!defined('BASE_URL')) {
         font-weight: 700;
         color: #222222;
         letter-spacing: 1px;
-        margin-bottom: 20px;
+        margin-bottom: 8px;
         text-transform: uppercase;
     }
 
