@@ -222,10 +222,19 @@ if (!defined('BASE_URL')) {
 
     .footer-trust-badges .support-logos {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .footer-trust-badges .support-row {
+        display: flex;
         justify-content: center;
         align-items: center;
         gap: 30px;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .footer-trust-badges .support-logo-img {
@@ -380,9 +389,19 @@ if (!defined('BASE_URL')) {
         <div class="support-section">
             <h4>Proud to Support</h4>
             <div class="support-logos">
-                <img src="<?php echo BASE_URL; ?>/assets/new-assets/oxfam.svg" alt="Oxfam" class="support-logo-img" />
-                <img src="<?php echo BASE_URL; ?>/assets/new-assets/tafida-raqeeb.svg" alt="Tafida Raqeeb Foundation" class="support-logo-img" />
-                <img src="<?php echo BASE_URL; ?>/assets/new-assets/love-for-nhs.svg" alt="Love NHS" class="support-logo-img" />
+                <div class="support-row">
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/chefonline-foundation.svg"
+                        alt="ChefOnline Foundation" class="support-logo-img" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/change-to-sing.svg" alt="Chance to Shine"
+                        class="support-logo-img" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/oxfam.svg" alt="Oxfam" class="support-logo-img" />
+                </div>
+                <div class="support-row">
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/tafida-raqeeb.svg" alt="Tafida raqeeb"
+                        class="support-logo-img" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/love-for-nhs.svg" alt="love for nhs"
+                        class="support-logo-img" />
+                </div>
             </div>
         </div>
     </div>

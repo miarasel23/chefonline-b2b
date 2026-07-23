@@ -93,10 +93,10 @@
     }
 
     .footer-link-col h4 {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 700;
         color: #111;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         text-transform: uppercase;
     }
 
@@ -107,9 +107,9 @@
     }
 
     .footer-link-col ul li {
-        margin-bottom: 8px;
+        margin-bottom: 12px;
         border-bottom: 1px solid #cccccc;
-        padding-bottom: 4px;
+        padding-bottom: 6px;
     }
 
     .footer-link-col ul li:last-child {
@@ -117,8 +117,8 @@
     }
 
     .footer-link-col ul li a {
-        color: #333333;
-        font-size: 14px;
+        color: #444;
+        font-size: 13px;
         text-decoration: none;
         transition: color 0.2s;
     }
@@ -128,10 +128,10 @@
     }
 
     .social-header {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 700;
         color: #111;
-        margin-top: 25px;
+        margin-top: 30px;
         margin-bottom: 15px;
         text-transform: uppercase;
     }
@@ -189,6 +189,12 @@
 
         .newsletter-bar form {
             flex-direction: column;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer-links-grid {
+            grid-template-columns: 1fr;
         }
     }
 </style>
