@@ -250,7 +250,7 @@ if (!defined('BASE_URL')) {
 
         .footer-trust-badges .partner-img {
             height: auto !important;
-            max-height: 50px !important;
+            max-height: 90px !important;
             width: auto !important;
             max-width: 100% !important;
         }
