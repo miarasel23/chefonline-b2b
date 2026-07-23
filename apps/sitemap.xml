@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.chefonline.com/apps/</loc>
+</url>
+<url>
+  <loc>https://www.chefonline.com/apps/about-us</loc>
+</url>
+<url>
+  <loc>https://www.chefonline.com/apps/ios-apps</loc>
+</url>
+<url>
+  <loc>https://www.chefonline.com/apps/android</loc>
+</url>
+<url>
+  <loc>https://www.chefonline.com/apps/cross-platform</loc>
+</url>
+<url>
+  <loc>https://www.chefonline.com/apps/our-work</loc>
+</url>
+<url>
+  <loc>https://www.chefonline.com/apps/contact</loc>
+</url>
+</urlset>

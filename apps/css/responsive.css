@@ -1,0 +1,99 @@
+
+
+@media screen and (max-width:767px) {
+.navbar-default .navbar-toggle {
+  background: #eb1d3b none repeat scroll 0 0;
+  border-color: #eb1d3b;
+  border-radius: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+.navbar-brand > img {
+  display: none;
+}
+.navbar-brand .black-logo {
+  display: block;
+}
+#header .navbar-default {
+	background-color: rgba(255, 255, 255, 1.00);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.118);
+	}
+#header .navbar-brand {
+  padding: 5px 15px;
+}
+.navbar-default .navbar-brand {
+  max-width: 135px;
+}
+.navbar-default .navbar-nav > li, .dropdown-menu li {
+  border-bottom: 1px solid #efefef;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-nav > li > a, .small-header .navbar-nav > li > a {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.navbar-default .navbar-nav > li > a::after {
+	display: none;
+} 
+.dropdown-menu {
+  padding: 0;
+}
+#slider-main h1 {
+  font-size: 25px;
+}
+.welcome .welcome-text h2 {
+  font-size: 23px;
+}
+.our-strategy ul li:nth-child(odd) {
+  list-style-type: decimal-leading-zero;
+  display: list-item;
+  list-style-position: inside;
+}
+.our-strategy .strategy-popover {
+  margin-left: 0;
+}
+.our-features .features {
+  height: 150px;
+}
+.our-clients-say {
+  text-align: center;
+}
+footer .footer-top {
+  padding: 40px 0;
+}
+.our-features .features {
+  height: auto;
+}
+footer .footer-bottom {
+  text-align: center;
+}
+footer .footer-bottom ul {
+  text-align: center;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	.our-strategy ul li {
+	  display: inline-block;
+	  padding: 0 3px;
+	}
+}
+@media screen and (min-width:768px) {
+li.dropdown:hover {
+  background-color: #ffffff;
+}
+li.dropdown:hover a {
+  color: #ed193a;
+}
+  li.dropdown:hover ul {
+    display: block;
+  } 
+  }
+@media screen and (min-width:1024px) and (max-width:1139px) {}
