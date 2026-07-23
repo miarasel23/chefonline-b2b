@@ -24,8 +24,7 @@ if (!defined('BASE_URL')) {
     </title>
     <meta name="description" content="<?php echo $meta_desc; ?>">
     <link rel="canonical" href="<?php echo $canonical_link; ?>" />
-    <link rel="shortcut icon" type="image/x-icon"
-        href="<?php echo BASE_URL; ?>/assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>/assets/images/favicon.png">
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900' rel='stylesheet'
         type='text/css'>
@@ -49,14 +48,10 @@ if (!defined('BASE_URL')) {
     <!--  <link href="<?php echo BASE_URL; ?>/assets/css/bootstrap.min.css" rel="stylesheet" /> -->
     <!--<link href="<?php echo BASE_URL; ?>/hayper/assets/css/font-awesome.min.css"
    rel="stylesheet" /> -->
-    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/flaticon-set.css"
-        rel="stylesheet" />
-    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/magnific-popup.css"
-        rel="stylesheet" />
-    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/owl.carousel.min.css"
-        rel="stylesheet" />
-    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/owl.theme.default.min.css"
-        rel="stylesheet" />
+    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/owl.theme.default.min.css" rel="stylesheet" />
     <link href="<?php echo BASE_URL; ?>/hayper/assets/css/animate.css" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/themify-icons.css" />
     <!--  <link href="--><?php //echo BASE_URL;
@@ -69,13 +64,11 @@ if (!defined('BASE_URL')) {
 
 
     <link href="<?php echo BASE_URL; ?>/hayper/style.css" rel="stylesheet">
-    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/responsive.css"
-        rel="stylesheet" />
+    <link href="<?php echo BASE_URL; ?>/hayper/assets/css/responsive.css" rel="stylesheet" />
 
     <!--  -->
-    <script type="text/javascript"
-        src="<?php echo BASE_URL; ?>/assets/js/jquery-1.11.3.min.js">
-        </script>
+    <script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery-1.11.3.min.js">
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script>
@@ -291,8 +284,8 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 hidden-xs logo-tab">
                             <a href="<?php echo BASE_URL; ?>" class="logo"> <img
-                                    src="<?php echo BASE_URL; ?>/assets/images/logo.png"
-                                    width="186" height="37" alt="ChefOnline Logo" /> </a>
+                                    src="<?php echo BASE_URL; ?>/assets/images/logo.png" width="186" height="37"
+                                    alt="ChefOnline Logo" /> </a>
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 custom-nav">
@@ -307,9 +300,8 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                             <span class="icon-bar"></span>
                                         </button>
                                         <a class="navbar-brand hidden-sm hidden-md hidden-lg logo"
-                                            href="<?php echo BASE_URL; ?>"><img
-                                                class="img-responsive" width="186" height="37"
-                                                src="assets/images/logo.png" alt="ChefOnline Logo" /></a>
+                                            href="<?php echo BASE_URL; ?>"><img class="img-responsive" width="186"
+                                                height="37" src="assets/images/logo.png" alt="ChefOnline Logo" /></a>
                                     </div>
 
                                     <div class="collapse navbar-collapse js-navbar-collapse">
@@ -340,8 +332,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                                     href="<?php echo BASE_URL; ?>/online-ordering-system">
                                                                     Online Food Ordering
                                                                     System</a></li>
-                                                            <li><a
-                                                                    href="<?php echo BASE_URL; ?>/cloud-epos-system">
+                                                            <li><a href="<?php echo BASE_URL; ?>/cloud-epos-system">
                                                                     EPoS System</a></li>
                                                             <!--<li><a href="<?php echo BASE_URL; ?>/offers">Offers</a></li>-->
                                                         </ul>
@@ -351,11 +342,9 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                         <ul>
                                                             <li class="dropdown-header hidden-xs">&nbsp;</li>
                                                             <li class="divider hidden-xs"></li>
-                                                            <li><a
-                                                                    href="<?php echo BASE_URL; ?>/digital-marketing">
+                                                            <li><a href="<?php echo BASE_URL; ?>/digital-marketing">
                                                                     Digital Marketing</a></li>
-                                                            <li><a
-                                                                    href="<?php echo BASE_URL; ?>/print-media">
+                                                            <li><a href="<?php echo BASE_URL; ?>/print-media">
                                                                     Print Media</a></li>
                                                         </ul>
                                                     </li>
@@ -394,14 +383,11 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Press & Media
                                                     <i class="fa fa-chevron-down"></i></a>
                                                 <ul class="dropdown-menu mega-dropdown-menu press-dropdown">
-                                                    <li><a
-                                                            href="<?php echo BASE_URL; ?>/videos">Video</a>
+                                                    <li><a href="<?php echo BASE_URL; ?>/videos">Video</a>
                                                     </li>
-                                                    <li><a
-                                                            href="<?php echo BASE_URL; ?>/photo">Photo</a>
+                                                    <li><a href="<?php echo BASE_URL; ?>/photo">Photo</a>
                                                     </li>
-                                                    <li><a
-                                                            href="<?php echo BASE_URL; ?>/news">News</a>
+                                                    <li><a href="<?php echo BASE_URL; ?>/news">News</a>
                                                     </li>
                                                 </ul>
                                             </li>
