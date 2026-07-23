@@ -87,7 +87,7 @@
 
     .footer-links-grid {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         margin-bottom: 40px;
     }
@@ -218,70 +218,70 @@
 
         <!-- Links Grid -->
         <div class="footer-links-grid">
-            <!-- Top Cuisines -->
+            <!-- Column 1: Cuisines & Company -->
             <div class="footer-link-col">
-                <h4>Top Cuisines</h4>
-                <ul>
-                    <li><a target="_blank" href="https://www.chefonline.com/indian">Indian</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/bangladeshi">Bangladeshi</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/fast-food">Fast Food</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/thai">Thai</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/pizza">Pizza</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/italian">Italian</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/cuisines">View all cuisines</a></li>
-                </ul>
+                <div>
+                    <h4>Top Cuisines</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://www.chefonline.com/indian">Indian</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/bangladeshi">Bangladeshi</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/fast-food">Fast Food</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/thai">Thai</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/pizza">Pizza</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/italian">Italian</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/cuisines">View all cuisines</a></li>
+                    </ul>
+                </div>
+                <div style="margin-top: 40px;">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="faq">Faq</a></li>
+                        <li><a href="about-us">About us</a></li>
+                        <li><a href="contact">Contact us</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/blog/">ChefOnline Blog</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.co.uk/partner">Restaurant sign up</a></li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- Serving Areas -->
+            <!-- Column 2: Serving Areas & Legal/Social -->
             <div class="footer-link-col">
-                <h4>Serving Areas</h4>
-                <ul>
-                    <li><a target="_blank" href="https://www.chefonline.com/london">London</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/newcastle">Newcastle</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/rochester">Rochester</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/watford">Watford</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/liverpool">Liverpool</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/oxford">Oxford</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/takeaways">View all locations</a></li>
-                </ul>
-            </div>
+                <div>
+                    <h4>Serving Areas</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://www.chefonline.com/london">London</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/newcastle">Newcastle</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/rochester">Rochester</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/watford">Watford</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/liverpool">Liverpool</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/oxford">Oxford</a></li>
+                        <li><a target="_blank" href="https://www.chefonline.com/takeaways">View all locations</a></li>
+                    </ul>
+                </div>
+                <div style="margin-top: 40px;">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms-conditions">Terms & Conditions</a></li>
+                        <li><a href="terms-of-use">Terms of Use</a></li>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="cookie-policy">How do we use cookies?</a></li>
+                    </ul>
 
-            <!-- Company -->
-            <div class="footer-link-col">
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="faq">Faq</a></li>
-                    <li><a href="about-us">About us</a></li>
-                    <li><a href="contact">Contact us</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.com/blog/">ChefOnline Blog</a></li>
-                    <li><a target="_blank" href="https://www.chefonline.co.uk/partner">Restaurant sign up</a></li>
-                </ul>
-            </div>
-
-            <!-- Legal & Social -->
-            <div class="footer-link-col">
-                <h4>Legal</h4>
-                <ul>
-                    <li><a href="terms-conditions">Terms & Conditions</a></li>
-                    <li><a href="terms-of-use">Terms of Use</a></li>
-                    <li><a href="privacy-policy">Privacy Policy</a></li>
-                    <li><a href="cookie-policy">How do we use cookies?</a></li>
-                </ul>
-
-                <h4 class="social-header">Follow Us</h4>
-                <div class="social-icons-row">
-                    <a href="https://www.facebook.com/ChefOnlinePartners/" target="_blank"
-                        class="social-icon-btn social-facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/SRS_ChefOnline" target="_blank"
-                        class="social-icon-btn social-twitter"><i class="fa fa-close"></i></a>
-                    <a href="https://www.instagram.com/chefonlineuk" target="_blank"
-                        class="social-icon-btn social-instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UC8rNSm4umip2dGbmlR7ph6g" target="_blank"
-                        class="social-icon-btn social-youtube"><i class="fa fa-youtube-play"></i></a>
-                    <a href="https://www.pinterest.com/chefonlineuk" target="_blank"
-                        class="social-icon-btn social-pinterest"><i class="fa fa-pinterest"></i></a>
-                    <a href="https://www.linkedin.com/company/chef-online" target="_blank"
-                        class="social-icon-btn social-linkedin"><i class="fa fa-linkedin"></i></a>
+                    <h4 class="social-header">Follow Us</h4>
+                    <div class="social-icons-row">
+                        <a href="https://www.facebook.com/ChefOnlinePartners/" target="_blank"
+                            class="social-icon-btn social-facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/SRS_ChefOnline" target="_blank"
+                            class="social-icon-btn social-twitter"><i class="fa fa-close"></i></a>
+                        <a href="https://www.instagram.com/chefonlineuk" target="_blank"
+                            class="social-icon-btn social-instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UC8rNSm4umip2dGbmlR7ph6g" target="_blank"
+                            class="social-icon-btn social-youtube"><i class="fa fa-youtube-play"></i></a>
+                        <a href="https://www.pinterest.com/chefonlineuk" target="_blank"
+                            class="social-icon-btn social-pinterest"><i class="fa fa-pinterest"></i></a>
+                        <a href="https://www.linkedin.com/company/chef-online" target="_blank"
+                            class="social-icon-btn social-linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
