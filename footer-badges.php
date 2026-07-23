@@ -411,7 +411,8 @@ if (!defined('BASE_URL')) {
                         alt="ChefOnline Foundation" class="support-logo-img" />
                     <img src="<?php echo BASE_URL; ?>/assets/new-assets/change-to-sing.svg" alt="Chance to Shine"
                         class="support-logo-img" />
-                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/oxfam.svg" alt="Oxfam" class="support-logo-img" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/oxfam.svg" alt="Oxfam"
+                        class="support-logo-img" />
                 </div>
                 <div class="support-row">
                     <img src="<?php echo BASE_URL; ?>/assets/new-assets/tafida-raqeeb.svg" alt="Tafida raqeeb"

@@ -402,7 +402,7 @@
                         <div class="col-md-6 default info site-heading">
                             <h2>SEO & SMM <br> <span>Digital Marketing Services</span></h2>
                             <img class="img-responsive  hidden-sm hidden-md hidden-lg hide-dextop"
-                                src="<?php echo "https://" . $_SERVER['SERVER_NAME']; ?>/hayper/digital-marketing-mobile.jpg"
+                                src="<?php echo BASE_URL; ?>/hayper/digital-marketing-mobile.jpg"
                                 alt="ChefOnline Online Food Ordering System" width="936" height="617">
                             <div class="row">
                                 <div class="col-md-6 visible-sm visible-md visible-lg">
