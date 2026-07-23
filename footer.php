@@ -93,10 +93,10 @@
     }
 
     .footer-link-col h4 {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 700;
         color: #111;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         text-transform: uppercase;
     }
 
@@ -107,9 +107,9 @@
     }
 
     .footer-link-col ul li {
-        margin-bottom: 12px;
+        margin-bottom: 8px;
         border-bottom: 1px solid #cccccc;
-        padding-bottom: 6px;
+        padding-bottom: 4px;
     }
 
     .footer-link-col ul li:last-child {
@@ -117,8 +117,8 @@
     }
 
     .footer-link-col ul li a {
-        color: #444;
-        font-size: 13px;
+        color: #333333;
+        font-size: 14px;
         text-decoration: none;
         transition: color 0.2s;
     }
@@ -128,10 +128,10 @@
     }
 
     .social-header {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 700;
         color: #111;
-        margin-top: 30px;
+        margin-top: 25px;
         margin-bottom: 15px;
         text-transform: uppercase;
     }
