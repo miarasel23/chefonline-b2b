@@ -52,6 +52,7 @@
           </div>
         </div>        
       </div>
+      <?php include dirname(__DIR__) . '/footer-badges.php'; ?>
       <div class="footer-bottom">
         <div class="container">
           <div class="row">
