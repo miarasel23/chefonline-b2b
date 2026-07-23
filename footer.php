@@ -37,8 +37,8 @@
                     <ul class="list-unstyled">
                         <li>T: <a href="tel:03303801000">0330 380 1000</a></li>
                         <li>
-                            <img src="<?php echo BASE_URL; ?>/assets/images/customer-support-contact.jpg"
-                                width="165" height="15" class="footer-contact-img" alt="contact">
+                            <img src="<?php echo BASE_URL; ?>/assets/images/customer-support-contact.jpg" width="165"
+                                height="15" class="footer-contact-img" alt="contact">
                         </li>
                         <li>Mon - Fri: 9:30 am - 11:00 pm
                             <br>Sat: 10:00 am - 11:00 pm <br>
@@ -54,8 +54,8 @@
                     <h3>Sales and Marketing</h3>
                     <ul class="list-unstyled">
                         <li>T: <a href="tel:02035985956">0203 598 5956</a></li>
-                        <li><img src="<?php echo BASE_URL; ?>/assets/images/hello-chefonline-com.png"
-                                width="144" height="16" class="footer-contact-img" alt="contact"></li>
+                        <li><img src="<?php echo BASE_URL; ?>/assets/images/hello-chefonline-com.png" width="144"
+                                height="16" class="footer-contact-img" alt="contact"></li>
                         <a href="https://www.chefonline.com/contact" class="btn btn-danger">Contact Us</a>
                     </ul>
 
@@ -82,7 +82,7 @@
         </div>
     </div>
 </div>
-
+<?php include __DIR__ . '/footer-badges.php'; ?>
 <!--Footer area starts Here -->
 <footer id="footer">
     <!--Footer box starts Here -->
@@ -99,8 +99,8 @@
                </div>
 
                <?php
-                include('footer-contact.php');
-                ?>
+               include('footer-contact.php');
+               ?>
 
                <form id="enquiry_form2" action="" class="footer-contact-form" method="post">
                   <div class="row">
@@ -211,7 +211,8 @@
                         <!-- <h5>Quick Links</h5> -->
                         <div class="quick-list">
                             <a href="https://www.google.com/partners/agency?id=8390177523" target="_blank">
-                                <img src="https://www.gstatic.com/partners/badge/images/2025/PartnerBadge.png" style="max-width: 150px;" />
+                                <img src="https://www.gstatic.com/partners/badge/images/2025/PartnerBadge.png"
+                                    style="max-width: 150px;" />
                             </a>
                             <!-- <ul>
                                 <li>
@@ -239,7 +240,7 @@
     </div>
     <!--Footer box ends Here -->
 </footer>
-<?php include __DIR__ . '/footer-badges.php'; ?>
+
 <div class="copyright text-center">
     <div class="container">
         <div class="col-xs-12 col-sm-12 copyright-content">
@@ -258,26 +259,21 @@
 <script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/validation.min.js">
 </script>
 <script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/bootval.js"></script>
-<script type="text/javascript"
-    src="<?php echo BASE_URL; ?>/assets/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.themepunch.tools.min.js"></script>
 <script src="<?php echo BASE_URL; ?>/assets/js/masonry.pkgd.min.js"></script>
 <script src="<?php echo BASE_URL; ?>/assets/js/jquery.fancybox.js"></script>
-<script type="text/javascript"
-    src="<?php echo BASE_URL; ?>/assets/js/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.fancybox-media.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/site.js"></script>
 <script src="<?php echo BASE_URL; ?>/assets/js/script.js" type="text/javascript"></script>
-<script type="text/javascript"
-    src="<?php echo BASE_URL; ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.magnific-popup.min.js"></script>
 <!-- <script type="text/jscript" language="javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.isotope.min.js"></script> -->
 <script src="<?php echo BASE_URL; ?>/assets/js/wow.min.js"></script>
 <script src="<?php echo BASE_URL; ?>/assets/js/custom.js"></script>
 <script>
     new WOW().init();
 </script>
-<script src='<?php echo BASE_URL; ?>/assets/js/jquery.justifiedGallery.min.js'
-    type='text/javascript'></script>
-<link href='<?php echo BASE_URL; ?>/assets/css/justifiedGallery.min.css' rel='stylesheet'
-    type='text/css' />
+<script src='<?php echo BASE_URL; ?>/assets/js/jquery.justifiedGallery.min.js' type='text/javascript'></script>
+<link href='<?php echo BASE_URL; ?>/assets/css/justifiedGallery.min.css' rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/livicons-1.4.min.js">
 </script>
 <script src="<?php echo BASE_URL; ?>/assets/js/raphael.min.js"></script>
@@ -301,7 +297,7 @@
             } else {
                 xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
             }
-            xmlhttp.onreadystatechange = function() {
+            xmlhttp.onreadystatechange = function () {
                 if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                     if (xmlhttp.responseText == 1) {
                         document.getElementById('return_msg').innerHTML = 'You are successfully subscribed.';
@@ -329,14 +325,14 @@
 </script>
 
 <script>
-    jQuery(document).ready(function($) {
-        $(".read-more-content").click(function() {
+    jQuery(document).ready(function ($) {
+        $(".read-more-content").click(function () {
             $(".more-content").show();
             $(".read-less-content").show();
             $(".read-more-content").hide();
         });
 
-        $(".read-less-content").click(function() {
+        $(".read-less-content").click(function () {
             $(".more-content").hide();
             $(".read-more-content").show();
             $(this).hide();

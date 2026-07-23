@@ -43,7 +43,7 @@ if (!defined('BASE_URL')) {
     border-right: 1px solid #e5e5e5;
 }
 .footer-trust-badges .partner-img {
-    height: 70px;
+    height: 100px;
     width: auto;
 }
 .footer-trust-badges .mid-sections {
