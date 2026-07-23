@@ -90,6 +90,37 @@ if (!defined('BASE_URL')) {
     height: 40px;
     width: auto;
 }
+.footer-trust-badges .payment-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px 15px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    max-width: 280px;
+    margin: 10px auto 0;
+}
+.footer-trust-badges .payment-cards-grid .badge-item {
+    height: 32px;
+    width: auto;
+    max-width: 80px;
+}
+.footer-trust-badges .badges-grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 15px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    max-width: 280px;
+    margin: 10px auto 0;
+}
+.footer-trust-badges .badges-grid-2x2 .badge-item-lg {
+    height: 40px;
+    width: auto;
+    max-width: 110px;
+    object-fit: contain;
+}
 .footer-trust-badges .support-section {
     text-align: center;
     margin-top: 40px;
@@ -157,12 +188,10 @@ if (!defined('BASE_URL')) {
                         <span style="font-size: 20px; color: #ccc;">|</span>
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/ryft.svg" alt="Ryft" class="badge-item-lg" />
                     </div>
-                    <div class="badge-row">
+                    <div class="payment-cards-grid">
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/visa.svg" alt="Visa" class="badge-item" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/master-card.svg" alt="Mastercard" class="badge-item" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/american-express.svg" alt="American Express" class="badge-item" />
-                    </div>
-                    <div class="badge-row">
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/verified-by-visa.svg" alt="Verified by Visa" class="badge-item" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/master-card-secure-code.svg" alt="Mastercard SecureCode" class="badge-item" />
                         <img src="<?php echo BASE_URL; ?>/assets/new-assets/american-express-safe-key.svg" alt="SafeKey" class="badge-item" />
@@ -173,30 +202,22 @@ if (!defined('BASE_URL')) {
             <!-- Secured By -->
             <div class="mid-col">
                 <h4>Secured By</h4>
-                <div class="badge-grid-triple">
-                    <div class="badge-row">
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/security-mactis-pcidss.svg" alt="SecurityMetrics PCI DSS" class="badge-item-lg" />
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/security-metrics-debit-card.svg" alt="SecurityMetrics Credit Card Safe" class="badge-item-lg" />
-                    </div>
-                    <div class="badge-row" style="margin-top: 10px;">
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/cyber-essentials.svg" alt="Cyber Essentials" class="badge-item-lg" />
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/cloud-fare.svg" alt="Cloudflare" class="badge-item-lg" />
-                    </div>
+                <div class="badges-grid-2x2">
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/security-mactis-pcidss.svg" alt="SecurityMetrics PCI DSS" class="badge-item-lg" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/security-metrics-debit-card.svg" alt="SecurityMetrics Credit Card Safe" class="badge-item-lg" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/cyber-essentials.svg" alt="Cyber Essentials" class="badge-item-lg" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/cloud-fare.svg" alt="Cloudflare" class="badge-item-lg" />
                 </div>
             </div>
 
             <!-- Service Standard -->
             <div class="mid-col">
                 <h4>Service Standard</h4>
-                <div class="badge-grid-triple">
-                    <div class="badge-row">
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/ascb.svg" alt="ASCB" class="badge-item-lg" />
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/irqao.svg" alt="IRQAO" class="badge-item-lg" />
-                    </div>
-                    <div class="badge-row" style="margin-top: 10px;">
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/iso-9001.svg" alt="ISO 9001" class="badge-item-lg" />
-                        <img src="<?php echo BASE_URL; ?>/assets/new-assets/iso-27001.svg" alt="ISO/IEC 27001" class="badge-item-lg" />
-                    </div>
+                <div class="badges-grid-2x2">
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/ascb.svg" alt="ASCB" class="badge-item-lg" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/irqao.svg" alt="IRQAO" class="badge-item-lg" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/iso-9001.svg" alt="ISO 9001" class="badge-item-lg" />
+                    <img src="<?php echo BASE_URL; ?>/assets/new-assets/iso-27001.svg" alt="ISO/IEC 27001" class="badge-item-lg" />
                 </div>
             </div>
         </div>
