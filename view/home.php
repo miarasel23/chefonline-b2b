@@ -232,6 +232,24 @@
         text-align: left;
     }
 }
+
+@media (max-width: 767px) {
+    .red-partner-banner .google-partner-block,
+    .red-partner-banner .meta-partner-block {
+        text-align: center;
+    }
+    .red-partner-banner .partner-block h3 {
+        font-size: 16px;
+    }
+    .red-partner-banner .partner-block h4 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .red-partner-banner .partner-block img {
+        height: 70px;
+        padding: 8px 16px;
+    }
+}
 </style>
 
 <div class="red-partner-banner">
