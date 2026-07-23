@@ -1,0 +1,827 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <!-- <meta name="description" content="#bbbdesbbb#"> -->
+      <meta name="msvalidate.01" content="044B5B16E29E9EEC3B37057E8F524A87" />
+      <title>draft_or_post_title</title>
+<meta name="keywords"  content="#bbbkeybbb#" />
+      <meta name="description" content="#bbbdesbbb#">
+      
+      <link rel="shortcut icon" type="image/x-icon" href="https://www.chefonline.com/assets/images/favicon.png">
+      <!-- Google Font -->
+      <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://www.chefonline.com/assets/css/font-awesome.min.css" />
+      <!-- Bootstrap -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+
+
+      <link rel="stylesheet" href="https://www.chefonline.com/assets/css/homepage7.css" />
+
+      <link rel="stylesheet" href="https://www.chefonline.com/assets/css/global.css" />
+      <link rel="stylesheet" href="https://www.chefonline.com/assets/css/themify-icons.css" />
+<link rel="stylesheet" href="https://www.chefonline.com/assets/css/style.css" />
+      <link rel="stylesheet" href="https://www.chefonline.com/assets/css/responsive.css" />
+
+<!--  -->
+
+<link href="http://www.chefonline.com/assets/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://www.chefonline.com/hayper/assets/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://www.chefonline.com/hayper/assets/css/flaticon-set.css" rel="stylesheet" />
+  <link href="https://www.chefonline.com/hayper/assets/css/magnific-popup.css" rel="stylesheet" />
+  <link href="https://www.chefonline.com/hayper/assets/css/owl.carousel.min.css" rel="stylesheet" />
+  <link href="https://www.chefonline.com/hayper/assets/css/owl.theme.default.min.css" rel="stylesheet" />
+  <link href="https://www.chefonline.com/hayper/assets/css/animate.css" rel="stylesheet" />
+       <link rel="stylesheet" href="https://www.chefonline.com/assets/css/themify-icons.css" />
+<link href="http://www.chefonline.com/--><!--/hayper/assets/css/bootsnav.css" rel="stylesheet" />
+  <link href="https://www.chefonline.com/hayper/style.css" rel="stylesheet">
+  <link href="https://www.chefonline.com/hayper/assets/css/responsive.css" rel="stylesheet" />
+
+
+
+  <!--  -->
+       <script type="text/javascript" src="https://www.chefonline.com/assets/js/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-82222126-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+
+
+
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="draft_or_post_title" />
+	  <meta property="og:description"  content="ChefOnline offers complete business solution for business owners. We provide website, marketing & sales strategies & other services to promote businesses." />
+      
+      
+
+
+<script type="application/ld+json">
+   {
+      "@context": "https://schema.org",
+      "@id": "https://www.chefonline.com/#Organization",
+      "@type": "Organization",
+      "name": "ChefOnline",
+
+
+      "url": "https://www.chefonline.com/",
+      "logo": "https://www.chefonline.com/assets/images/logo.png",
+      "contactPoint": [
+         {
+            "@type": "ContactPoint",
+            "telephone": "+442035985956",
+            "telephone": "+443303801000",
+            "contactType": "Customer Service",
+            "areaServed": [ "UK" ]
+         }
+      ],
+      "sameAs": [
+         "https://www.facebook.com/ChefOnlinePartners/",
+         "https://twitter.com/ChefOnlineUK",
+         "https://www.youtube.com/channel/UCiuWjkTLdvJQ6EJECQa-7Zw",
+         "https://www.linkedin.com/company/chef-online"
+      ]
+   }
+</script>
+
+
+
+<script type="application/ld+json">
+   {
+      "@context": "https://schema.org",
+      "@id": "https://www.chefonline.com/#website",
+      "@type": "WebSite",
+      "url": "https://www.chefonline.com/",
+      "name": "ChefOnline",
+      "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.chefonline.com/?search/{search_term_string}",
+         "query-input": "required name=search_term_string"
+      }
+   }
+</script>
+
+
+
+
+<script type="application/ld+json">
+   {
+      "@context": "https://schema.org",
+      "@id": "https://www.chefonline.com/#webpage",
+      "@type": "WebPage",
+      "url": "https://www.chefonline.com",
+      "name": "ChefOnline"
+   }
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "address": {
+            "@type": "PostalAddress",
+         "streetAddress": "218A Brick Lane",
+            "addressLocality": "London",
+         "addressRegion": "London",
+            "postalCode": "E1 6SA",
+         "addressCountry":"UK"
+  }
+}
+</script>
+<script type="text/javascript"> //<![CDATA[
+var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "https://www.trustlogo.com/");
+document.write(unescape("%3Cscript src='http://www.chefonline.com/" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1959549830937243');
+fbq('track', 'PageView');
+</script>
+<!-- End Facebook Pixel Code -->
+   </head>
+
+   <body>
+#bbb1content1bbb#
+<p>#link1#</p>
+<p>#bbb2content2bbb#</p>
+<p>#link2#</p>
+
+      <div id="wrapper" class="homepage homepage-1">
+      <header id="header" class="header header-style-4">
+         <div class="main-header">
+            <div class="container">
+               <div class="row">#descontent#</div>
+            </div>
+         </div>
+         <!-- main header Ends Here -->
+      </header>
+      <!--header Section Ends Here -->
+
+      <style>
+        .referral{
+          background:#EC1D3D !important;
+          color:#fff !important;
+          border:none !important;
+          position:relative !important;
+          padding:0.5em 0.5em !important;
+          cursor:pointer !important;
+          transition:800ms ease all !important;
+          outline:none !important;
+          margin-top: 18px;
+        }
+        .referral:hover{
+          background:#fff !important;
+          color:#EC1D3D !important;
+        }
+        .referral:before,.referral:after{
+          content:'' !important;
+          position:absolute !important;
+          top:0;
+          right:0;
+          height:2px;
+          width:0;
+          background: #EC1D3D !important;
+          transition:400ms ease all !important;
+        }
+        .referral:after{
+          right:inherit !important;
+          top:inherit !important;
+          left:0;
+          bottom:0;
+        }
+        .referral:hover:before,.referral:hover:after{
+          width:100% !important;
+          transition:800ms ease all !important;
+        }
+      </style><!--banner Section starts Here -->
+<!-- video sections -->
+<div class="showcase hero-box">
+   <section id="video-bg" class="">
+      <div class="video-background"></div>
+      <div class="container bottompad70">
+         <div class="row" id="video-main">
+            <div class="col-md-12 text-center top50 bottom50">
+              
+                <h2 class="covid-19"><a class="covid-19-wrap" target="_blank" href="https://www.gov.uk/government/collections/financial-support-for-businesses-during-coronavirus-covid-19"><span>COVID-19</span> <br>Support For Businesses
+                  <div class="btn btn-custom">
+<i class="fa fa-caret-right"></i>More info</div>
+                </a></h2>
+              
+              <br>
+               <h1>Welcome To ChefOnline</h1>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+               <a target="_blank" class="box-icon" href="http://www.chefonline.co.uk/">
+                  <div class="small-icon bg border border-info">
+                     <span class="livicon" data-n="globe" data-s="62" data-c="#ffffff" data-hc="#ffffff"></span>
+                  </div>
+                  <h6 class="title text-center">ChefOnline</h6>
+                  <div class="btn btn-custom">
+<i class="fa fa-caret-right"></i>Enter Site</div>
+               </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+               <a target="_blank" class="box-icon" href="https://epos.chefonline.com/">
+                  <div class="small-icon bg border border-info">
+                     <span class="epos">
+                     <img src="http://www.chefonline.com/assets/images/icon-epos1.png" alt="ChefOnline EPoS"></span>
+                  </div>
+                  <h6 class="title text-center">EPoS Systems</h6>
+                  <div class="btn btn-custom">
+<i class="fa fa-caret-right"></i>Enter Site</div>
+               </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+               <a target="_blank" class="box-icon" href="https://printmedia.chefonline.com/">
+                  <div class="small-icon bg border border-info">
+                     <!-- <span class="livicon" data-n="brush" data-c="#ec193a" data-s="62" data-hc="0"></span> -->
+                     <span class="livicon" data-n="brush" data-s="62" data-c="#ffffff" data-hc="#ffffff"></span>
+                  </div>
+                  <h6 class="title text-center">ChefOnline Print Media</h6>
+                  <div class="btn btn-custom">
+<i class="fa fa-caret-right"></i>Enter Site</div>
+               </a>
+            </div>
+            <!-- /Boxes de Acoes --> 
+            <!-- <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+               <a target="_blank" class="box-icon" href="http://www.srs-apps.co.uk/">
+                  <div class="small-icon bg border border-info">
+                     <span class="livicon" data-n="cellphone" data-s="62" data-c="#ffffff" data-hc="#ffffff"></span>
+                  </div>
+                  <h6 class="title text-center">SRS Apps</h6>
+                  <div class="btn btn-custom"><i class="fa fa-caret-right"></i>Enter Site</div>
+               </a>
+            </div> -->
+            <!-- Boxes de Acoes -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+               <a target="_blank" class="box-icon" href="https://www.gtechsolution.co.uk/digital-marketing">
+                  <div class="small-icon bg border border-info">
+                     <!-- <span class="livicon" data-n="brush" data-c="#ec193a" data-s="62" data-hc="0"></span> -->
+                     <span class="livicon" data-n="search" data-s="62" data-c="#ffffff" data-hc="0"></span>
+                     <!-- <span class="livicon" data-n="brush" data-s="62" data-c="#ffffff" data-hc="#ffffff"></span> -->
+                  </div>
+                  <h6 class="title text-center">GTech SEO</h6>
+                  <div class="btn btn-custom">
+<i class="fa fa-caret-right"></i>Enter Site</div>
+               </a>
+            </div>
+<!--             <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+               <a target="_blank" class="box-icon" href="http://www.gtechsolution.co.uk/">
+                  <div class="small-icon bg border border-info">
+                     <span class="epos">
+                        <img src="http://www.chefonline.com/assets/images/icon-gtechsolution.png" alt="ChefOnline EPoS">
+                     </span>
+                  </div>
+                  <h6 class="title text-center">GTech Solution</h6>
+                  <div class="btn btn-custom"><i class="fa fa-caret-right"></i>Enter Site</div>
+               </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+               <a target="_blank" class="box-icon" href="http://www.srsmarkethub.co.uk/">
+                  <div class="small-icon bg border border-info">
+                     <span class="epos">
+                        <img src="http://www.chefonline.com/assets/images/icon-srsmarkethub.png" alt="ChefOnline EPoS">
+                     </span>
+                  </div>
+                  <h6 class="title text-center">SRS Market Hub</h6>
+                  <div class="btn btn-custom"><i class="fa fa-caret-right"></i>Enter Site</div>
+               </a>
+            </div> -->
+            <!-- /Boxes de Acoes --> 
+         </div>
+      </div>
+   </section>
+</div>
+<!--banner Section ends Here -->
+<!--Section area starts Here -->
+<section id="section">
+   <!--Section box starts Here -->
+   <div class="section">
+      <div class="section homepage-7">
+         <div class="about about-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 heading default info site-heading text-center">
+                  	<h2 class="welcom-head">ChefOnline National Platform <!-- <br><span class="small"> </span> -->
+</h2>
+                    <h4><span class="highlight small">For Restaurant &amp; Takeaway Online Ordering System</span></h4>
+                  </div>
+                <div class="col-xs-12 col-sm-7 col-md-7 wow fadeInUp info" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                    <p class="text-justify">Covid-19 has effected every restaurant and takeaways around the country. We have seen over 30% takeaways closing their doors during this unprecedented crisis. This is mainly due to currency exchange rate, short supply, and hence the value of raw materials going up.</p>
+<p class="text-justify">
+On a positive note, we have seen a massive surge in online takeaways orders.</p>
+<p class="text-justify">
+Join ChefOnline during this lockdown period, we can get you up and running within few days and we will not charge any admin fee saving you £599.00 +vat.</p>
+                       <!-- <p>ChefOnline, UK's national food ordering platform offering a cost-effective way to successfully market restaurant and takeaway business online. Our intuitive online platform empowers to bring restaurant and takeaway business into the digital age; taking online orders & reservations, managing business and making customers aware of the latest meals and offers.</p> -->
+                    <!-- <p class="text-justify">ChefOnline helps business increase efficiency, raise business profile and connect customers throughout the local area. Our customer support and service team are always with you 24/7.</p> -->
+                                       <!--  <div class="testimonial-section">
+                           <blockquote class="custom-blockquote">
+                              <div class="">
+                                 <p>
+                                    Is it over? No! In addition to the offers mentioned, we are also giving you
+                                 </p>
+                              </div>
+                              <div class="mission">
+                                 <h5 class="text-left">NO OBLIGATION 6 MONTHS TRIAL!</h5>
+                              </div>
+                           </blockquote>
+                        </div> -->
+
+                   </div>
+                  <div class="col-xs-12 col-sm-5 col-md-5 wow fadeInRight" data-wow-duration="1.2s" data-wow-delay="0.6s">
+                  <img style="margin-top: 11px;" src="http://www.chefonline.com/assets/images/join-us.jpg" class="img-responsive image-services center-block" alt="ChefOnline | Restaurant Online Ordering System"> 
+                  </div>
+               </div>
+            </div>
+         
+
+</div>
+
+          <!-- Start About
+          ============================================= -->
+          <div id="about" class="about-area video-info default-padding chefonline-section">
+
+              <svg class="slide__overlay" viewbox="0 0 720 405" preserveaspectratio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405"></path>
+              </svg>
+              <div class="container relative-section">
+                  <div class="row">
+                      <div class="col-md-6 default info site-heading">
+                          <h2>  <br> <span>Online Food Ordering System</span>
+</h2>
+                          <h4><span class="highlight">FROM <span class="red">£3*</span> PER DAY</span></h4>
+                          <img class="img-responsive mb-15 hidden-sm hidden-md hidden-lg hide-dextop" src="https://www.chefonline.com/hayper/crowed-funding-banner-mobile.jpg" alt="ChefOnline Online Food Ordering System">
+                          <ul>
+                              <li>
+                                  <i class="fa fa-check"></i> ChefOnline National Platform
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Online Ordering Website
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Mobile App
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Managers App
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Table Reservation
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Owners Control Panel
+                              </li>
+                              <!-- <li>
+                                  <i class="fa fa-check"></i> GPRS Printer With Data Sim
+                              </li> -->
+                              <li>
+                                  <i class="fa fa-check"></i> Domain &amp; Hosting
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Customer Support 7 Days a Week
+                              </li>
+                          </ul>
+                          <a target="_blank" href="https://www.chefonline.com/" class="btn circle btn-theme effect btn-md">Enter Full Site</a>
+                          <a target="_blank" href="https://www.chefonline.com/business-registration" class="btn circle btn-theme effect btn-md">Join Now</a>
+                          <a target="_blank" href="https://www.chefonline.com/contact" class="btn circle btn-theme effect btn-md">Contact Us</a>
+                      </div>
+                      <!--                <div class="col-md-6 services-info text-center">-->
+                      <!--                    <img class="img-responsive" src="http://www.chefonline.com/--><!--/hayper/chefonline.jpg" alt="">-->
+                      <!--                </div>-->
+                  </div>
+              </div>
+          </div>
+          <!-- End About -->
+
+
+          <!-- Start Skill
+          ============================================= -->
+          <div class="skill-area bg-gray">
+              <div class="container-full">
+                  <div class="row  about-area">
+                      <div class="col-md-5 thumb bg-cover" style="background-image: url(https://www.chefonline.com/hayper/paralax-bg-home.png);"></div>
+                      <div class="col-md-7 info">
+
+                          <div class="site-heading info">
+                              <h2>  <br> <span>EPoS Systems</span>
+</h2>
+                              <!--                        <h4>EPoS Package 15”</h4>-->
+
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <img class="img-responsive  hidden-sm hidden-md hidden-lg hide-dextop" src="https://www.chefonline.com/hayper/paralax-bg-home-2.png" alt="ChefOnline Online Food Ordering System">
+                                      <ul class="key-features list-unstyled">
+                                          <h4>Enterprise EPoS Packages</h4>
+                                          <li>
+<i class="fa fa-check"></i> Enterprise EPoS - Nino</li>
+                                          <li>
+<i class="fa fa-check"></i> Pro Enterprise EPoS - Yuno</li>
+                                          <li>
+<i class="fa fa-check"></i> Pro Enterprise EPoS - Sango</li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <ul class="key-features list-unstyled">
+                                          <h4>Standalone EPoS Packages</h4>
+                                          <!-- <li><i class="fa fa-check"></i> ChefOnline EPoS</li>-->
+                                          <li>
+<i class="fa fa-check"></i> Nino</li>
+                                          <li>
+<i class="fa fa-check"></i> Yuno</li>
+                                          <li>
+<i class="fa fa-check"></i> Sango</li>
+                                          <li>
+<i class="fa fa-check"></i> Sango i3</li>
+                                      </ul>
+                                  </div>
+
+                                  <div class="col-md-12">
+                                      <h4>Add ons</h4>
+                                      <div class="row">
+                                          <div class="col-md-6">
+                                              <ul class="key-features list-unstyled">
+                                                  <li>
+<i class="fa fa-check"></i> Caller ID Modem </li>
+                                                  <li>
+<i class="fa fa-check"></i> Postcode Database </li>
+                                              </ul>
+                                          </div>
+                                          <div class="col-md-6">
+                                              <ul class="key-features list-unstyled">
+                                                  <li>
+<i class="fa fa-check"></i> Additional Printer</li>
+                                                  <li>
+<i class="fa fa-check"></i> Handheld Waiter Tablet</li>
+                                              </ul>
+                                          </div>
+
+                                      </div>
+                                  </div>
+                              </div>
+                              <a target="_blank" href="https://epos.chefonline.com/" class="btn circle btn-theme effect btn-md">Enter Full Site</a>
+                              <a target="_blank" href="https://www.chefonline.com/epos-registration" class="btn circle btn-theme effect btn-md">Sign Up</a>
+                              <a target="_blank" href="https://epos.chefonline.com/contact" class="btn circle btn-theme effect btn-md">Contact Us</a>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End Skill -->
+          <!-- Start About
+           ============================================= -->
+          <div class="about-area video-info default-padding digital-marketing">
+              <svg class="slide__overlay" viewbox="0 0 720 405" preserveaspectratio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405"></path>
+              </svg>
+              <div class="container relative-section">
+                  <div class="row">
+                      <div class="col-md-6 default info site-heading">
+                          <h2>SEO &amp; SMM <br> <span>Digital Marketing Services</span>
+</h2>
+                          <img class="img-responsive  hidden-sm hidden-md hidden-lg hide-dextop" src="https://www.chefonline.com/hayper/digital-marketing-mobile.jpg" alt="ChefOnline Online Food Ordering System">
+                          <ul>
+                              <li>
+                                  <i class="fa fa-check"></i> Affordable Solutions
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Beat The Competition
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Unrivalled Resources
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Business Branding
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Credible Tactics
+                              </li>
+                              <li>
+                                  <i class="fa fa-check"></i> Suitable Packages
+                              </li>
+                          </ul>
+                          <a target="_blank" href="https://www.gtechsolution.co.uk/packages-and-pricing" class="btn circle btn-theme effect btn-md">All Packages</a>
+                          <a target="_blank" href="https://www.gtechsolution.co.uk/get-quote" class="btn circle btn-theme effect btn-md">Quote</a>
+                          <a target="_blank" href="https://www.gtechsolution.co.uk/contact" class="btn circle btn-theme effect btn-md">Contact Us</a>
+                      </div>
+                      <!--                <div class="col-md-6 services-info text-center">-->
+                      <!--                    <img class="img-responsive" src="http://www.chefonline.com/--><!--http://www.chefonline.com/hayper/printmedia.png" alt="">-->
+                      <!--                </div>-->
+                  </div>
+              </div>
+          </div>
+          <!-- End About -->
+
+
+          <!-- Start Skill
+          ============================================= -->
+
+          <div class="skill-area bg-gray mobile-bg">
+              <div class="container-full">
+                  <div class="row  about-area">
+                      <div class="col-md-6 thumb bg-cover" style="background-image: url(http://www.chefonline.com/hayper/printmedia.png);"></div>
+                      <div class="col-md-6 info">
+                          <div class="site-heading info">
+                              <h2>All Your <br><span>Printing</span> Needs In One Place
+                              </h2>
+                              <h4>Restaurant &amp; Takeaway Menu Design And
+                                  Printing Service
+                              </h4>
+                              <img class="img-responsive mb-15  hidden-sm hidden-md hidden-lg hide-dextop" src="https://www.chefonline.comhttp://www.chefonline.com/hayper/printmedia.png" alt="Restaurant &amp; Takeaway Menu Design And
+                            Printing Service">
+                              <ul>
+                                  <li>
+<i class="fa fa-check"></i> Takeaway Menu</li>
+                                  <li>
+<i class="fa fa-check"></i> A La Carte Menu</li>
+                                  <li>
+<i class="fa fa-check"></i> Business Cards</li>
+                                  <li>
+<i class="fa fa-check"></i> Leaflets</li>
+                                  <li>
+<i class="fa fa-check"></i> Flyers</li>
+                                  <li>
+<i class="fa fa-check"></i> Letterheads</li>
+                              </ul>
+                              <a target="_blank" href="https://printmedia.chefonline.com/" class="btn circle btn-theme effect btn-md">Enter Full Site</a>
+                              <a target="_blank" href="https://printmedia.chefonline.com/#contact_us" class="btn circle btn-theme effect btn-md">Contact Us</a>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End Skill -->
+          <div class="footer-contact">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-12 text-center">
+                          <div class="add-area">
+                              <div class="arrow bounce"></div>
+                              <h3>Customer Support</h3>
+                              <ul class="list-unstyled">
+                                  <li>T: <a href="http://www.chefonline.com/tel:03303801000">0330 380 1000</a>
+</li>
+                                  <li><img src="http://www.chefonline.com/assets/images/customer-support-contact.jpg" class="footer-contact-img" alt="http://www.chefonline.com/contact"></li>
+                                  <li>Mon - Fri: 9:30 am - 11:00 pm
+                                      <br>Sat - Sun: 10:00 am - 11:00 pm</li>
+                              </ul>
+                          </div>
+                      </div>  
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                          <div class="add-area">
+                              <div class="arrow bounce"></div>
+                              <h3>Sales and Marketing</h3>
+                              <ul class="list-unstyled">
+                                  <li>T:  <a href="http://www.chefonline.com/tel:02035985956">0203 598 5956</a>
+</li>
+                                  <li><img src="http://www.chefonline.com/assets/images/hello-chefonline-com.png" class="footer-contact-img" alt="http://www.chefonline.com/contact"></li>
+                              </ul>
+                          
+<p>#link4#</p>
+</div>                  
+                      </div>                                          
+                      <!--
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                  <div class="add-area">
+                                     <div class="arrow bounce"></div>
+                                     <h3>EPoS Customer Support</h3>
+                                     <ul class="list-unstyled">
+                                        <li>T: <a href="http://www.chefonline.com/tel:03303801000">0330 380 1000</a></li>
+                                        <li><img src="http://www.chefonline.com/assets/images/epos-contact.jpg" class="footer-contact-img" alt="http://www.chefonline.com/contact"></li>
+                                        <li>Mon - Fri: 9:30 am - 11:00 pm
+                                        <br>Sat - Sun: 10:00 am - 11:00 pm</li>
+                                     </ul>
+                                  </div>
+                               </div>
+                      -->
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+   </div>
+   <!--Section box ends Here -->
+</section>
+<!--Section area ends Here -->
+
+<!--Footer area starts Here -->
+<footer id="footer" class="footer3">
+   <!--Footer box starts Here -->
+   <div class="footer clearfix">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+               <div class="sign-up">
+               <h5>SOCIAL MEDIA</h5>
+               <p>Follow us on</p>
+                  <!-- <h5>Follow Us</h5> -->
+                  <!-- <p>Follow us in social media</p> -->
+               </div>
+               <div class="quick-list">
+                  <ul class="social">
+                     <li>
+                        <a href="https://www.facebook.com/ChefOnlinePartners/" target="_blank"> <i class="fa fa-facebook"></i> </a>
+                     </li>
+                     <!-- <li>
+                        <a href="https://twitter.com/SRS_ChefOnline" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                     </li>
+                     <li>
+                        <a href="https://plus.google.com/u/0/b/113984235229895976993/113984235229895976993/about" target="_blank"> <i class="fa fa-google-plus"></i> </a>
+                     </li> -->
+                     <li>
+                        <a href="https://www.linkedin.com/company/chef-online" target="_blank"> <i class="fa fa-linkedin"></i> </a>
+                     </li>
+                     <!-- <li>
+                        <a target="_blank" href="https://www.pinterest.com/chefonlineuk">
+                           <i class="fa fa-pinterest"></i>
+                        </a>
+                     </li> -->
+                     <li>
+                        <a target="_blank" href="https://www.instagram.com/chefonlineuk">
+                           <i class="fa fa-instagram"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC8rNSm4umip2dGbmlR7ph6g">
+                           <i class="fa fa-youtube" aria-hidden="true"></i>
+
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+               <div class="sign-up">
+                  <h5>Newsletter Signup</h5>
+                  <p>Sign up for newsletter</p>
+                  <form>
+                     <input type="text" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter your e-mail" maxlength="100" name="subscription_email" id="subscription_email">
+                     <button onclick="subscribe(event);" class="fa fa-paper-plane"></button>
+
+                     <div id="return_msg"> </div>
+                  </form>
+                  <div id="successmsg" style="display:none;"> You Have Added Successfully </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-1">
+               <div class="our-address">
+                  <h5>Quick Links</h5>
+                  <div class="quick-list">
+                     <ul>
+                         <li>
+                             <a href="http://www.chefonline.com/about-us">About Us</a>
+                         </li>
+                        <li>
+                           <a href="http://www.chefonline.com/contact">Contact Us</a>
+                        </li>
+                         <li>
+                             <a href="http://www.chefonline.com/business-registration">Business Sign Up</a>
+                         </li>                        
+                         <li>
+                             <a target="_blank" href="https://blog.chefonline.com/">ChefOnline Blog</a>
+                         </li>
+<!--                        <li>-->
+<!--                           <a href="http://www.chefonline.com/career">Career</a>-->
+<!--                        </li>-->
+                     </ul>
+                  </div>
+               </div>
+            </div>
+             <div class="col-xs-12 col-sm-4 col-md-3">
+                 <div class="our-address">
+                     <h5>Quick Links</h5>
+                     <div class="quick-list">
+                         <ul>
+                             <li>
+                                 <a href="http://www.chefonline.com/faq">Faq</a>
+                             </li>  
+                             <li>
+                                 <a href="http://www.chefonline.com/terms-conditions">Terms &amp; Conditions</a>
+                             </li>							 
+                             <li>
+                                 <a href="http://www.chefonline.com/privacy-policy">Privacy Policy</a>
+                             </li>
+                             <li>
+                                 <a href="http://www.chefonline.com/cookie-policy">How do we use cookies?</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+      </div>
+   </div>
+   <!--Footer box ends Here -->
+</footer>
+<div class="copyright text-center">
+   <div class="container">
+      <div class="col-xs-12 col-sm-12 copyright-content">
+         Copyright © 2021 ChefOnline. All rights reserved.
+      </div>
+   </div>
+</div>
+<!--Footer area ends Here -->
+</div>
+<!--Wrapper Section Ends Here -->
+
+
+
+<!--  -->
+
+    <script src="https://www.chefonline.com/hayper/assets/js/equal-height.min.js"></script>
+
+<script type="text/javascript" src="https://www.chefonline.com/assets/js/livicons-1.4.min.js"></script>
+<script type="text/javascript" src="https://www.chefonline.com/assets/js/jquery.themepunch.tools.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/jquery.appear.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/jquery.easing.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/progress-bar.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/modernizr.custom.13711.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/owl.carousel.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/wow.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/isotope.pkgd.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/count-to.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/bootsnav.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/YTPlayer.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/typed.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/jquery.ripples-min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/particles.min.js"></script>
+    <script src="https://www.chefonline.com/hayper/assets/js/main.js"></script>
+<!--  -->
+<script type="text/javascript" src="https://www.chefonline.com/assets/js/livicons-1.4.min.js"></script>
+<script src="https://www.chefonline.com/assets/js/raphael.min.js"></script>
+
+  <script type="text/javascript">
+    function subscribe(e){
+
+        e.preventDefault();
+        var email = document.getElementById('subscription_email').value;
+        var pattern=/^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
+
+         if(pattern.test(email)){
+            document.getElementById('return_msg').innerHTML = "<img src='http://www.gtechsolution.co.uk/assets/images/loader.gif' height='16' width='16'>";
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function () {
+                if ( xmlhttp.readyState == 4 && xmlhttp.status == 200 ) {
+                    if( xmlhttp.responseText == 1 ){
+                        document.getElementById('return_msg').innerHTML = 'You are successfully subscribed.';
+                    }else if ( xmlhttp.responseText == 2 ){
+                        document.getElementById('return_msg').innerHTML = 'Your email already in subscription list.';
+                    }else{
+                        document.getElementById('return_msg').innerHTML = 'Subscription Failed. Please Try Later';
+                    }
+                    document.getElementById('subscription_email').value = "";
+                }
+            }
+            xmlhttp.open("POST", "subscribe.php", true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.send("email=" + email);
+        }else{
+            document.getElementById('return_msg').innerHTML = "Invalid E-mail Address";
+        }
+
+    }
+    // jQuery(document).ready(function() {
+    //     var containerEl = document.querySelector('.grapgic-wrapper');
+
+    //     var mixer = mixitup(containerEl);
+    // });
+</script>
+
+
+<p>#link3#</p>
+</body>
+</html>
