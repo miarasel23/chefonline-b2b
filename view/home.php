@@ -208,6 +208,24 @@
 }
 
 
+@media (min-width: 768px) {
+    .red-partner-banner .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .red-partner-banner .banner-divider {
+        border-top: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.35);
+        height: 100px;
+        width: 1px;
+        margin: 0;
+    }
+    .red-partner-banner .partner-block {
+        margin: 0;
+    }
+}
 </style>
 
 <div class="red-partner-banner">
