@@ -108,7 +108,7 @@
 
     .footer-link-col ul li {
         margin-bottom: 12px;
-        border-bottom: 1px solid #f0f0f0;
+        border-bottom: 1px solid #cccccc;
         padding-bottom: 6px;
     }
 
