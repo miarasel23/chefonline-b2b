@@ -225,13 +225,19 @@
     .red-partner-banner .partner-block {
         margin: 0;
     }
+    .red-partner-banner .google-partner-block {
+        text-align: right;
+    }
+    .red-partner-banner .meta-partner-block {
+        text-align: left;
+    }
 }
 </style>
 
 <div class="red-partner-banner">
     <div class="container">
         <!-- Google Partner Block -->
-        <div class="partner-block">
+        <div class="partner-block google-partner-block">
             <h3>Google Partner</h3>
             <h4>Digital Marketing Agency</h4>
             <a href="https://www.google.com/partners/agency?id=8390177523" target="_blank">
@@ -243,7 +249,7 @@
         <div class="banner-divider"></div>
 
         <!-- Meta Partner Block -->
-        <div class="partner-block">
+        <div class="partner-block meta-partner-block">
             <h3>Member of</h3>
             <h4>Meta Business Partner</h4>
             <a href="#" target="_blank">
