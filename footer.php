@@ -184,7 +184,7 @@
 
     @media (max-width: 768px) {
         .footer-links-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, 1fr);
         }
 
         .newsletter-bar form {
