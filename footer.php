@@ -26,221 +26,221 @@
     </div>
 </div>
 
-<div class="footer-contact">
+<style type="text/css">
+.new-footer {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.newsletter-bar {
+    background-color: #FDF9FA;
+    border: 1px solid #F3E5E8;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.newsletter-bar p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 15px;
+}
+.newsletter-bar form {
+    display: inline-flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+.newsletter-bar input[type="email"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+.newsletter-bar button {
+    background-color: #E21B36;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.newsletter-bar button:hover {
+    background-color: #c8162e;
+}
+.footer-links-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.footer-link-col h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer-link-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-link-col ul li {
+    margin-bottom: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 6px;
+}
+.footer-link-col ul li:last-child {
+    border-bottom: none;
+}
+.footer-link-col ul li a {
+    color: #444;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-link-col ul li a:hover {
+    color: #E21B36;
+}
+.social-header {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.social-icons-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.social-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    color: #ffffff !important;
+    font-size: 16px;
+    transition: opacity 0.2s;
+}
+.social-icon-btn:hover {
+    opacity: 0.85;
+}
+.social-facebook { background-color: #3b5998; }
+.social-twitter { background-color: #000000; }
+.social-instagram { background-color: #c13584; }
+.social-youtube { background-color: #ff0000; }
+.social-pinterest { background-color: #bd081c; }
+.social-linkedin { background-color: #0077b5; }
+
+@media (max-width: 768px) {
+    .footer-links-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .newsletter-bar form {
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .footer-links-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<footer id="footer" class="new-footer">
     <div class="container">
-        <div class="row">
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="add-area">
-                    <div class="arrow bounce"></div>
-                    <h3>Customer Support</h3>
-                    <ul class="list-unstyled">
-                        <li>T: <a href="tel:03303801000">0330 380 1000</a></li>
-                        <li>
-                            <img src="<?php echo BASE_URL; ?>/assets/images/customer-support-contact.jpg" width="165"
-                                height="15" class="footer-contact-img" alt="contact">
-                        </li>
-                        <li>Mon - Fri: 9:30 am - 11:00 pm
-                            <br>Sat: 10:00 am - 11:00 pm <br>
-                            Sun: 2:00 pm - 11:00 pm
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="add-area">
-                    <div class="arrow bounce"></div>
-                    <h3>Sales and Marketing</h3>
-                    <ul class="list-unstyled">
-                        <li>T: <a href="tel:02035985956">0203 598 5956</a></li>
-                        <li><img src="<?php echo BASE_URL; ?>/assets/images/hello-chefonline-com.png" width="144"
-                                height="16" class="footer-contact-img" alt="contact"></li>
-                        <a href="https://www.chefonline.com/contact" class="btn btn-danger">Contact Us</a>
-                    </ul>
-
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="add-area">
-                    <div class="arrow bounce"></div>
-                    <h3>Customer Service</h3>
-                    <ul class="list-unstyled">
-                        <li>T: <a href="tel:03303801000">0330 380 1000</a></li>
-                        <li><img src="<?php echo BASE_URL; ?>/assets/images/customer-service-chefonline-com.png"
-                                width="220" height="45" class="footer-contact-img" alt="contact"></li>
-                        <!-- <li>customer.service@chefonline.com</li> -->
-                        <li>Mon - Fri: 9:30 am - 11:00 pm
-                            <br>Sat - Sun: 10:00 am - 11:00 pm
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
+        <!-- Newsletter Signup Bar -->
+        <div class="newsletter-bar">
+            <p>Don't Miss Out! Join Our Newsletter For Exclusive Updates Delivered Straight To Your Inbox</p>
+            <form onsubmit="subscribe(event);">
+                <input type="email" placeholder="Enter your e-mail" maxlength="100" name="subscription_email" id="subscription_email" required="required">
+                <button type="submit">Subscribe</button>
+            </form>
+            <div id="return_msg" style="margin-top: 10px;">&nbsp;</div>
         </div>
-    </div>
-</div>
-<?php include __DIR__ . '/footer-badges.php'; ?>
-<!--Footer area starts Here -->
-<footer id="footer">
-    <!--Footer box starts Here -->
-    <div class="footer clearfix">
-        <div class="container">
-            <div class="row">
 
+        <!-- Links Grid -->
+        <div class="footer-links-grid">
+            <!-- Top Cuisines -->
+            <div class="footer-link-col">
+                <h4>Top Cuisines</h4>
+                <ul>
+                    <li><a target="_blank" href="https://www.chefonline.com/indian">Indian</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/bangladeshi">Bangladeshi</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/fast-food">Fast Food</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/thai">Thai</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/pizza">Pizza</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/italian">Italian</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/cuisines">View all cuisines</a></li>
+                </ul>
+            </div>
 
+            <!-- Serving Areas -->
+            <div class="footer-link-col">
+                <h4>Serving Areas</h4>
+                <ul>
+                    <li><a target="_blank" href="https://www.chefonline.com/london">London</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/newcastle">Newcastle</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/rochester">Rochester</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/watford">Watford</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/liverpool">Liverpool</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/oxford">Oxford</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/takeaways">View all locations</a></li>
+                </ul>
+            </div>
 
+            <!-- Company -->
+            <div class="footer-link-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="faq">Faq</a></li>
+                    <li><a href="about-us">About us</a></li>
+                    <li><a href="contact">Contact us</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.com/blog/">ChefOnline Blog</a></li>
+                    <li><a target="_blank" href="https://www.chefonline.co.uk/partner">Restaurant sign up</a></li>
+                </ul>
+            </div>
 
-                <!-- <div class="col-xs-12 col-sm-6 col-md-3">
-               <div class="sign-up">
-                  <h5>Contact Us</h5>
-               </div>
+            <!-- Legal & Social -->
+            <div class="footer-link-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="terms-conditions">Terms & Conditions</a></li>
+                    <li><a href="terms-of-use">Terms of Use</a></li>
+                    <li><a href="privacy-policy">Privacy Policy</a></li>
+                    <li><a href="cookie-policy">How do we use cookies?</a></li>
+                </ul>
 
-               <?php
-               include('footer-contact.php');
-               ?>
-
-               <form id="enquiry_form2" action="" class="footer-contact-form" method="post">
-                  <div class="row">
-                     <div class="col-md-12">
-                     <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
-                     <?php echo ((!empty($successMessage)) ? $successMessage : '') ?>
-                     <input id="name2" name="name" class="name" type="text" placeholder="Name*" required="" />
-                     </div>
-                     <div class="col-md-12">
-                     <input id="email2" name="email" class="email" type="email" placeholder="example@email.com*" required="" />
-                     </div>
-                     <div class="col-md-12">
-                     <textarea class="message" id="comment2" name="message" placeholder="Message*" required="" ></textarea>
-                     </div>
-                     <div class="col-md-12">
-                     <input id="btn-submit" name="submit" class="comment-submit contact-btn" type="submit" value="Submit">
-                     </div>
-                  </div>
-               </form>
-            </div> -->
-
-
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-
-                    <div class="sign-up">
-                        <h5>SOCIAL MEDIA</h5>
-                        <p>Follow us on</p>
-                        <!-- <h5>Follow Us</h5> -->
-                        <!-- <p>Follow us in social media</p> -->
-                    </div>
-                    <div class="quick-list footer-social-div">
-                        <ul class="social">
-                            <li>
-                                <a href="https://www.facebook.com/ChefOnlinePartners/" target="_blank"> <i
-                                        class="fa fa-facebook"></i> </a>
-                            </li>
-                            <!-- <li>
-                        <a href="https://twitter.com/SRS_ChefOnline" target="_blank"> <i class="fa fa-twitter"></i> </a>
-                     </li>
-                     <li>
-                        <a href="https://plus.google.com/u/0/b/113984235229895976993/113984235229895976993/about" target="_blank"> <i class="fa fa-google-plus"></i> </a>
-                     </li> -->
-                            <li>
-                                <a href="https://www.linkedin.com/company/chef-online" target="_blank"> <i
-                                        class="fa fa-linkedin"></i> </a>
-                            </li>
-                            <!-- <li>
-                        <a target="_blank" href="https://www.pinterest.com/chefonlineuk">
-                           <i class="fa fa-pinterest"></i>
-                        </a>
-                     </li> -->
-                            <!--<li>
-                        <a target="_blank" href="https://www.instagram.com/chefonlineuk">
-                           <i class="fa fa-instagram"></i>
-                        </a>
-                     </li>-->
-                            <li>
-                                <a target="_blank" href="https://www.youtube.com/channel/UC8rNSm4umip2dGbmlR7ph6g">
-                                    <i class="fa fa-youtube" aria-hidden="true"></i>
-
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <h4 class="social-header">Follow Us</h4>
+                <div class="social-icons-row">
+                    <a href="https://www.facebook.com/ChefOnlinePartners/" target="_blank" class="social-icon-btn social-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/SRS_ChefOnline" target="_blank" class="social-icon-btn social-twitter"><i class="fa fa-close"></i></a>
+                    <a href="https://www.instagram.com/chefonlineuk" target="_blank" class="social-icon-btn social-instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UC8rNSm4umip2dGbmlR7ph6g" target="_blank" class="social-icon-btn social-youtube"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.pinterest.com/chefonlineuk" target="_blank" class="social-icon-btn social-pinterest"><i class="fa fa-pinterest"></i></a>
+                    <a href="https://www.linkedin.com/company/chef-online" target="_blank" class="social-icon-btn social-linkedin"><i class="fa fa-linkedin"></i></a>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="sign-up mt-5">
-                        <h5>Newsletter Signup</h5>
-                        <p>Sign up for newsletter</p>
-                        <form>
-                            <input type="text" class="newsletter-input input-md newsletter-input mb-0"
-                                placeholder="Enter your e-mail" maxlength="100" name="subscription_email"
-                                id="subscription_email">
-                            <button onclick="subscribe(event);" class="fa fa-paper-plane"></button>
-
-                            <div id="return_msg">&nbsp;</div>
-                        </form>
-                        <div id="successmsg"> You Have Added Successfully </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="our-address">
-                        <h5>Quick Links</h5>
-                        <div class="quick-list">
-                            <ul>
-                                <li>
-                                    <a href="faq">Faq</a>
-                                </li>
-                                <li>
-                                    <a href="terms-conditions">Terms & Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="terms-of-use">Terms of Use</a>
-                                </li>
-                                <li>
-                                    <a href="privacy-policy">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="cookie-policy">How do we use cookies?</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-1">
-                    <div class="our-address">
-                        <!-- <h5>Quick Links</h5> -->
-                        <div class="quick-list">
-                            <a href="https://www.google.com/partners/agency?id=8390177523" target="_blank">
-                                <img src="https://www.gstatic.com/partners/badge/images/2025/PartnerBadge.png"
-                                    style="max-width: 150px;" />
-                            </a>
-                            <!-- <ul>
-                                <li>
-                                    <a href="about-us">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="contact">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.chefonline.co.uk/partner">Business Sign Up</a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="https://www.chefonline.com/blog/">ChefOnline Blog</a>
-                                </li>
-                                <li>
-                                    <a href="https://career.chefonline.com/" target="_blank">Career</a>
-                                </li>
-                            </ul> -->
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
-    <!--Footer box ends Here -->
 </footer>
 
+<?php include __DIR__ . '/footer-badges.php'; ?>
 <div class="copyright text-center">
     <div class="container">
         <div class="col-xs-12 col-sm-12 copyright-content">
