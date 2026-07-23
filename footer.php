@@ -174,6 +174,8 @@
             <div id="return_msg" style="margin-top: 10px;">&nbsp;</div>
         </div>
 
+        <?php include __DIR__ . '/footer-badges.php'; ?>
+
         <!-- Links Grid -->
         <div class="footer-links-grid">
             <!-- Top Cuisines -->
@@ -239,8 +241,6 @@
         </div>
     </div>
 </footer>
-
-<?php include __DIR__ . '/footer-badges.php'; ?>
 <div class="copyright text-center">
     <div class="container">
         <div class="col-xs-12 col-sm-12 copyright-content">
